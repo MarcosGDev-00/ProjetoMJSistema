@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{41A82AEF-6844-42ED-BAA5-74BD9B55DABC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProjetoSistema</RootNamespace>
+    <AssemblyName>ProjetoSistema</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.6.3.0\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.1.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector NET 8.1.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Banco.cs" />
+    <Compile Include="Base.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base.Designer.cs">
+      <DependentUpon>Base.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaCategoria.Designer.cs">
+      <DependentUpon>TelaCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastrarProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastrarProdutos.Designer.cs">
+      <DependentUpon>CadastrarProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposAdicionaisCadastroProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposAdicionaisCadastroProduto.Designer.cs">
+      <DependentUpon>camposAdicionaisCadastroProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposBaseCadastroProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposBaseCadastroProduto.Designer.cs">
+      <DependentUpon>camposBaseCadastroProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposCombustivelCadastrarProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposCombustivelCadastrarProdutos.Designer.cs">
+      <DependentUpon>camposCombustivelCadastrarProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposComissãoCadastrarProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposComissãoCadastrarProdutos.Designer.cs">
+      <DependentUpon>camposComissãoCadastrarProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposDetalhesCadastrarProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposDetalhesCadastrarProdutos.Designer.cs">
+      <DependentUpon>camposDetalhesCadastrarProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposEstoqueCadastroProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposEstoqueCadastroProdutos.Designer.cs">
+      <DependentUpon>camposEstoqueCadastroProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposFotosCadastrarProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposFotosCadastrarProdutos.Designer.cs">
+      <DependentUpon>camposFotosCadastrarProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposMedicamentosCadastroProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposMedicamentosCadastroProdutos.Designer.cs">
+      <DependentUpon>camposMedicamentosCadastroProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposMedicamentosCadastroProdutosFarmaPopular.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposMedicamentosCadastroProdutosFarmaPopular.Designer.cs">
+      <DependentUpon>camposMedicamentosCadastroProdutosFarmaPopular.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposMedicamentosCadastroProdutosGeral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposMedicamentosCadastroProdutosGeral.Designer.cs">
+      <DependentUpon>camposMedicamentosCadastroProdutosGeral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposMedicamentosCadastroProdutosSNGPC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposMedicamentosCadastroProdutosSNGPC.Designer.cs">
+      <DependentUpon>camposMedicamentosCadastroProdutosSNGPC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposObservacoesCadastroProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposObservacoesCadastroProdutos.Designer.cs">
+      <DependentUpon>camposObservacoesCadastroProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposPrecosCadastroProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposPrecosCadastroProdutos.Designer.cs">
+      <DependentUpon>camposPrecosCadastroProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposPromocaoCadastrarProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposPromocaoCadastrarProdutos.Designer.cs">
+      <DependentUpon>camposPromocaoCadastrarProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposTributosCadastroProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposTributosCadastroProdutos.Designer.cs">
+      <DependentUpon>camposTributosCadastroProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposTributosCadastroProdutosCONFINS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposTributosCadastroProdutosCONFINS.Designer.cs">
+      <DependentUpon>camposTributosCadastroProdutosCONFINS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposTributosCadastroProdutosGeral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposTributosCadastroProdutosGeral.Designer.cs">
+      <DependentUpon>camposTributosCadastroProdutosGeral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposTributosCadastroProdutosICMS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposTributosCadastroProdutosICMS.Designer.cs">
+      <DependentUpon>camposTributosCadastroProdutosICMS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposTributosCadastroProdutosIPI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposTributosCadastroProdutosIPI.Designer.cs">
+      <DependentUpon>camposTributosCadastroProdutosIPI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposTributosCadastroProdutosPIS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposTributosCadastroProdutosPIS.Designer.cs">
+      <DependentUpon>camposTributosCadastroProdutosPIS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaProdutos.Designer.cs">
+      <DependentUpon>TelaProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes.cs" />
+    <Compile Include="Cores.cs" />
+    <Compile Include="Funcionarios.cs" />
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logins.cs" />
+    <Compile Include="Produtos.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Base.resx">
+      <DependentUpon>Base.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaCategoria.resx">
+      <DependentUpon>TelaCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarProdutos.resx">
+      <DependentUpon>CadastrarProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposAdicionaisCadastroProduto.resx">
+      <DependentUpon>camposAdicionaisCadastroProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposBaseCadastroProduto.resx">
+      <DependentUpon>camposBaseCadastroProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposCombustivelCadastrarProdutos.resx">
+      <DependentUpon>camposCombustivelCadastrarProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposComissãoCadastrarProdutos.resx">
+      <DependentUpon>camposComissãoCadastrarProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposDetalhesCadastrarProdutos.resx">
+      <DependentUpon>camposDetalhesCadastrarProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposEstoqueCadastroProdutos.resx">
+      <DependentUpon>camposEstoqueCadastroProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposFotosCadastrarProdutos.resx">
+      <DependentUpon>camposFotosCadastrarProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposMedicamentosCadastroProdutos.resx">
+      <DependentUpon>camposMedicamentosCadastroProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposMedicamentosCadastroProdutosFarmaPopular.resx">
+      <DependentUpon>camposMedicamentosCadastroProdutosFarmaPopular.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposMedicamentosCadastroProdutosGeral.resx">
+      <DependentUpon>camposMedicamentosCadastroProdutosGeral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposMedicamentosCadastroProdutosSNGPC.resx">
+      <DependentUpon>camposMedicamentosCadastroProdutosSNGPC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposObservacoesCadastroProdutos.resx">
+      <DependentUpon>camposObservacoesCadastroProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposPrecosCadastroProdutos.resx">
+      <DependentUpon>camposPrecosCadastroProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposPromocaoCadastrarProdutos.resx">
+      <DependentUpon>camposPromocaoCadastrarProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposTributosCadastroProdutos.resx">
+      <DependentUpon>camposTributosCadastroProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposTributosCadastroProdutosCONFINS.resx">
+      <DependentUpon>camposTributosCadastroProdutosCONFINS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposTributosCadastroProdutosGeral.resx">
+      <DependentUpon>camposTributosCadastroProdutosGeral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposTributosCadastroProdutosICMS.resx">
+      <DependentUpon>camposTributosCadastroProdutosICMS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposTributosCadastroProdutosIPI.resx">
+      <DependentUpon>camposTributosCadastroProdutosIPI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposTributosCadastroProdutosPIS.resx">
+      <DependentUpon>camposTributosCadastroProdutosPIS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaProdutos.resx">
+      <DependentUpon>TelaProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coroaIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coroa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\do-utilizador %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\do-utilizador %283%291.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
