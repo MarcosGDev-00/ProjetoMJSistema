@@ -30,16 +30,16 @@
         {
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -82,14 +82,48 @@
             this.panel1.Size = new System.Drawing.Size(311, 50);
             this.panel1.TabIndex = 92;
             // 
+            // comboBox6
+            // 
+            this.comboBox6.BackColor = System.Drawing.Color.White;
+            this.comboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox6.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
+            this.comboBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Items.AddRange(new object[] {
+            "Selecione",
+            "Funcionário",
+            "Administrador"});
+            this.comboBox6.Location = new System.Drawing.Point(11, 5);
+            this.comboBox6.Name = "comboBox6";
+            this.comboBox6.Size = new System.Drawing.Size(286, 38);
+            this.comboBox6.TabIndex = 95;
+            this.comboBox6.Text = "Selecione";
+            // 
             // panel8
             // 
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel8.Controls.Add(this.comboBox3);
-            this.panel8.Location = new System.Drawing.Point(1102, 54);
+            this.panel8.Location = new System.Drawing.Point(1104, 157);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(311, 50);
             this.panel8.TabIndex = 79;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.BackColor = System.Drawing.Color.White;
+            this.comboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
+            this.comboBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "Selecione",
+            "Funcionário",
+            "Administrador"});
+            this.comboBox3.Location = new System.Drawing.Point(11, 5);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(286, 38);
+            this.comboBox3.TabIndex = 96;
+            this.comboBox3.Text = "Selecione";
             // 
             // label7
             // 
@@ -111,6 +145,23 @@
             this.panel2.Size = new System.Drawing.Size(311, 50);
             this.panel2.TabIndex = 94;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.BackColor = System.Drawing.Color.White;
+            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
+            this.comboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Selecione",
+            "Funcionário",
+            "Administrador"});
+            this.comboBox1.Location = new System.Drawing.Point(12, 5);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(286, 38);
+            this.comboBox1.TabIndex = 96;
+            this.comboBox1.Text = "Selecione";
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -131,51 +182,6 @@
             this.panel4.Size = new System.Drawing.Size(311, 50);
             this.panel4.TabIndex = 94;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.label5.Location = new System.Drawing.Point(383, 21);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(192, 23);
-            this.label5.TabIndex = 93;
-            this.label5.Text = "Pode Receber Desconto";
-            // 
-            // comboBox6
-            // 
-            this.comboBox6.BackColor = System.Drawing.Color.White;
-            this.comboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox6.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
-            this.comboBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
-            "Selecione",
-            "Funcionário",
-            "Administrador"});
-            this.comboBox6.Location = new System.Drawing.Point(11, 5);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(286, 38);
-            this.comboBox6.TabIndex = 95;
-            this.comboBox6.Text = "Selecione";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.BackColor = System.Drawing.Color.White;
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
-            this.comboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Selecione",
-            "Funcionário",
-            "Administrador"});
-            this.comboBox1.Location = new System.Drawing.Point(12, 5);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(286, 38);
-            this.comboBox1.TabIndex = 96;
-            this.comboBox1.Text = "Selecione";
-            // 
             // comboBox2
             // 
             this.comboBox2.BackColor = System.Drawing.Color.White;
@@ -193,28 +199,22 @@
             this.comboBox2.TabIndex = 96;
             this.comboBox2.Text = "Selecione";
             // 
-            // comboBox3
+            // label5
             // 
-            this.comboBox3.BackColor = System.Drawing.Color.White;
-            this.comboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
-            this.comboBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "Selecione",
-            "Funcionário",
-            "Administrador"});
-            this.comboBox3.Location = new System.Drawing.Point(11, 5);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(286, 38);
-            this.comboBox3.TabIndex = 96;
-            this.comboBox3.Text = "Selecione";
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.label5.Location = new System.Drawing.Point(383, 21);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(192, 23);
+            this.label5.TabIndex = 93;
+            this.label5.Text = "Pode Receber Desconto";
             // 
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.comboBox4);
-            this.panel3.Location = new System.Drawing.Point(24, 160);
+            this.panel3.Location = new System.Drawing.Point(1104, 54);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(311, 50);
             this.panel3.TabIndex = 96;
@@ -251,7 +251,7 @@
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel5.Controls.Add(this.comboBox5);
-            this.panel5.Location = new System.Drawing.Point(384, 160);
+            this.panel5.Location = new System.Drawing.Point(24, 160);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(311, 50);
             this.panel5.TabIndex = 98;
@@ -288,7 +288,7 @@
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel6.Controls.Add(this.comboBox7);
-            this.panel6.Location = new System.Drawing.Point(742, 160);
+            this.panel6.Location = new System.Drawing.Point(384, 157);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(311, 50);
             this.panel6.TabIndex = 100;
@@ -325,7 +325,7 @@
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel7.Controls.Add(this.comboBox8);
-            this.panel7.Location = new System.Drawing.Point(1102, 160);
+            this.panel7.Location = new System.Drawing.Point(742, 157);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(311, 50);
             this.panel7.TabIndex = 102;

@@ -285,7 +285,7 @@ namespace ProjetoSistema
 
         private void iconButton2_Click(object sender, EventArgs e)
         {
-            
+            exibirFormFilhoNoPanel(new TelaClientes());
         }
 
         private void iconButton8_Click(object sender, EventArgs e)
@@ -301,12 +301,12 @@ namespace ProjetoSistema
 
         private void iconButton4_Click(object sender, EventArgs e)
         {
-            
+            exibirFormFilhoNoPanel(new TelaFornecedor());
         }
 
         private void iconButton5_Click(object sender, EventArgs e)
         {
-            
+            exibirFormFilhoNoPanel(new TelaFabricante());
         }
 
         private void iconButton9_Click(object sender, EventArgs e)
@@ -316,12 +316,12 @@ namespace ProjetoSistema
 
         private void iconButton6_Click(object sender, EventArgs e)
         {
-            
+            exibirFormFilhoNoPanel(new TelaCategoria());
         }
 
         private void iconButton7_Click(object sender, EventArgs e)
         {
-            
+            exibirFormFilhoNoPanel(new TelaSubCategoria());
         }
 
         private void panelHome_Paint(object sender, PaintEventArgs e)

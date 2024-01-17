@@ -221,9 +221,9 @@
             // 
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel4.Controls.Add(this.comboBox4);
-            this.panel4.Location = new System.Drawing.Point(195, 250);
+            this.panel4.Location = new System.Drawing.Point(982, 250);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(672, 42);
+            this.panel4.Size = new System.Drawing.Size(384, 42);
             this.panel4.TabIndex = 65;
             // 
             // comboBox4
@@ -239,7 +239,7 @@
             "Administrador"});
             this.comboBox4.Location = new System.Drawing.Point(9, 5);
             this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(650, 31);
+            this.comboBox4.Size = new System.Drawing.Size(364, 31);
             this.comboBox4.TabIndex = 12;
             this.comboBox4.Text = "Selecione";
             // 
@@ -258,9 +258,9 @@
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel5.Controls.Add(this.comboBox5);
-            this.panel5.Location = new System.Drawing.Point(987, 250);
+            this.panel5.Location = new System.Drawing.Point(195, 307);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(379, 42);
+            this.panel5.Size = new System.Drawing.Size(1171, 42);
             this.panel5.TabIndex = 67;
             // 
             // comboBox5
@@ -276,7 +276,7 @@
             "Administrador"});
             this.comboBox5.Location = new System.Drawing.Point(9, 5);
             this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(650, 31);
+            this.comboBox5.Size = new System.Drawing.Size(1151, 31);
             this.comboBox5.TabIndex = 12;
             this.comboBox5.Text = "Selecione";
             // 
@@ -295,9 +295,9 @@
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel6.Controls.Add(this.comboBox6);
-            this.panel6.Location = new System.Drawing.Point(195, 307);
+            this.panel6.Location = new System.Drawing.Point(195, 250);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1171, 42);
+            this.panel6.Size = new System.Drawing.Size(672, 42);
             this.panel6.TabIndex = 65;
             // 
             // comboBox6
@@ -313,7 +313,7 @@
             "Administrador"});
             this.comboBox6.Location = new System.Drawing.Point(9, 5);
             this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(1151, 31);
+            this.comboBox6.Size = new System.Drawing.Size(650, 31);
             this.comboBox6.TabIndex = 12;
             this.comboBox6.Text = "Selecione";
             // 

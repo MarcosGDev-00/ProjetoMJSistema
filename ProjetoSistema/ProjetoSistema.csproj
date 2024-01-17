@@ -64,6 +64,48 @@
     <Compile Include="Base.Designer.cs">
       <DependentUpon>Base.cs</DependentUpon>
     </Compile>
+    <Compile Include="CadastrarCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastrarCategoria.Designer.cs">
+      <DependentUpon>CadastrarCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastrarFabricantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastrarFabricantes.Designer.cs">
+      <DependentUpon>CadastrarFabricantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastrarFornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastrarFornecedor.Designer.cs">
+      <DependentUpon>CadastrarFornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastrarSubcategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastrarSubcategoria.Designer.cs">
+      <DependentUpon>CadastrarSubcategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastrarTipoProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastrarTipoProduto.Designer.cs">
+      <DependentUpon>CadastrarTipoProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastrarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastrarClientes.Designer.cs">
+      <DependentUpon>CadastrarClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposBaseCadastroClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposBaseCadastroClientes.Designer.cs">
+      <DependentUpon>camposBaseCadastroClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="TelaCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -196,6 +238,24 @@
     <Compile Include="camposTributosCadastroProdutosPIS.Designer.cs">
       <DependentUpon>camposTributosCadastroProdutosPIS.cs</DependentUpon>
     </Compile>
+    <Compile Include="TelaClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaClientes.Designer.cs">
+      <DependentUpon>TelaClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaFabricante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaFabricante.Designer.cs">
+      <DependentUpon>TelaFabricante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaFornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaFornecedor.Designer.cs">
+      <DependentUpon>TelaFornecedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="TelaProdutos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -221,8 +281,35 @@
     <Compile Include="Produtos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TelaSubCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaSubCategoria.Designer.cs">
+      <DependentUpon>TelaSubCategoria.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Base.resx">
       <DependentUpon>Base.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarCategoria.resx">
+      <DependentUpon>CadastrarCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarFabricantes.resx">
+      <DependentUpon>CadastrarFabricantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarFornecedor.resx">
+      <DependentUpon>CadastrarFornecedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarSubcategoria.resx">
+      <DependentUpon>CadastrarSubcategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarTipoProduto.resx">
+      <DependentUpon>CadastrarTipoProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarClientes.resx">
+      <DependentUpon>CadastrarClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposBaseCadastroClientes.resx">
+      <DependentUpon>camposBaseCadastroClientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TelaCategoria.resx">
       <DependentUpon>TelaCategoria.cs</DependentUpon>
@@ -290,6 +377,15 @@
     <EmbeddedResource Include="camposTributosCadastroProdutosPIS.resx">
       <DependentUpon>camposTributosCadastroProdutosPIS.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TelaClientes.resx">
+      <DependentUpon>TelaClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaFabricante.resx">
+      <DependentUpon>TelaFabricante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaFornecedor.resx">
+      <DependentUpon>TelaFornecedor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TelaProdutos.resx">
       <DependentUpon>TelaProdutos.cs</DependentUpon>
     </EmbeddedResource>
@@ -309,6 +405,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="TelaSubCategoria.resx">
+      <DependentUpon>TelaSubCategoria.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -12,29 +12,46 @@ namespace ProjetoSistema
 {
     public partial class camposMedicamentosCadastroProdutos : Form
     {
+        private camposMedicamentosCadastroProdutosFarmaPopular formMedicamentosFarmaPop = null;
+        private camposMedicamentosCadastroProdutosGeral formMedicamentosProdutosGeral = null;
+        private camposMedicamentosCadastroProdutosSNGPC formMedicamentosSNGPC = null;
+
+        private GerenciadorFormulario gerenciadorFormulario = new GerenciadorFormulario();
         public camposMedicamentosCadastroProdutos()
         {
             InitializeComponent();
+
+            formMedicamentosFarmaPop = new camposMedicamentosCadastroProdutosFarmaPopular();
+            formMedicamentosProdutosGeral = new camposMedicamentosCadastroProdutosGeral();
+            formMedicamentosSNGPC = new camposMedicamentosCadastroProdutosSNGPC();
         }
 
-        public Form formAtivo = null;
-        public void exibirFormFilhoNoPanel(Form exibirForm)
+        public class GerenciadorFormulario
         {
-            if (formAtivo != null)
-                formAtivo.Close();
-            formAtivo = exibirForm;
-            exibirForm.TopLevel = false;
-            exibirForm.FormBorderStyle = FormBorderStyle.None;
-            exibirForm.Dock = DockStyle.Fill;
-            panelCamposMedicamentos.Controls.Add(exibirForm);
-            panelCamposMedicamentos.Tag = exibirForm;
-            exibirForm.BringToFront();
-            exibirForm.Show();
+            private Form formAtivo = null;
+
+            public void ExibirFormFilhoNoPanel(Form exibirForm, Panel panel)
+            {
+                if (formAtivo != null)
+                {
+                    formAtivo = null;
+                }
+
+                formAtivo = exibirForm;
+
+                exibirForm.TopLevel = false;
+                exibirForm.FormBorderStyle = FormBorderStyle.None;
+                exibirForm.Dock = DockStyle.Fill;
+                panel.Controls.Add(exibirForm);
+                panel.Tag = exibirForm;
+                exibirForm.BringToFront();
+                exibirForm.Show();
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            exibirFormFilhoNoPanel(new camposMedicamentosCadastroProdutosGeral());
+            gerenciadorFormulario.ExibirFormFilhoNoPanel(formMedicamentosProdutosGeral, panelCamposMedicamentos);
         }
 
         private void camposMedicamentosCadastroProdutos_Load(object sender, EventArgs e)
@@ -44,12 +61,12 @@ namespace ProjetoSistema
 
         private void button2_Click(object sender, EventArgs e)
         {
-            exibirFormFilhoNoPanel(new camposMedicamentosCadastroProdutosSNGPC());
+            gerenciadorFormulario.ExibirFormFilhoNoPanel(formMedicamentosSNGPC, panelCamposMedicamentos);
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            exibirFormFilhoNoPanel(new camposMedicamentosCadastroProdutosFarmaPopular());
+            gerenciadorFormulario.ExibirFormFilhoNoPanel(formMedicamentosFarmaPop, panelCamposMedicamentos);
         }
     }
 }

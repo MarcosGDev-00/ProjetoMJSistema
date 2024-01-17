@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace ProjetoSistema
 {
-    public partial class TelaCategoria : Form
+    public partial class TelaFabricante : Form
     {
-        public TelaCategoria()
+        public TelaFabricante()
         {
             InitializeComponent();
         }
 
-        private void CadastrarCategoria_Load(object sender, EventArgs e)
+        private void TelaFabricante_Load(object sender, EventArgs e)
         {
 
         }
@@ -31,15 +31,15 @@ namespace ProjetoSistema
             exibirForm.TopLevel = false;
             exibirForm.FormBorderStyle = FormBorderStyle.None;
             exibirForm.Dock = DockStyle.Fill;
-            panelCategoria.Controls.Add(exibirForm);
-            panelCategoria.Tag = exibirForm;
+            panelCadastro.Controls.Add(exibirForm);
+            panelCadastro.Tag = exibirForm;
             exibirForm.BringToFront();
             exibirForm.Show();
         }
 
         private void btnNovoProduto_Click(object sender, EventArgs e)
         {
-            exibirFormFilhoNoPanel(new CadastrarCategoria());
+            exibirFormFilhoNoPanel(new CadastrarFabricantes());
         }
     }
 }

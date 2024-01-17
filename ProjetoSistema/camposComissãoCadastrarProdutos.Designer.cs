@@ -30,13 +30,15 @@
         {
             this.label9 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.textBox8 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.cxComissaoPorcento = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
+            this.cxComissaoReais = new System.Windows.Forms.MaskedTextBox();
+            this.cxPontos = new System.Windows.Forms.MaskedTextBox();
             this.panel9.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -56,22 +58,13 @@
             // panel9
             // 
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel9.Controls.Add(this.textBox8);
+            this.panel9.Controls.Add(this.maskedTextBox3);
+            this.panel9.Controls.Add(this.cxComissaoPorcento);
+            this.panel9.Controls.Add(this.maskedTextBox2);
             this.panel9.Location = new System.Drawing.Point(26, 51);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(557, 50);
             this.panel9.TabIndex = 83;
-            // 
-            // textBox8
-            // 
-            this.textBox8.BackColor = System.Drawing.Color.White;
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox8.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox8.Location = new System.Drawing.Point(12, 13);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(528, 23);
-            this.textBox8.TabIndex = 12;
             // 
             // label1
             // 
@@ -87,22 +80,11 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.cxComissaoReais);
             this.panel1.Location = new System.Drawing.Point(24, 150);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(557, 50);
             this.panel1.TabIndex = 85;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox1.Location = new System.Drawing.Point(12, 13);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(528, 23);
-            this.textBox1.TabIndex = 12;
             // 
             // label2
             // 
@@ -118,22 +100,72 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.textBox2);
+            this.panel2.Controls.Add(this.cxPontos);
             this.panel2.Location = new System.Drawing.Point(24, 251);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(557, 50);
             this.panel2.TabIndex = 87;
             // 
-            // textBox2
+            // cxComissaoPorcento
             // 
-            this.textBox2.BackColor = System.Drawing.Color.White;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox2.Location = new System.Drawing.Point(12, 13);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(528, 23);
-            this.textBox2.TabIndex = 12;
+            this.cxComissaoPorcento.BackColor = System.Drawing.Color.White;
+            this.cxComissaoPorcento.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxComissaoPorcento.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxComissaoPorcento.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxComissaoPorcento.Location = new System.Drawing.Point(11, 13);
+            this.cxComissaoPorcento.Name = "cxComissaoPorcento";
+            this.cxComissaoPorcento.Size = new System.Drawing.Size(523, 23);
+            this.cxComissaoPorcento.TabIndex = 88;
+            this.cxComissaoPorcento.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.cxComissaoPorcento.Click += new System.EventHandler(this.cxComissaoPorcento_Click);
+            // 
+            // maskedTextBox2
+            // 
+            this.maskedTextBox2.BackColor = System.Drawing.Color.Black;
+            this.maskedTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.maskedTextBox2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maskedTextBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.maskedTextBox2.Location = new System.Drawing.Point(11, 112);
+            this.maskedTextBox2.Name = "maskedTextBox2";
+            this.maskedTextBox2.Size = new System.Drawing.Size(523, 23);
+            this.maskedTextBox2.TabIndex = 89;
+            // 
+            // maskedTextBox3
+            // 
+            this.maskedTextBox3.BackColor = System.Drawing.Color.Black;
+            this.maskedTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.maskedTextBox3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maskedTextBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.maskedTextBox3.Location = new System.Drawing.Point(11, 213);
+            this.maskedTextBox3.Name = "maskedTextBox3";
+            this.maskedTextBox3.Size = new System.Drawing.Size(523, 23);
+            this.maskedTextBox3.TabIndex = 90;
+            // 
+            // cxComissaoReais
+            // 
+            this.cxComissaoReais.BackColor = System.Drawing.Color.White;
+            this.cxComissaoReais.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxComissaoReais.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxComissaoReais.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxComissaoReais.Location = new System.Drawing.Point(13, 13);
+            this.cxComissaoReais.Name = "cxComissaoReais";
+            this.cxComissaoReais.Size = new System.Drawing.Size(523, 23);
+            this.cxComissaoReais.TabIndex = 91;
+            this.cxComissaoReais.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.cxComissaoReais.Click += new System.EventHandler(this.cxComissaoReais_Click);
+            // 
+            // cxPontos
+            // 
+            this.cxPontos.BackColor = System.Drawing.Color.White;
+            this.cxPontos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxPontos.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxPontos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxPontos.Location = new System.Drawing.Point(13, 13);
+            this.cxPontos.Name = "cxPontos";
+            this.cxPontos.Size = new System.Drawing.Size(523, 23);
+            this.cxPontos.TabIndex = 92;
+            this.cxPontos.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.cxPontos.Click += new System.EventHandler(this.cxPontos_Click);
             // 
             // camposComissãoCadastrarProdutos
             // 
@@ -165,12 +197,14 @@
 
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.MaskedTextBox cxComissaoPorcento;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
+        private System.Windows.Forms.MaskedTextBox cxComissaoReais;
+        private System.Windows.Forms.MaskedTextBox cxPontos;
     }
 }

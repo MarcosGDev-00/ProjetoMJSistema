@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label12 = new System.Windows.Forms.Label();
             this.panel13 = new System.Windows.Forms.Panel();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
@@ -40,9 +41,9 @@
             this.label10 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lblTipoProd = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxTipoProd = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
             this.textBox6 = new System.Windows.Forms.TextBox();
@@ -64,6 +65,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.cxCategoriaPesquisarPrduto = new System.Windows.Forms.TextBox();
+            this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.panel13.SuspendLayout();
             this.panel14.SuspendLayout();
             this.panel12.SuspendLayout();
@@ -227,42 +229,43 @@
             this.comboBox2.TabIndex = 12;
             this.comboBox2.Text = "Selecione";
             // 
-            // label9
+            // lblTipoProd
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.label9.Location = new System.Drawing.Point(1098, 206);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(74, 23);
-            this.label9.TabIndex = 58;
-            this.label9.Text = "Unidade";
+            this.lblTipoProd.AutoSize = true;
+            this.lblTipoProd.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
+            this.lblTipoProd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.lblTipoProd.Location = new System.Drawing.Point(1098, 206);
+            this.lblTipoProd.Name = "lblTipoProd";
+            this.lblTipoProd.Size = new System.Drawing.Size(88, 23);
+            this.lblTipoProd.TabIndex = 58;
+            this.lblTipoProd.Text = "Tipo Prod.";
             // 
             // panel10
             // 
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel10.Controls.Add(this.comboBox1);
+            this.panel10.Controls.Add(this.comboBoxTipoProd);
             this.panel10.Location = new System.Drawing.Point(1102, 235);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(311, 50);
             this.panel10.TabIndex = 59;
             // 
-            // comboBox1
+            // comboBoxTipoProd
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.White;
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
-            this.comboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.comboBoxTipoProd.BackColor = System.Drawing.Color.White;
+            this.comboBoxTipoProd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBoxTipoProd.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
+            this.comboBoxTipoProd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.comboBoxTipoProd.FormattingEnabled = true;
+            this.comboBoxTipoProd.Items.AddRange(new object[] {
             "Selecione",
             "Funcionário",
             "Administrador"});
-            this.comboBox1.Location = new System.Drawing.Point(11, 5);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(286, 38);
-            this.comboBox1.TabIndex = 12;
-            this.comboBox1.Text = "Selecione";
+            this.comboBoxTipoProd.Location = new System.Drawing.Point(11, 5);
+            this.comboBoxTipoProd.Name = "comboBoxTipoProd";
+            this.comboBoxTipoProd.Size = new System.Drawing.Size(286, 38);
+            this.comboBoxTipoProd.TabIndex = 12;
+            this.comboBoxTipoProd.Text = "Selecione";
+            this.comboBoxTipoProd.MouseDown += new System.Windows.Forms.MouseEventHandler(this.comboBoxTipoProd_MouseDown);
             // 
             // label8
             // 
@@ -487,6 +490,13 @@
             this.cxCategoriaPesquisarPrduto.Size = new System.Drawing.Size(288, 23);
             this.cxCategoriaPesquisarPrduto.TabIndex = 11;
             // 
+            // contextMenuStrip2
+            // 
+            this.contextMenuStrip2.BackColor = System.Drawing.Color.White;
+            this.contextMenuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip2.Name = "contextMenuStrip2";
+            this.contextMenuStrip2.Size = new System.Drawing.Size(211, 32);
+            // 
             // camposBaseCadastroProduto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -501,7 +511,7 @@
             this.Controls.Add(this.panel12);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.panel11);
-            this.Controls.Add(this.label9);
+            this.Controls.Add(this.lblTipoProd);
             this.Controls.Add(this.panel10);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.panel9);
@@ -519,6 +529,7 @@
             this.Controls.Add(this.panel4);
             this.Name = "camposBaseCadastroProduto";
             this.Text = "camposBaseCadastroProduto";
+            this.Load += new System.EventHandler(this.camposBaseCadastroProduto_Load);
             this.panel13.ResumeLayout(false);
             this.panel14.ResumeLayout(false);
             this.panel12.ResumeLayout(false);
@@ -556,9 +567,9 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lblTipoProd;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBoxTipoProd;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.TextBox textBox6;
@@ -580,5 +591,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.TextBox cxCategoriaPesquisarPrduto;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
     }
 }

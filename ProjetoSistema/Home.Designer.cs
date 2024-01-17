@@ -114,7 +114,6 @@
             // 
             // panelHeader
             // 
-            this.panelHeader.AutoScroll = true;
             this.panelHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.panelHeader.Controls.Add(this.lblUser);
             this.panelHeader.Controls.Add(this.iconPictureBox1);
@@ -338,7 +337,7 @@
             this.iconButton7.Location = new System.Drawing.Point(0, 600);
             this.iconButton7.Name = "iconButton7";
             this.iconButton7.Padding = new System.Windows.Forms.Padding(45, 0, 20, 0);
-            this.iconButton7.Size = new System.Drawing.Size(337, 53);
+            this.iconButton7.Size = new System.Drawing.Size(337, 74);
             this.iconButton7.TabIndex = 42;
             this.iconButton7.Text = "Subcategorias";
             this.iconButton7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
