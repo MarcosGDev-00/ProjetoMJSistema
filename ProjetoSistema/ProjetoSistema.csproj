@@ -97,6 +97,7 @@
     <Compile Include="CadastrarClientes.Designer.cs">
       <DependentUpon>CadastrarClientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="CadastroCliente.cs" />
     <Compile Include="camposAvalistaCadastroClientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -157,6 +158,8 @@
     <Compile Include="camposReferenciaCadastroCliente.Designer.cs">
       <DependentUpon>camposReferenciaCadastroCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cidades.cs" />
+    <Compile Include="Pais.cs" />
     <Compile Include="TelaCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
