@@ -120,7 +120,7 @@ namespace ProjetoSistema
 
         private void CadastrarProdutos_Load(object sender, EventArgs e)
         {
-            gerenciadorFormulario.ExibirFormFilhoNoPanel(formComissao, panelCampos);
+            gerenciadorFormulario.ExibirFormFilhoNoPanel(formBase, panelCampos);
         }
 
         private void button11_Click(object sender, EventArgs e)

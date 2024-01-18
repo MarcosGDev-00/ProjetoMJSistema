@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace ProjetoSistema
 {
-    public partial class CadastrarTipoProduto : Form
+    public partial class camposEndEntregaCadastrarCliente : Form
     {
-        public CadastrarTipoProduto()
+        public camposEndEntregaCadastrarCliente()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void iconPictureBox1_Click(object sender, EventArgs e)
-        {
-            this.Hide();
         }
     }
 }

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.label12 = new System.Windows.Forms.Label();
             this.panel13 = new System.Windows.Forms.Panel();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
@@ -65,7 +64,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.cxCategoriaPesquisarPrduto = new System.Windows.Forms.TextBox();
-            this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.panel13.SuspendLayout();
             this.panel14.SuspendLayout();
             this.panel12.SuspendLayout();
@@ -246,7 +245,7 @@
             this.panel10.Controls.Add(this.comboBoxTipoProd);
             this.panel10.Location = new System.Drawing.Point(1102, 235);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(311, 50);
+            this.panel10.Size = new System.Drawing.Size(252, 50);
             this.panel10.TabIndex = 59;
             // 
             // comboBoxTipoProd
@@ -262,7 +261,7 @@
             "Administrador"});
             this.comboBoxTipoProd.Location = new System.Drawing.Point(11, 5);
             this.comboBoxTipoProd.Name = "comboBoxTipoProd";
-            this.comboBoxTipoProd.Size = new System.Drawing.Size(286, 38);
+            this.comboBoxTipoProd.Size = new System.Drawing.Size(230, 38);
             this.comboBoxTipoProd.TabIndex = 12;
             this.comboBoxTipoProd.Text = "Selecione";
             this.comboBoxTipoProd.MouseDown += new System.Windows.Forms.MouseEventHandler(this.comboBoxTipoProd_MouseDown);
@@ -490,12 +489,22 @@
             this.cxCategoriaPesquisarPrduto.Size = new System.Drawing.Size(288, 23);
             this.cxCategoriaPesquisarPrduto.TabIndex = 11;
             // 
-            // contextMenuStrip2
+            // iconButton1
             // 
-            this.contextMenuStrip2.BackColor = System.Drawing.Color.White;
-            this.contextMenuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip2.Name = "contextMenuStrip2";
-            this.contextMenuStrip2.Size = new System.Drawing.Size(211, 32);
+            this.iconButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.iconButton1.FlatAppearance.BorderSize = 0;
+            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Add;
+            this.iconButton1.IconColor = System.Drawing.Color.WhiteSmoke;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.iconButton1.IconSize = 32;
+            this.iconButton1.Location = new System.Drawing.Point(1369, 233);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Size = new System.Drawing.Size(45, 52);
+            this.iconButton1.TabIndex = 149;
+            this.iconButton1.UseVisualStyleBackColor = false;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
             // 
             // camposBaseCadastroProduto
             // 
@@ -503,6 +512,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1435, 483);
+            this.Controls.Add(this.iconButton1);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.panel13);
             this.Controls.Add(this.label13);
@@ -591,6 +601,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.TextBox cxCategoriaPesquisarPrduto;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
+        private FontAwesome.Sharp.IconButton iconButton1;
     }
 }

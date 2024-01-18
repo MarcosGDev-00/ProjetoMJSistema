@@ -105,7 +105,7 @@ namespace ProjetoSistema
                 leftBorderBtn.Location = new Point(0, currentBtn.Location.Y);
                 leftBorderBtn.Visible = true;
                 leftBorderBtn.BringToFront();
-                leftBorderBtn.Size = new Size(5, 60);
+                leftBorderBtn.Size = new Size(5, 75);
 
                 lblTitleHeader.Text = currentBtn.Text;
                 iconTitleHeader.IconChar = currentBtn.IconChar;
@@ -144,7 +144,7 @@ namespace ProjetoSistema
             leftBorderBtn.Location = new Point(0, currentBtn.Location.Y);
             leftBorderBtn.Visible = true;
             leftBorderBtn.BringToFront();
-            leftBorderBtn.Size = new Size(5, 60);
+            leftBorderBtn.Size = new Size(5, 75);
         }
 
         private void menuExpansivel()
@@ -275,6 +275,7 @@ namespace ProjetoSistema
 
         private void btnCadastro_Click_2(object sender, EventArgs e)
         {
+            ActivateButton(sender, Cores.RGBColors.color1);
             exibirSubMenu(panelSubmenu);
         }
 

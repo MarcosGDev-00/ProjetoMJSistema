@@ -1,6 +1,6 @@
 ﻿namespace ProjetoSistema
 {
-    partial class camposObservacoesCadastroProdutos
+    partial class camposObservacoesCadastroClientes
     {
         /// <summary>
         /// Required designer variable.
@@ -29,37 +29,48 @@
         private void InitializeComponent()
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 10.2F);
             this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox1.Location = new System.Drawing.Point(12, 29);
+            this.textBox1.Location = new System.Drawing.Point(0, 0);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(1411, 442);
+            this.textBox1.Size = new System.Drawing.Size(1409, 457);
             this.textBox1.TabIndex = 0;
-            this.textBox1.WordWrap = false;
             // 
-            // camposObservacoesCadastroProdutos
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1411, 459);
+            this.panel1.TabIndex = 1;
+            // 
+            // camposObservacoesCadastroClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1435, 483);
-            this.Controls.Add(this.textBox1);
-            this.Name = "camposObservacoesCadastroProdutos";
-            this.Text = "camposObservacoesCadastroProdutos";
+            this.Controls.Add(this.panel1);
+            this.Name = "camposObservacoesCadastroClientes";
+            this.Text = "camposObservacoesCadastroClientes";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Panel panel1;
     }
 }
