@@ -100,11 +100,65 @@
     <Compile Include="CadastrarClientes.Designer.cs">
       <DependentUpon>CadastrarClientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="camposAvalistaCadastroClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposAvalistaCadastroClientes.Designer.cs">
+      <DependentUpon>camposAvalistaCadastroClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposConjugueCadastroClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposConjugueCadastroClientes.Designer.cs">
+      <DependentUpon>camposConjugueCadastroClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposEmpresaCadastroClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposEmpresaCadastroClientes.Designer.cs">
+      <DependentUpon>camposEmpresaCadastroClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposEndEntregaCadastrarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposEndEntregaCadastrarCliente.Designer.cs">
+      <DependentUpon>camposEndEntregaCadastrarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposFidelidadeCadastroCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposFidelidadeCadastroCliente.Designer.cs">
+      <DependentUpon>camposFidelidadeCadastroCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposFiliacaoCadastroClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposFiliacaoCadastroClientes.Designer.cs">
+      <DependentUpon>camposFiliacaoCadastroClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposAdicionaisCadastrarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposAdicionaisCadastrarClientes.Designer.cs">
+      <DependentUpon>camposAdicionaisCadastrarClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="camposBaseCadastroClientes.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="camposBaseCadastroClientes.Designer.cs">
       <DependentUpon>camposBaseCadastroClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposObservacoesCadastroClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposObservacoesCadastroClientes.Designer.cs">
+      <DependentUpon>camposObservacoesCadastroClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="camposReferenciaCadastroCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camposReferenciaCadastroCliente.Designer.cs">
+      <DependentUpon>camposReferenciaCadastroCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="TelaCategoria.cs">
       <SubType>Form</SubType>
@@ -308,8 +362,35 @@
     <EmbeddedResource Include="CadastrarClientes.resx">
       <DependentUpon>CadastrarClientes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="camposAvalistaCadastroClientes.resx">
+      <DependentUpon>camposAvalistaCadastroClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposConjugueCadastroClientes.resx">
+      <DependentUpon>camposConjugueCadastroClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposEmpresaCadastroClientes.resx">
+      <DependentUpon>camposEmpresaCadastroClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposEndEntregaCadastrarCliente.resx">
+      <DependentUpon>camposEndEntregaCadastrarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposFidelidadeCadastroCliente.resx">
+      <DependentUpon>camposFidelidadeCadastroCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposFiliacaoCadastroClientes.resx">
+      <DependentUpon>camposFiliacaoCadastroClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposAdicionaisCadastrarClientes.resx">
+      <DependentUpon>camposAdicionaisCadastrarClientes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="camposBaseCadastroClientes.resx">
       <DependentUpon>camposBaseCadastroClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposObservacoesCadastroClientes.resx">
+      <DependentUpon>camposObservacoesCadastroClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="camposReferenciaCadastroCliente.resx">
+      <DependentUpon>camposReferenciaCadastroCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TelaCategoria.resx">
       <DependentUpon>TelaCategoria.cs</DependentUpon>

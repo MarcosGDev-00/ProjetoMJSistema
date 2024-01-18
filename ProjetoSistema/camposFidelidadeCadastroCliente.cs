@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProjetoSistema
 {
-    public partial class CadastrarTipoProduto : Form
+    public partial class camposFidelidadeCadastroCliente : Form
     {
-        public CadastrarTipoProduto()
+        public camposFidelidadeCadastroCliente()
         {
             InitializeComponent();
         }
@@ -22,9 +22,9 @@ namespace ProjetoSistema
 
         }
 
-        private void iconPictureBox1_Click(object sender, EventArgs e)
+        private void panel3_Paint(object sender, PaintEventArgs e)
         {
-            this.Hide();
+
         }
     }
 }
