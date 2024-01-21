@@ -28,21 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.cxCargoAvalista = new System.Windows.Forms.TextBox();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.cxBairroAvalista = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.cxRendaAvalista = new System.Windows.Forms.MaskedTextBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.cxCidadeAvalista = new System.Windows.Forms.ComboBox();
+            this.cxUfAvalista = new System.Windows.Forms.ComboBox();
             this.panel7 = new System.Windows.Forms.Panel();
             this.cxAdmissaoAvalista = new System.Windows.Forms.MaskedTextBox();
             this.dtAdmissaoAvalista = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.cxEmpresaAvalista = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -51,16 +51,16 @@
             this.label15 = new System.Windows.Forms.Label();
             this.panel13 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.cxEnderecoAvalista = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.cxNenderecoAvalista = new System.Windows.Forms.TextBox();
             this.panel19 = new System.Windows.Forms.Panel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cxRgAvalista = new System.Windows.Forms.TextBox();
+            this.cxNomeAvalista = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.cxCepAvalista = new System.Windows.Forms.TextBox();
             this.panel11 = new System.Windows.Forms.Panel();
             this.label21 = new System.Windows.Forms.Label();
             this.panel21 = new System.Windows.Forms.Panel();
@@ -68,7 +68,7 @@
             this.label20 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.panel18 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.cxCpfAvalista = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.panel20 = new System.Windows.Forms.Panel();
             this.cxDataNascimentoAvalista = new System.Windows.Forms.MaskedTextBox();
@@ -92,36 +92,38 @@
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // textBox7
+            // cxCargoAvalista
             // 
-            this.textBox7.BackColor = System.Drawing.Color.White;
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox7.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox7.Location = new System.Drawing.Point(10, 6);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(426, 23);
-            this.textBox7.TabIndex = 12;
+            this.cxCargoAvalista.BackColor = System.Drawing.Color.White;
+            this.cxCargoAvalista.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxCargoAvalista.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxCargoAvalista.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxCargoAvalista.Location = new System.Drawing.Point(10, 6);
+            this.cxCargoAvalista.Name = "cxCargoAvalista";
+            this.cxCargoAvalista.Size = new System.Drawing.Size(426, 23);
+            this.cxCargoAvalista.TabIndex = 12;
+            this.cxCargoAvalista.TextChanged += new System.EventHandler(this.cxCargoAvalista_TextChanged);
             // 
             // panel10
             // 
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel10.Controls.Add(this.textBox7);
+            this.panel10.Controls.Add(this.cxCargoAvalista);
             this.panel10.Location = new System.Drawing.Point(14, 431);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(450, 37);
             this.panel10.TabIndex = 311;
             // 
-            // textBox10
+            // cxBairroAvalista
             // 
-            this.textBox10.BackColor = System.Drawing.Color.White;
-            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox10.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox10.Location = new System.Drawing.Point(11, 6);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(317, 23);
-            this.textBox10.TabIndex = 12;
+            this.cxBairroAvalista.BackColor = System.Drawing.Color.White;
+            this.cxBairroAvalista.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxBairroAvalista.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxBairroAvalista.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxBairroAvalista.Location = new System.Drawing.Point(11, 6);
+            this.cxBairroAvalista.Name = "cxBairroAvalista";
+            this.cxBairroAvalista.Size = new System.Drawing.Size(317, 23);
+            this.cxBairroAvalista.TabIndex = 12;
+            this.cxBairroAvalista.TextChanged += new System.EventHandler(this.cxBairroAvalista_TextChanged);
             // 
             // label12
             // 
@@ -165,40 +167,39 @@
             this.cxRendaAvalista.Size = new System.Drawing.Size(547, 23);
             this.cxRendaAvalista.TabIndex = 93;
             this.cxRendaAvalista.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.cxRendaAvalista.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.cxRendaAvalista_MaskInputRejected);
             // 
-            // comboBox4
+            // cxCidadeAvalista
             // 
-            this.comboBox4.BackColor = System.Drawing.Color.White;
-            this.comboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox4.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
-            this.comboBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
-            "Selecione",
-            "CPF",
-            "CNPJ"});
-            this.comboBox4.Location = new System.Drawing.Point(10, 3);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(883, 31);
-            this.comboBox4.TabIndex = 13;
-            this.comboBox4.Text = "Selecione";
+            this.cxCidadeAvalista.BackColor = System.Drawing.Color.White;
+            this.cxCidadeAvalista.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxCidadeAvalista.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
+            this.cxCidadeAvalista.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxCidadeAvalista.FormattingEnabled = true;
+            this.cxCidadeAvalista.Items.AddRange(new object[] {
+            "Selecione"});
+            this.cxCidadeAvalista.Location = new System.Drawing.Point(10, 3);
+            this.cxCidadeAvalista.Name = "cxCidadeAvalista";
+            this.cxCidadeAvalista.Size = new System.Drawing.Size(883, 31);
+            this.cxCidadeAvalista.TabIndex = 13;
+            this.cxCidadeAvalista.Text = "Selecione";
+            this.cxCidadeAvalista.SelectedIndexChanged += new System.EventHandler(this.cxCidadeAvalista_SelectedIndexChanged);
             // 
-            // comboBox3
+            // cxUfAvalista
             // 
-            this.comboBox3.BackColor = System.Drawing.Color.White;
-            this.comboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
-            this.comboBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "Selecione",
-            "CPF",
-            "CNPJ"});
-            this.comboBox3.Location = new System.Drawing.Point(7, 3);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(429, 31);
-            this.comboBox3.TabIndex = 13;
-            this.comboBox3.Text = "Selecione";
+            this.cxUfAvalista.BackColor = System.Drawing.Color.White;
+            this.cxUfAvalista.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxUfAvalista.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
+            this.cxUfAvalista.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxUfAvalista.FormattingEnabled = true;
+            this.cxUfAvalista.Items.AddRange(new object[] {
+            "Selecione"});
+            this.cxUfAvalista.Location = new System.Drawing.Point(7, 3);
+            this.cxUfAvalista.Name = "cxUfAvalista";
+            this.cxUfAvalista.Size = new System.Drawing.Size(429, 31);
+            this.cxUfAvalista.TabIndex = 13;
+            this.cxUfAvalista.Text = "Selecione";
+            this.cxUfAvalista.SelectedIndexChanged += new System.EventHandler(this.cxUfAvalista_SelectedIndexChanged);
             // 
             // panel7
             // 
@@ -220,6 +221,7 @@
             this.cxAdmissaoAvalista.Name = "cxAdmissaoAvalista";
             this.cxAdmissaoAvalista.Size = new System.Drawing.Size(208, 23);
             this.cxAdmissaoAvalista.TabIndex = 132;
+            this.cxAdmissaoAvalista.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.cxAdmissaoAvalista_MaskInputRejected);
             this.cxAdmissaoAvalista.TypeValidationCompleted += new System.Windows.Forms.TypeValidationEventHandler(this.cxAdmissaoAvalista_TypeValidationCompleted);
             this.cxAdmissaoAvalista.TextChanged += new System.EventHandler(this.cxAdmissaoAvalista_TextChanged);
             // 
@@ -250,22 +252,23 @@
             // panel4
             // 
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.textBox4);
+            this.panel4.Controls.Add(this.cxEmpresaAvalista);
             this.panel4.Location = new System.Drawing.Point(14, 356);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1411, 37);
             this.panel4.TabIndex = 309;
             // 
-            // textBox4
+            // cxEmpresaAvalista
             // 
-            this.textBox4.BackColor = System.Drawing.Color.White;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox4.Location = new System.Drawing.Point(15, 6);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(1382, 23);
-            this.textBox4.TabIndex = 11;
+            this.cxEmpresaAvalista.BackColor = System.Drawing.Color.White;
+            this.cxEmpresaAvalista.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxEmpresaAvalista.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxEmpresaAvalista.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxEmpresaAvalista.Location = new System.Drawing.Point(15, 6);
+            this.cxEmpresaAvalista.Name = "cxEmpresaAvalista";
+            this.cxEmpresaAvalista.Size = new System.Drawing.Size(1382, 23);
+            this.cxEmpresaAvalista.TabIndex = 11;
+            this.cxEmpresaAvalista.TextChanged += new System.EventHandler(this.cxEmpresaAvalista_TextChanged);
             // 
             // label4
             // 
@@ -303,7 +306,7 @@
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.comboBox3);
+            this.panel3.Controls.Add(this.cxUfAvalista);
             this.panel3.Location = new System.Drawing.Point(14, 276);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(450, 37);
@@ -312,7 +315,7 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.comboBox4);
+            this.panel1.Controls.Add(this.cxCidadeAvalista);
             this.panel1.Location = new System.Drawing.Point(518, 276);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(906, 37);
@@ -332,7 +335,7 @@
             // panel13
             // 
             this.panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel13.Controls.Add(this.textBox10);
+            this.panel13.Controls.Add(this.cxBairroAvalista);
             this.panel13.Location = new System.Drawing.Point(1085, 197);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(339, 37);
@@ -349,16 +352,17 @@
             this.label5.TabIndex = 308;
             this.label5.Text = "Empresa";
             // 
-            // textBox8
+            // cxEnderecoAvalista
             // 
-            this.textBox8.BackColor = System.Drawing.Color.White;
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox8.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox8.Location = new System.Drawing.Point(11, 6);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(606, 23);
-            this.textBox8.TabIndex = 12;
+            this.cxEnderecoAvalista.BackColor = System.Drawing.Color.White;
+            this.cxEnderecoAvalista.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxEnderecoAvalista.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxEnderecoAvalista.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxEnderecoAvalista.Location = new System.Drawing.Point(11, 6);
+            this.cxEnderecoAvalista.Name = "cxEnderecoAvalista";
+            this.cxEnderecoAvalista.Size = new System.Drawing.Size(606, 23);
+            this.cxEnderecoAvalista.TabIndex = 12;
+            this.cxEnderecoAvalista.TextChanged += new System.EventHandler(this.cxEnderecoAvalista_TextChanged);
             // 
             // label14
             // 
@@ -374,53 +378,56 @@
             // panel12
             // 
             this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel12.Controls.Add(this.textBox9);
+            this.panel12.Controls.Add(this.cxNenderecoAvalista);
             this.panel12.Location = new System.Drawing.Point(704, 197);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(101, 37);
             this.panel12.TabIndex = 299;
             // 
-            // textBox9
+            // cxNenderecoAvalista
             // 
-            this.textBox9.BackColor = System.Drawing.Color.White;
-            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox9.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox9.Location = new System.Drawing.Point(8, 6);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(84, 23);
-            this.textBox9.TabIndex = 12;
+            this.cxNenderecoAvalista.BackColor = System.Drawing.Color.White;
+            this.cxNenderecoAvalista.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxNenderecoAvalista.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxNenderecoAvalista.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxNenderecoAvalista.Location = new System.Drawing.Point(8, 6);
+            this.cxNenderecoAvalista.Name = "cxNenderecoAvalista";
+            this.cxNenderecoAvalista.Size = new System.Drawing.Size(84, 23);
+            this.cxNenderecoAvalista.TabIndex = 12;
+            this.cxNenderecoAvalista.TextChanged += new System.EventHandler(this.cxNenderecoAvalista_TextChanged);
             // 
             // panel19
             // 
             this.panel19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel19.Controls.Add(this.textBox3);
+            this.panel19.Controls.Add(this.cxRgAvalista);
             this.panel19.Location = new System.Drawing.Point(424, 120);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(289, 37);
             this.panel19.TabIndex = 291;
             // 
-            // textBox3
+            // cxRgAvalista
             // 
-            this.textBox3.BackColor = System.Drawing.Color.White;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox3.Location = new System.Drawing.Point(14, 6);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(256, 23);
-            this.textBox3.TabIndex = 13;
+            this.cxRgAvalista.BackColor = System.Drawing.Color.White;
+            this.cxRgAvalista.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxRgAvalista.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxRgAvalista.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxRgAvalista.Location = new System.Drawing.Point(14, 6);
+            this.cxRgAvalista.Name = "cxRgAvalista";
+            this.cxRgAvalista.Size = new System.Drawing.Size(256, 23);
+            this.cxRgAvalista.TabIndex = 13;
+            this.cxRgAvalista.TextChanged += new System.EventHandler(this.cxRgAvalista_TextChanged);
             // 
-            // textBox1
+            // cxNomeAvalista
             // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox1.Location = new System.Drawing.Point(15, 6);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(1382, 23);
-            this.textBox1.TabIndex = 11;
+            this.cxNomeAvalista.BackColor = System.Drawing.Color.White;
+            this.cxNomeAvalista.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxNomeAvalista.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxNomeAvalista.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxNomeAvalista.Location = new System.Drawing.Point(15, 6);
+            this.cxNomeAvalista.Name = "cxNomeAvalista";
+            this.cxNomeAvalista.Size = new System.Drawing.Size(1382, 23);
+            this.cxNomeAvalista.TabIndex = 11;
+            this.cxNomeAvalista.TextChanged += new System.EventHandler(this.cxNomeAvalista_TextChanged);
             // 
             // label16
             // 
@@ -436,27 +443,28 @@
             // panel14
             // 
             this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel14.Controls.Add(this.textBox11);
+            this.panel14.Controls.Add(this.cxCepAvalista);
             this.panel14.Location = new System.Drawing.Point(853, 197);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(184, 37);
             this.panel14.TabIndex = 301;
             // 
-            // textBox11
+            // cxCepAvalista
             // 
-            this.textBox11.BackColor = System.Drawing.Color.White;
-            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox11.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox11.Location = new System.Drawing.Point(7, 6);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(169, 23);
-            this.textBox11.TabIndex = 12;
+            this.cxCepAvalista.BackColor = System.Drawing.Color.White;
+            this.cxCepAvalista.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxCepAvalista.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxCepAvalista.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxCepAvalista.Location = new System.Drawing.Point(7, 6);
+            this.cxCepAvalista.Name = "cxCepAvalista";
+            this.cxCepAvalista.Size = new System.Drawing.Size(169, 23);
+            this.cxCepAvalista.TabIndex = 12;
+            this.cxCepAvalista.TextChanged += new System.EventHandler(this.cxCepAvalista_TextChanged);
             // 
             // panel11
             // 
             this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel11.Controls.Add(this.textBox8);
+            this.panel11.Controls.Add(this.cxEnderecoAvalista);
             this.panel11.Location = new System.Drawing.Point(14, 197);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(639, 37);
@@ -492,6 +500,7 @@
             this.cxFoneAvalista.Name = "cxFoneAvalista";
             this.cxFoneAvalista.Size = new System.Drawing.Size(327, 23);
             this.cxFoneAvalista.TabIndex = 171;
+            this.cxFoneAvalista.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.cxFoneAvalista_MaskInputRejected);
             // 
             // label20
             // 
@@ -518,22 +527,23 @@
             // panel18
             // 
             this.panel18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel18.Controls.Add(this.textBox2);
+            this.panel18.Controls.Add(this.cxCpfAvalista);
             this.panel18.Location = new System.Drawing.Point(14, 120);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(377, 37);
             this.panel18.TabIndex = 289;
             // 
-            // textBox2
+            // cxCpfAvalista
             // 
-            this.textBox2.BackColor = System.Drawing.Color.White;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox2.Location = new System.Drawing.Point(11, 6);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(344, 23);
-            this.textBox2.TabIndex = 12;
+            this.cxCpfAvalista.BackColor = System.Drawing.Color.White;
+            this.cxCpfAvalista.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxCpfAvalista.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxCpfAvalista.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxCpfAvalista.Location = new System.Drawing.Point(11, 6);
+            this.cxCpfAvalista.Name = "cxCpfAvalista";
+            this.cxCpfAvalista.Size = new System.Drawing.Size(344, 23);
+            this.cxCpfAvalista.TabIndex = 12;
+            this.cxCpfAvalista.TextChanged += new System.EventHandler(this.cxCpfAvalista_TextChanged);
             // 
             // label7
             // 
@@ -566,6 +576,7 @@
             this.cxDataNascimentoAvalista.Name = "cxDataNascimentoAvalista";
             this.cxDataNascimentoAvalista.Size = new System.Drawing.Size(242, 23);
             this.cxDataNascimentoAvalista.TabIndex = 134;
+            this.cxDataNascimentoAvalista.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.cxDataNascimentoAvalista_MaskInputRejected);
             this.cxDataNascimentoAvalista.TypeValidationCompleted += new System.Windows.Forms.TypeValidationEventHandler(this.cxDataNascimentoAvalista_TypeValidationCompleted);
             this.cxDataNascimentoAvalista.TextChanged += new System.EventHandler(this.cxDataNascimentoAvalista_TextChanged);
             // 
@@ -596,7 +607,7 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.cxNomeAvalista);
             this.panel2.Location = new System.Drawing.Point(14, 43);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1411, 37);
@@ -676,21 +687,21 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox cxCargoAvalista;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox cxBairroAvalista;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.MaskedTextBox cxRendaAvalista;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox cxCidadeAvalista;
+        private System.Windows.Forms.ComboBox cxUfAvalista;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.MaskedTextBox cxAdmissaoAvalista;
         private System.Windows.Forms.DateTimePicker dtAdmissaoAvalista;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox cxEmpresaAvalista;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
@@ -699,16 +710,16 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Panel panel13;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox cxEnderecoAvalista;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox cxNenderecoAvalista;
         private System.Windows.Forms.Panel panel19;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox cxRgAvalista;
+        private System.Windows.Forms.TextBox cxNomeAvalista;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Panel panel14;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox cxCepAvalista;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Panel panel21;
@@ -716,7 +727,7 @@
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Panel panel18;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox cxCpfAvalista;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel20;
         private System.Windows.Forms.MaskedTextBox cxDataNascimentoAvalista;

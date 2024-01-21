@@ -30,8 +30,10 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panelCadastrarProdutos = new System.Windows.Forms.Panel();
+            this.btnCadastrarCliente = new FontAwesome.Sharp.IconButton();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.button12 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
@@ -46,7 +48,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.panelCampos = new System.Windows.Forms.Panel();
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.panelCadastrarProdutos.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -54,20 +55,41 @@
             // panelCadastrarProdutos
             // 
             this.panelCadastrarProdutos.BackColor = System.Drawing.Color.White;
+            this.panelCadastrarProdutos.Controls.Add(this.btnCadastrarCliente);
             this.panelCadastrarProdutos.Controls.Add(this.label1);
             this.panelCadastrarProdutos.Controls.Add(this.panel2);
             this.panelCadastrarProdutos.Controls.Add(this.panelCampos);
             this.panelCadastrarProdutos.Location = new System.Drawing.Point(12, 12);
             this.panelCadastrarProdutos.Name = "panelCadastrarProdutos";
-            this.panelCadastrarProdutos.Size = new System.Drawing.Size(1453, 658);
+            this.panelCadastrarProdutos.Size = new System.Drawing.Size(1453, 679);
             this.panelCadastrarProdutos.TabIndex = 1;
+            // 
+            // btnCadastrarCliente
+            // 
+            this.btnCadastrarCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.btnCadastrarCliente.FlatAppearance.BorderSize = 0;
+            this.btnCadastrarCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadastrarCliente.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnCadastrarCliente.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnCadastrarCliente.IconChar = FontAwesome.Sharp.IconChar.Check;
+            this.btnCadastrarCliente.IconColor = System.Drawing.Color.WhiteSmoke;
+            this.btnCadastrarCliente.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnCadastrarCliente.IconSize = 30;
+            this.btnCadastrarCliente.Location = new System.Drawing.Point(1316, 631);
+            this.btnCadastrarCliente.Name = "btnCadastrarCliente";
+            this.btnCadastrarCliente.Size = new System.Drawing.Size(131, 39);
+            this.btnCadastrarCliente.TabIndex = 46;
+            this.btnCadastrarCliente.Text = "Cadastrar";
+            this.btnCadastrarCliente.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCadastrarCliente.UseVisualStyleBackColor = false;
+            this.btnCadastrarCliente.Click += new System.EventHandler(this.btnCadastrarCliente_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(3, 92);
+            this.label1.Location = new System.Drawing.Point(3, 62);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(230, 19);
             this.label1.TabIndex = 44;
@@ -88,10 +110,27 @@
             this.panel2.Controls.Add(this.button3);
             this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.button1);
-            this.panel2.Location = new System.Drawing.Point(3, 33);
+            this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1447, 39);
             this.panel2.TabIndex = 2;
+            // 
+            // iconButton1
+            // 
+            this.iconButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.iconButton1.FlatAppearance.BorderSize = 0;
+            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.House;
+            this.iconButton1.IconColor = System.Drawing.Color.WhiteSmoke;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton1.IconSize = 30;
+            this.iconButton1.Location = new System.Drawing.Point(0, 0);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Size = new System.Drawing.Size(45, 39);
+            this.iconButton1.TabIndex = 14;
+            this.iconButton1.UseVisualStyleBackColor = false;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
             // 
             // button12
             // 
@@ -275,9 +314,8 @@
             // 
             // panelCampos
             // 
-            this.panelCampos.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelCampos.ForeColor = System.Drawing.Color.White;
-            this.panelCampos.Location = new System.Drawing.Point(0, 128);
+            this.panelCampos.Location = new System.Drawing.Point(0, 95);
             this.panelCampos.Name = "panelCampos";
             this.panelCampos.Size = new System.Drawing.Size(1453, 530);
             this.panelCampos.TabIndex = 1;
@@ -289,23 +327,6 @@
             this.contextMenuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip2.Name = "contextMenuStrip2";
             this.contextMenuStrip2.Size = new System.Drawing.Size(61, 4);
-            // 
-            // iconButton1
-            // 
-            this.iconButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.iconButton1.FlatAppearance.BorderSize = 0;
-            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.House;
-            this.iconButton1.IconColor = System.Drawing.Color.WhiteSmoke;
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.IconSize = 30;
-            this.iconButton1.Location = new System.Drawing.Point(0, 0);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(45, 39);
-            this.iconButton1.TabIndex = 14;
-            this.iconButton1.UseVisualStyleBackColor = false;
-            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
             // 
             // CadastrarProdutos
             // 
@@ -343,5 +364,6 @@
         private FontAwesome.Sharp.IconButton iconButton1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
+        private FontAwesome.Sharp.IconButton btnCadastrarCliente;
     }
 }

@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelCadastro = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.dataGridViewBuscarProdutos = new System.Windows.Forms.DataGridView();
@@ -44,6 +44,7 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.cxPesquisarProduto = new System.Windows.Forms.TextBox();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.iconPictureBoxUsuario = new FontAwesome.Sharp.IconPictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
@@ -55,7 +56,6 @@
             this.iconButton2 = new FontAwesome.Sharp.IconButton();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.btnNovoProduto = new FontAwesome.Sharp.IconButton();
-            this.iconPictureBoxUsuario = new FontAwesome.Sharp.IconPictureBox();
             this.panelCadastro.SuspendLayout();
             this.panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewBuscarProdutos)).BeginInit();
@@ -63,11 +63,11 @@
             this.panel8.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBoxUsuario)).BeginInit();
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBoxUsuario)).BeginInit();
             this.SuspendLayout();
             // 
             // panelCadastro
@@ -77,10 +77,10 @@
             this.panelCadastro.Controls.Add(this.label4);
             this.panelCadastro.Controls.Add(this.button1);
             this.panelCadastro.Controls.Add(this.panel3);
-            this.panelCadastro.Location = new System.Drawing.Point(12, 171);
+            this.panelCadastro.Location = new System.Drawing.Point(20, 110);
             this.panelCadastro.Name = "panelCadastro";
             this.panelCadastro.Padding = new System.Windows.Forms.Padding(30);
-            this.panelCadastro.Size = new System.Drawing.Size(1536, 729);
+            this.panelCadastro.Size = new System.Drawing.Size(1536, 758);
             this.panelCadastro.TabIndex = 0;
             this.panelCadastro.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -97,35 +97,35 @@
             // dataGridViewBuscarProdutos
             // 
             this.dataGridViewBuscarProdutos.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(162)))), ((int)(((byte)(162)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(162)))), ((int)(((byte)(162)))));
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewBuscarProdutos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(162)))), ((int)(((byte)(162)))));
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(162)))), ((int)(((byte)(162)))));
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewBuscarProdutos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dataGridViewBuscarProdutos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(162)))), ((int)(((byte)(162)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            dataGridViewCellStyle2.NullValue = null;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(162)))), ((int)(((byte)(162)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewBuscarProdutos.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(162)))), ((int)(((byte)(162)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            dataGridViewCellStyle8.NullValue = null;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(162)))), ((int)(((byte)(162)))));
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewBuscarProdutos.DefaultCellStyle = dataGridViewCellStyle8;
             this.dataGridViewBuscarProdutos.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewBuscarProdutos.Location = new System.Drawing.Point(0, 0);
             this.dataGridViewBuscarProdutos.Name = "dataGridViewBuscarProdutos";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(162)))), ((int)(((byte)(162)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewBuscarProdutos.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(162)))), ((int)(((byte)(162)))));
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewBuscarProdutos.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dataGridViewBuscarProdutos.RowHeadersWidth = 51;
             this.dataGridViewBuscarProdutos.RowTemplate.Height = 24;
             this.dataGridViewBuscarProdutos.Size = new System.Drawing.Size(1461, 334);
@@ -265,6 +265,21 @@
             this.panel6.TabIndex = 10;
             this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
             // 
+            // iconPictureBoxUsuario
+            // 
+            this.iconPictureBoxUsuario.BackColor = System.Drawing.Color.White;
+            this.iconPictureBoxUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.iconPictureBoxUsuario.IconChar = FontAwesome.Sharp.IconChar.MagnifyingGlass;
+            this.iconPictureBoxUsuario.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.iconPictureBoxUsuario.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconPictureBoxUsuario.IconSize = 30;
+            this.iconPictureBoxUsuario.Location = new System.Drawing.Point(14, 9);
+            this.iconPictureBoxUsuario.Name = "iconPictureBoxUsuario";
+            this.iconPictureBoxUsuario.Size = new System.Drawing.Size(30, 32);
+            this.iconPictureBoxUsuario.TabIndex = 15;
+            this.iconPictureBoxUsuario.TabStop = false;
+            this.iconPictureBoxUsuario.Click += new System.EventHandler(this.iconPictureBoxUsuario_Click);
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -339,9 +354,9 @@
             this.panel2.Controls.Add(this.iconButton2);
             this.panel2.Controls.Add(this.iconButton1);
             this.panel2.Controls.Add(this.btnNovoProduto);
-            this.panel2.Location = new System.Drawing.Point(44, 67);
+            this.panel2.Location = new System.Drawing.Point(52, 24);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1504, 77);
+            this.panel2.Size = new System.Drawing.Size(1504, 63);
             this.panel2.TabIndex = 1;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
@@ -357,9 +372,9 @@
             this.iconButton3.IconColor = System.Drawing.Color.White;
             this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.iconButton3.IconSize = 30;
-            this.iconButton3.Location = new System.Drawing.Point(858, 0);
+            this.iconButton3.Location = new System.Drawing.Point(711, -1);
             this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Size = new System.Drawing.Size(267, 77);
+            this.iconButton3.Size = new System.Drawing.Size(201, 61);
             this.iconButton3.TabIndex = 3;
             this.iconButton3.Text = "Atualizar";
             this.iconButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -378,9 +393,9 @@
             this.iconButton2.IconColor = System.Drawing.Color.White;
             this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.iconButton2.IconSize = 30;
-            this.iconButton2.Location = new System.Drawing.Point(572, 0);
+            this.iconButton2.Location = new System.Drawing.Point(471, -1);
             this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Size = new System.Drawing.Size(267, 77);
+            this.iconButton2.Size = new System.Drawing.Size(201, 61);
             this.iconButton2.TabIndex = 2;
             this.iconButton2.Text = "Buscar";
             this.iconButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -399,9 +414,9 @@
             this.iconButton1.IconColor = System.Drawing.Color.White;
             this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.iconButton1.IconSize = 30;
-            this.iconButton1.Location = new System.Drawing.Point(286, 0);
+            this.iconButton1.Location = new System.Drawing.Point(234, -1);
             this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(267, 77);
+            this.iconButton1.Size = new System.Drawing.Size(201, 61);
             this.iconButton1.TabIndex = 1;
             this.iconButton1.Text = "Importação";
             this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -422,27 +437,12 @@
             this.btnNovoProduto.IconSize = 30;
             this.btnNovoProduto.Location = new System.Drawing.Point(0, 0);
             this.btnNovoProduto.Name = "btnNovoProduto";
-            this.btnNovoProduto.Size = new System.Drawing.Size(267, 77);
+            this.btnNovoProduto.Size = new System.Drawing.Size(201, 61);
             this.btnNovoProduto.TabIndex = 0;
             this.btnNovoProduto.Text = "Novo Produto";
             this.btnNovoProduto.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnNovoProduto.UseVisualStyleBackColor = false;
             this.btnNovoProduto.Click += new System.EventHandler(this.btnNovoProduto_Click_1);
-            // 
-            // iconPictureBoxUsuario
-            // 
-            this.iconPictureBoxUsuario.BackColor = System.Drawing.Color.White;
-            this.iconPictureBoxUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.iconPictureBoxUsuario.IconChar = FontAwesome.Sharp.IconChar.MagnifyingGlass;
-            this.iconPictureBoxUsuario.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.iconPictureBoxUsuario.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBoxUsuario.IconSize = 30;
-            this.iconPictureBoxUsuario.Location = new System.Drawing.Point(14, 9);
-            this.iconPictureBoxUsuario.Name = "iconPictureBoxUsuario";
-            this.iconPictureBoxUsuario.Size = new System.Drawing.Size(30, 32);
-            this.iconPictureBoxUsuario.TabIndex = 15;
-            this.iconPictureBoxUsuario.TabStop = false;
-            this.iconPictureBoxUsuario.Click += new System.EventHandler(this.iconPictureBoxUsuario_Click);
             // 
             // TelaProdutos
             // 
@@ -465,12 +465,12 @@
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panel6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBoxUsuario)).EndInit();
             this.panel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBoxUsuario)).EndInit();
             this.ResumeLayout(false);
 
         }

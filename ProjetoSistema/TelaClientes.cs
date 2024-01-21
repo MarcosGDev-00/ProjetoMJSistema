@@ -40,6 +40,8 @@ namespace ProjetoSistema
         private void btnNovoProduto_Click(object sender, EventArgs e)
         {
             exibirFormFilhoNoPanel(new CadastrarClientes());
+
+            CadastrarCliente cliente = new CadastrarCliente();
         }
     }
 }

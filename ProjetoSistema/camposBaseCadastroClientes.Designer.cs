@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.panel8 = new System.Windows.Forms.Panel();
-            this.cxCargo = new System.Windows.Forms.ComboBox();
+            this.cxTipoDocBase = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cxInsEstadualBase = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.cxDocBase = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -44,69 +44,69 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cxIndIeBase = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.cxInsMunicipalBase = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.cxNomeClienteBase = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.cxRgBase = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.cxDataEmissaoBase = new System.Windows.Forms.MaskedTextBox();
+            this.dtDataEmissaoBase = new System.Windows.Forms.DateTimePicker();
             this.label13 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.cxOrgaoBase = new System.Windows.Forms.TextBox();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.cxRsocialBase = new System.Windows.Forms.TextBox();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.cxEndBase = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.cxNumeroBase = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.panel13 = new System.Windows.Forms.Panel();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.cxBairroBase = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.cxCepBase = new System.Windows.Forms.TextBox();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.cxRefBase = new System.Windows.Forms.TextBox();
             this.panel16 = new System.Windows.Forms.Panel();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.cxApelidoBase = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.panel17 = new System.Windows.Forms.Panel();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.cxEmailBase = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.panel18 = new System.Windows.Forms.Panel();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cxPaisBase = new System.Windows.Forms.ComboBox();
             this.panel19 = new System.Windows.Forms.Panel();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.cxEstadoBase = new System.Windows.Forms.ComboBox();
             this.label19 = new System.Windows.Forms.Label();
             this.panel20 = new System.Windows.Forms.Panel();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.cxCidadeBase = new System.Windows.Forms.ComboBox();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.panel21 = new System.Windows.Forms.Panel();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.cxDescontoBase = new System.Windows.Forms.TextBox();
             this.panel22 = new System.Windows.Forms.Panel();
-            this.maskedTextBoxTelefone = new System.Windows.Forms.MaskedTextBox();
+            this.cxTelefonebase = new System.Windows.Forms.MaskedTextBox();
             this.panel23 = new System.Windows.Forms.Panel();
-            this.maskedTextBoxTelefone2 = new System.Windows.Forms.MaskedTextBox();
+            this.cxTelefone2Base = new System.Windows.Forms.MaskedTextBox();
             this.label22 = new System.Windows.Forms.Label();
             this.panel24 = new System.Windows.Forms.Panel();
-            this.maskedTextBoxCelular = new System.Windows.Forms.MaskedTextBox();
+            this.cxCelularBase = new System.Windows.Forms.MaskedTextBox();
             this.label23 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.panel26 = new System.Windows.Forms.Panel();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.cxEstadoCivilBase = new System.Windows.Forms.ComboBox();
             this.label24 = new System.Windows.Forms.Label();
             this.panel25 = new System.Windows.Forms.Panel();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.cxSexoBase = new System.Windows.Forms.ComboBox();
             this.panel8.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -138,28 +138,29 @@
             // panel8
             // 
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel8.Controls.Add(this.cxCargo);
+            this.panel8.Controls.Add(this.cxTipoDocBase);
             this.panel8.Location = new System.Drawing.Point(17, 42);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(149, 37);
             this.panel8.TabIndex = 119;
             // 
-            // cxCargo
+            // cxTipoDocBase
             // 
-            this.cxCargo.BackColor = System.Drawing.Color.White;
-            this.cxCargo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cxCargo.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
-            this.cxCargo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.cxCargo.FormattingEnabled = true;
-            this.cxCargo.Items.AddRange(new object[] {
+            this.cxTipoDocBase.BackColor = System.Drawing.Color.White;
+            this.cxTipoDocBase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxTipoDocBase.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
+            this.cxTipoDocBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxTipoDocBase.FormattingEnabled = true;
+            this.cxTipoDocBase.Items.AddRange(new object[] {
             "Selecione",
             "CPF",
             "CNPJ"});
-            this.cxCargo.Location = new System.Drawing.Point(12, 3);
-            this.cxCargo.Name = "cxCargo";
-            this.cxCargo.Size = new System.Drawing.Size(124, 31);
-            this.cxCargo.TabIndex = 12;
-            this.cxCargo.Text = "Selecione";
+            this.cxTipoDocBase.Location = new System.Drawing.Point(12, 3);
+            this.cxTipoDocBase.Name = "cxTipoDocBase";
+            this.cxTipoDocBase.Size = new System.Drawing.Size(124, 31);
+            this.cxTipoDocBase.TabIndex = 12;
+            this.cxTipoDocBase.Text = "Selecione";
+            this.cxTipoDocBase.SelectedIndexChanged += new System.EventHandler(this.cxTipoDocBase_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -186,22 +187,23 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.cxInsEstadualBase);
             this.panel2.Location = new System.Drawing.Point(383, 42);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(303, 37);
             this.panel2.TabIndex = 123;
             // 
-            // textBox1
+            // cxInsEstadualBase
             // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox1.Location = new System.Drawing.Point(15, 6);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(271, 23);
-            this.textBox1.TabIndex = 11;
+            this.cxInsEstadualBase.BackColor = System.Drawing.Color.White;
+            this.cxInsEstadualBase.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxInsEstadualBase.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxInsEstadualBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxInsEstadualBase.Location = new System.Drawing.Point(15, 6);
+            this.cxInsEstadualBase.Name = "cxInsEstadualBase";
+            this.cxInsEstadualBase.Size = new System.Drawing.Size(271, 23);
+            this.cxInsEstadualBase.TabIndex = 11;
+            this.cxInsEstadualBase.TextChanged += new System.EventHandler(this.cxInsEstadualBase_TextChanged);
             // 
             // label1
             // 
@@ -217,22 +219,23 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.textBox4);
+            this.panel1.Controls.Add(this.cxDocBase);
             this.panel1.Location = new System.Drawing.Point(172, 42);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(157, 37);
             this.panel1.TabIndex = 121;
             // 
-            // textBox4
+            // cxDocBase
             // 
-            this.textBox4.BackColor = System.Drawing.Color.White;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox4.Location = new System.Drawing.Point(6, 6);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(140, 23);
-            this.textBox4.TabIndex = 11;
+            this.cxDocBase.BackColor = System.Drawing.Color.White;
+            this.cxDocBase.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxDocBase.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxDocBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxDocBase.Location = new System.Drawing.Point(6, 6);
+            this.cxDocBase.Name = "cxDocBase";
+            this.cxDocBase.Size = new System.Drawing.Size(140, 23);
+            this.cxDocBase.TabIndex = 11;
+            this.cxDocBase.TextChanged += new System.EventHandler(this.cxDocBase_TextChanged);
             // 
             // label4
             // 
@@ -296,35 +299,34 @@
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
             this.label9.Location = new System.Drawing.Point(730, 13);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(101, 23);
+            this.label9.Size = new System.Drawing.Size(54, 23);
             this.label9.TabIndex = 131;
-            this.label9.Text = "Ins Estadual";
+            this.label9.Text = "Ind IE";
             // 
             // panel4
             // 
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.comboBox1);
+            this.panel4.Controls.Add(this.cxIndIeBase);
             this.panel4.Location = new System.Drawing.Point(734, 42);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(357, 37);
             this.panel4.TabIndex = 132;
             // 
-            // comboBox1
+            // cxIndIeBase
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.White;
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
-            this.comboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Selecione",
-            "CPF",
-            "CNPJ"});
-            this.comboBox1.Location = new System.Drawing.Point(12, 3);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(332, 31);
-            this.comboBox1.TabIndex = 13;
-            this.comboBox1.Text = "Selecione";
+            this.cxIndIeBase.BackColor = System.Drawing.Color.White;
+            this.cxIndIeBase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxIndIeBase.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
+            this.cxIndIeBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxIndIeBase.FormattingEnabled = true;
+            this.cxIndIeBase.Items.AddRange(new object[] {
+            "Selecione"});
+            this.cxIndIeBase.Location = new System.Drawing.Point(12, 3);
+            this.cxIndIeBase.Name = "cxIndIeBase";
+            this.cxIndIeBase.Size = new System.Drawing.Size(332, 31);
+            this.cxIndIeBase.TabIndex = 13;
+            this.cxIndIeBase.Text = "Selecione";
+            this.cxIndIeBase.SelectedIndexChanged += new System.EventHandler(this.cxIndIeBase_SelectedIndexChanged);
             // 
             // label10
             // 
@@ -333,49 +335,51 @@
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
             this.label10.Location = new System.Drawing.Point(1135, 13);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(101, 23);
+            this.label10.Size = new System.Drawing.Size(112, 23);
             this.label10.TabIndex = 133;
-            this.label10.Text = "Ins Estadual";
+            this.label10.Text = "Ins Municipal";
             // 
             // panel5
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.textBox5);
+            this.panel5.Controls.Add(this.cxInsMunicipalBase);
             this.panel5.Location = new System.Drawing.Point(1139, 42);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(284, 37);
             this.panel5.TabIndex = 134;
             // 
-            // textBox5
+            // cxInsMunicipalBase
             // 
-            this.textBox5.BackColor = System.Drawing.Color.White;
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox5.Location = new System.Drawing.Point(11, 6);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(261, 23);
-            this.textBox5.TabIndex = 12;
+            this.cxInsMunicipalBase.BackColor = System.Drawing.Color.White;
+            this.cxInsMunicipalBase.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxInsMunicipalBase.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxInsMunicipalBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxInsMunicipalBase.Location = new System.Drawing.Point(11, 6);
+            this.cxInsMunicipalBase.Name = "cxInsMunicipalBase";
+            this.cxInsMunicipalBase.Size = new System.Drawing.Size(261, 23);
+            this.cxInsMunicipalBase.TabIndex = 12;
+            this.cxInsMunicipalBase.TextChanged += new System.EventHandler(this.cxInsMunicipalBase_TextChanged);
             // 
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.textBox2);
+            this.panel3.Controls.Add(this.cxNomeClienteBase);
             this.panel3.Location = new System.Drawing.Point(16, 116);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(313, 37);
             this.panel3.TabIndex = 135;
             // 
-            // textBox2
+            // cxNomeClienteBase
             // 
-            this.textBox2.BackColor = System.Drawing.Color.White;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox2.Location = new System.Drawing.Point(7, 6);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(295, 23);
-            this.textBox2.TabIndex = 12;
+            this.cxNomeClienteBase.BackColor = System.Drawing.Color.White;
+            this.cxNomeClienteBase.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxNomeClienteBase.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxNomeClienteBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxNomeClienteBase.Location = new System.Drawing.Point(7, 6);
+            this.cxNomeClienteBase.Name = "cxNomeClienteBase";
+            this.cxNomeClienteBase.Size = new System.Drawing.Size(295, 23);
+            this.cxNomeClienteBase.TabIndex = 12;
+            this.cxNomeClienteBase.TextChanged += new System.EventHandler(this.cxNomeClienteBase_TextChanged);
             // 
             // label11
             // 
@@ -391,22 +395,23 @@
             // panel6
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.textBox3);
+            this.panel6.Controls.Add(this.cxRgBase);
             this.panel6.Location = new System.Drawing.Point(646, 116);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(261, 37);
             this.panel6.TabIndex = 137;
             // 
-            // textBox3
+            // cxRgBase
             // 
-            this.textBox3.BackColor = System.Drawing.Color.White;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox3.Location = new System.Drawing.Point(7, 6);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(169, 23);
-            this.textBox3.TabIndex = 12;
+            this.cxRgBase.BackColor = System.Drawing.Color.White;
+            this.cxRgBase.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxRgBase.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxRgBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxRgBase.Location = new System.Drawing.Point(12, 6);
+            this.cxRgBase.Name = "cxRgBase";
+            this.cxRgBase.Size = new System.Drawing.Size(235, 23);
+            this.cxRgBase.TabIndex = 12;
+            this.cxRgBase.TextChanged += new System.EventHandler(this.cxRgBase_TextChanged);
             // 
             // label12
             // 
@@ -422,39 +427,39 @@
             // panel7
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel7.Controls.Add(this.maskedTextBox2);
-            this.panel7.Controls.Add(this.dateTimePicker1);
+            this.panel7.Controls.Add(this.cxDataEmissaoBase);
+            this.panel7.Controls.Add(this.dtDataEmissaoBase);
             this.panel7.Location = new System.Drawing.Point(947, 116);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(258, 37);
             this.panel7.TabIndex = 139;
             // 
-            // maskedTextBox2
+            // cxDataEmissaoBase
             // 
-            this.maskedTextBox2.BackColor = System.Drawing.Color.White;
-            this.maskedTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.maskedTextBox2.Font = new System.Drawing.Font("Segoe UI", 10.2F);
-            this.maskedTextBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.maskedTextBox2.Location = new System.Drawing.Point(13, 6);
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(208, 23);
-            this.maskedTextBox2.TabIndex = 132;
-            this.maskedTextBox2.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox2_MaskInputRejected);
-            this.maskedTextBox2.TypeValidationCompleted += new System.Windows.Forms.TypeValidationEventHandler(this.maskedTextBox2_TypeValidationCompleted);
-            this.maskedTextBox2.TextChanged += new System.EventHandler(this.maskedTextBox2_TextChanged);
+            this.cxDataEmissaoBase.BackColor = System.Drawing.Color.White;
+            this.cxDataEmissaoBase.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxDataEmissaoBase.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.cxDataEmissaoBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxDataEmissaoBase.Location = new System.Drawing.Point(13, 6);
+            this.cxDataEmissaoBase.Name = "cxDataEmissaoBase";
+            this.cxDataEmissaoBase.Size = new System.Drawing.Size(208, 23);
+            this.cxDataEmissaoBase.TabIndex = 132;
+            this.cxDataEmissaoBase.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox2_MaskInputRejected);
+            this.cxDataEmissaoBase.TypeValidationCompleted += new System.Windows.Forms.TypeValidationEventHandler(this.maskedTextBox2_TypeValidationCompleted);
+            this.cxDataEmissaoBase.TextChanged += new System.EventHandler(this.maskedTextBox2_TextChanged);
             // 
-            // dateTimePicker1
+            // dtDataEmissaoBase
             // 
-            this.dateTimePicker1.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.dateTimePicker1.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(190)))), ((int)(((byte)(190)))));
-            this.dateTimePicker1.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.dateTimePicker1.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.dateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 10.2F);
-            this.dateTimePicker1.Location = new System.Drawing.Point(227, 2);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(20, 30);
-            this.dateTimePicker1.TabIndex = 0;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            this.dtDataEmissaoBase.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.dtDataEmissaoBase.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(190)))), ((int)(((byte)(190)))));
+            this.dtDataEmissaoBase.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.dtDataEmissaoBase.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.dtDataEmissaoBase.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.dtDataEmissaoBase.Location = new System.Drawing.Point(227, 2);
+            this.dtDataEmissaoBase.Name = "dtDataEmissaoBase";
+            this.dtDataEmissaoBase.Size = new System.Drawing.Size(20, 30);
+            this.dtDataEmissaoBase.TabIndex = 0;
+            this.dtDataEmissaoBase.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // label13
             // 
@@ -470,51 +475,65 @@
             // panel9
             // 
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel9.Controls.Add(this.textBox6);
+            this.panel9.Controls.Add(this.cxOrgaoBase);
             this.panel9.Location = new System.Drawing.Point(1239, 116);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(184, 37);
             this.panel9.TabIndex = 139;
             // 
+            // cxOrgaoBase
+            // 
+            this.cxOrgaoBase.BackColor = System.Drawing.Color.White;
+            this.cxOrgaoBase.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxOrgaoBase.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxOrgaoBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxOrgaoBase.Location = new System.Drawing.Point(6, 7);
+            this.cxOrgaoBase.Name = "cxOrgaoBase";
+            this.cxOrgaoBase.Size = new System.Drawing.Size(169, 23);
+            this.cxOrgaoBase.TabIndex = 12;
+            this.cxOrgaoBase.TextChanged += new System.EventHandler(this.cxOrgaoBase_TextChanged);
+            // 
             // panel10
             // 
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel10.Controls.Add(this.textBox7);
+            this.panel10.Controls.Add(this.cxRsocialBase);
             this.panel10.Location = new System.Drawing.Point(366, 116);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(245, 37);
             this.panel10.TabIndex = 140;
             // 
-            // textBox7
+            // cxRsocialBase
             // 
-            this.textBox7.BackColor = System.Drawing.Color.White;
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox7.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox7.Location = new System.Drawing.Point(10, 6);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(224, 23);
-            this.textBox7.TabIndex = 12;
+            this.cxRsocialBase.BackColor = System.Drawing.Color.White;
+            this.cxRsocialBase.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxRsocialBase.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxRsocialBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxRsocialBase.Location = new System.Drawing.Point(10, 6);
+            this.cxRsocialBase.Name = "cxRsocialBase";
+            this.cxRsocialBase.Size = new System.Drawing.Size(224, 23);
+            this.cxRsocialBase.TabIndex = 12;
+            this.cxRsocialBase.TextChanged += new System.EventHandler(this.cxRsocialBase_TextChanged);
             // 
             // panel11
             // 
             this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel11.Controls.Add(this.textBox8);
+            this.panel11.Controls.Add(this.cxEndBase);
             this.panel11.Location = new System.Drawing.Point(16, 193);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(555, 37);
             this.panel11.TabIndex = 141;
             // 
-            // textBox8
+            // cxEndBase
             // 
-            this.textBox8.BackColor = System.Drawing.Color.White;
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox8.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox8.Location = new System.Drawing.Point(11, 6);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(531, 23);
-            this.textBox8.TabIndex = 12;
+            this.cxEndBase.BackColor = System.Drawing.Color.White;
+            this.cxEndBase.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxEndBase.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxEndBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxEndBase.Location = new System.Drawing.Point(11, 6);
+            this.cxEndBase.Name = "cxEndBase";
+            this.cxEndBase.Size = new System.Drawing.Size(531, 23);
+            this.cxEndBase.TabIndex = 12;
+            this.cxEndBase.TextChanged += new System.EventHandler(this.cxEndBase_TextChanged);
             // 
             // label14
             // 
@@ -530,22 +549,23 @@
             // panel12
             // 
             this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel12.Controls.Add(this.textBox9);
+            this.panel12.Controls.Add(this.cxNumeroBase);
             this.panel12.Location = new System.Drawing.Point(626, 193);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(101, 37);
             this.panel12.TabIndex = 143;
             // 
-            // textBox9
+            // cxNumeroBase
             // 
-            this.textBox9.BackColor = System.Drawing.Color.White;
-            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox9.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox9.Location = new System.Drawing.Point(8, 6);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(84, 23);
-            this.textBox9.TabIndex = 12;
+            this.cxNumeroBase.BackColor = System.Drawing.Color.White;
+            this.cxNumeroBase.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxNumeroBase.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxNumeroBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxNumeroBase.Location = new System.Drawing.Point(8, 6);
+            this.cxNumeroBase.Name = "cxNumeroBase";
+            this.cxNumeroBase.Size = new System.Drawing.Size(84, 23);
+            this.cxNumeroBase.TabIndex = 12;
+            this.cxNumeroBase.TextChanged += new System.EventHandler(this.cxNumeroBase_TextChanged);
             // 
             // label15
             // 
@@ -562,22 +582,23 @@
             // panel13
             // 
             this.panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel13.Controls.Add(this.textBox10);
+            this.panel13.Controls.Add(this.cxBairroBase);
             this.panel13.Location = new System.Drawing.Point(787, 193);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(339, 37);
             this.panel13.TabIndex = 145;
             // 
-            // textBox10
+            // cxBairroBase
             // 
-            this.textBox10.BackColor = System.Drawing.Color.White;
-            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox10.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox10.Location = new System.Drawing.Point(11, 6);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(317, 23);
-            this.textBox10.TabIndex = 12;
+            this.cxBairroBase.BackColor = System.Drawing.Color.White;
+            this.cxBairroBase.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxBairroBase.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxBairroBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxBairroBase.Location = new System.Drawing.Point(11, 6);
+            this.cxBairroBase.Name = "cxBairroBase";
+            this.cxBairroBase.Size = new System.Drawing.Size(317, 23);
+            this.cxBairroBase.TabIndex = 12;
+            this.cxBairroBase.TextChanged += new System.EventHandler(this.cxBairroBase_TextChanged);
             // 
             // label16
             // 
@@ -593,22 +614,23 @@
             // panel14
             // 
             this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel14.Controls.Add(this.textBox11);
+            this.panel14.Controls.Add(this.cxCepBase);
             this.panel14.Location = new System.Drawing.Point(1175, 193);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(184, 37);
             this.panel14.TabIndex = 147;
             // 
-            // textBox11
+            // cxCepBase
             // 
-            this.textBox11.BackColor = System.Drawing.Color.White;
-            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox11.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox11.Location = new System.Drawing.Point(7, 6);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(169, 23);
-            this.textBox11.TabIndex = 12;
+            this.cxCepBase.BackColor = System.Drawing.Color.White;
+            this.cxCepBase.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxCepBase.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxCepBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxCepBase.Location = new System.Drawing.Point(7, 6);
+            this.cxCepBase.Name = "cxCepBase";
+            this.cxCepBase.Size = new System.Drawing.Size(169, 23);
+            this.cxCepBase.TabIndex = 12;
+            this.cxCepBase.TextChanged += new System.EventHandler(this.cxCepBase_TextChanged);
             // 
             // iconButton1
             // 
@@ -625,46 +647,49 @@
             this.iconButton1.Size = new System.Drawing.Size(45, 39);
             this.iconButton1.TabIndex = 148;
             this.iconButton1.UseVisualStyleBackColor = false;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
             // 
             // panel15
             // 
             this.panel15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel15.Controls.Add(this.textBox12);
+            this.panel15.Controls.Add(this.cxRefBase);
             this.panel15.Location = new System.Drawing.Point(17, 267);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(452, 37);
             this.panel15.TabIndex = 149;
             // 
-            // textBox12
+            // cxRefBase
             // 
-            this.textBox12.BackColor = System.Drawing.Color.White;
-            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox12.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox12.Location = new System.Drawing.Point(13, 6);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(423, 23);
-            this.textBox12.TabIndex = 12;
+            this.cxRefBase.BackColor = System.Drawing.Color.White;
+            this.cxRefBase.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxRefBase.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxRefBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxRefBase.Location = new System.Drawing.Point(13, 6);
+            this.cxRefBase.Name = "cxRefBase";
+            this.cxRefBase.Size = new System.Drawing.Size(423, 23);
+            this.cxRefBase.TabIndex = 12;
+            this.cxRefBase.TextChanged += new System.EventHandler(this.cxRefBase_TextChanged);
             // 
             // panel16
             // 
             this.panel16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel16.Controls.Add(this.textBox13);
+            this.panel16.Controls.Add(this.cxApelidoBase);
             this.panel16.Location = new System.Drawing.Point(525, 267);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(425, 37);
             this.panel16.TabIndex = 151;
             // 
-            // textBox13
+            // cxApelidoBase
             // 
-            this.textBox13.BackColor = System.Drawing.Color.White;
-            this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox13.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox13.Location = new System.Drawing.Point(13, 6);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(397, 23);
-            this.textBox13.TabIndex = 12;
+            this.cxApelidoBase.BackColor = System.Drawing.Color.White;
+            this.cxApelidoBase.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxApelidoBase.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxApelidoBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxApelidoBase.Location = new System.Drawing.Point(13, 6);
+            this.cxApelidoBase.Name = "cxApelidoBase";
+            this.cxApelidoBase.Size = new System.Drawing.Size(397, 23);
+            this.cxApelidoBase.TabIndex = 12;
+            this.cxApelidoBase.TextChanged += new System.EventHandler(this.cxApelidoBase_TextChanged);
             // 
             // label17
             // 
@@ -680,22 +705,23 @@
             // panel17
             // 
             this.panel17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel17.Controls.Add(this.textBox14);
+            this.panel17.Controls.Add(this.cxEmailBase);
             this.panel17.Location = new System.Drawing.Point(1001, 267);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(422, 37);
             this.panel17.TabIndex = 153;
             // 
-            // textBox14
+            // cxEmailBase
             // 
-            this.textBox14.BackColor = System.Drawing.Color.White;
-            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox14.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox14.Location = new System.Drawing.Point(8, 6);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(402, 23);
-            this.textBox14.TabIndex = 12;
+            this.cxEmailBase.BackColor = System.Drawing.Color.White;
+            this.cxEmailBase.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxEmailBase.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxEmailBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxEmailBase.Location = new System.Drawing.Point(8, 6);
+            this.cxEmailBase.Name = "cxEmailBase";
+            this.cxEmailBase.Size = new System.Drawing.Size(402, 23);
+            this.cxEmailBase.TabIndex = 12;
+            this.cxEmailBase.TextChanged += new System.EventHandler(this.cxEmailBase_TextChanged);
             // 
             // label18
             // 
@@ -711,54 +737,52 @@
             // panel18
             // 
             this.panel18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel18.Controls.Add(this.comboBox2);
+            this.panel18.Controls.Add(this.cxPaisBase);
             this.panel18.Location = new System.Drawing.Point(17, 341);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(373, 37);
             this.panel18.TabIndex = 154;
             // 
-            // comboBox2
+            // cxPaisBase
             // 
-            this.comboBox2.BackColor = System.Drawing.Color.White;
-            this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
-            this.comboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "Selecione",
-            "CPF",
-            "CNPJ"});
-            this.comboBox2.Location = new System.Drawing.Point(13, 2);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(346, 31);
-            this.comboBox2.TabIndex = 13;
-            this.comboBox2.Text = "Selecione";
+            this.cxPaisBase.BackColor = System.Drawing.Color.White;
+            this.cxPaisBase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxPaisBase.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
+            this.cxPaisBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxPaisBase.FormattingEnabled = true;
+            this.cxPaisBase.Items.AddRange(new object[] {
+            "Selecione"});
+            this.cxPaisBase.Location = new System.Drawing.Point(13, 2);
+            this.cxPaisBase.Name = "cxPaisBase";
+            this.cxPaisBase.Size = new System.Drawing.Size(346, 31);
+            this.cxPaisBase.TabIndex = 13;
+            this.cxPaisBase.Text = "Selecione";
+            this.cxPaisBase.SelectedIndexChanged += new System.EventHandler(this.cxPaisBase_SelectedIndexChanged);
             // 
             // panel19
             // 
             this.panel19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel19.Controls.Add(this.comboBox3);
+            this.panel19.Controls.Add(this.cxEstadoBase);
             this.panel19.Location = new System.Drawing.Point(423, 341);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(289, 37);
             this.panel19.TabIndex = 156;
             // 
-            // comboBox3
+            // cxEstadoBase
             // 
-            this.comboBox3.BackColor = System.Drawing.Color.White;
-            this.comboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
-            this.comboBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "Selecione",
-            "CPF",
-            "CNPJ"});
-            this.comboBox3.Location = new System.Drawing.Point(7, 3);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(272, 31);
-            this.comboBox3.TabIndex = 13;
-            this.comboBox3.Text = "Selecione";
+            this.cxEstadoBase.BackColor = System.Drawing.Color.White;
+            this.cxEstadoBase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxEstadoBase.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
+            this.cxEstadoBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxEstadoBase.FormattingEnabled = true;
+            this.cxEstadoBase.Items.AddRange(new object[] {
+            "Selecione"});
+            this.cxEstadoBase.Location = new System.Drawing.Point(7, 3);
+            this.cxEstadoBase.Name = "cxEstadoBase";
+            this.cxEstadoBase.Size = new System.Drawing.Size(272, 31);
+            this.cxEstadoBase.TabIndex = 13;
+            this.cxEstadoBase.Text = "Selecione";
+            this.cxEstadoBase.SelectedIndexChanged += new System.EventHandler(this.cxEstadoBase_SelectedIndexChanged);
             // 
             // label19
             // 
@@ -774,28 +798,29 @@
             // panel20
             // 
             this.panel20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel20.Controls.Add(this.comboBox4);
+            this.panel20.Controls.Add(this.cxCidadeBase);
             this.panel20.Location = new System.Drawing.Point(747, 341);
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(289, 37);
             this.panel20.TabIndex = 158;
             // 
-            // comboBox4
+            // cxCidadeBase
             // 
-            this.comboBox4.BackColor = System.Drawing.Color.White;
-            this.comboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox4.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
-            this.comboBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.cxCidadeBase.BackColor = System.Drawing.Color.White;
+            this.cxCidadeBase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxCidadeBase.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
+            this.cxCidadeBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxCidadeBase.FormattingEnabled = true;
+            this.cxCidadeBase.Items.AddRange(new object[] {
             "Selecione",
             "CPF",
             "CNPJ"});
-            this.comboBox4.Location = new System.Drawing.Point(10, 3);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(268, 31);
-            this.comboBox4.TabIndex = 13;
-            this.comboBox4.Text = "Selecione";
+            this.cxCidadeBase.Location = new System.Drawing.Point(10, 3);
+            this.cxCidadeBase.Name = "cxCidadeBase";
+            this.cxCidadeBase.Size = new System.Drawing.Size(268, 31);
+            this.cxCidadeBase.TabIndex = 13;
+            this.cxCidadeBase.Text = "Selecione";
+            this.cxCidadeBase.SelectedIndexChanged += new System.EventHandler(this.cxCidadeBase_SelectedIndexChanged);
             // 
             // label20
             // 
@@ -822,63 +847,65 @@
             // panel21
             // 
             this.panel21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel21.Controls.Add(this.textBox15);
+            this.panel21.Controls.Add(this.cxDescontoBase);
             this.panel21.Location = new System.Drawing.Point(1070, 341);
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(353, 37);
             this.panel21.TabIndex = 160;
             // 
-            // textBox15
+            // cxDescontoBase
             // 
-            this.textBox15.BackColor = System.Drawing.Color.White;
-            this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox15.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox15.Location = new System.Drawing.Point(10, 6);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(330, 23);
-            this.textBox15.TabIndex = 12;
+            this.cxDescontoBase.BackColor = System.Drawing.Color.White;
+            this.cxDescontoBase.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxDescontoBase.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxDescontoBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxDescontoBase.Location = new System.Drawing.Point(10, 6);
+            this.cxDescontoBase.Name = "cxDescontoBase";
+            this.cxDescontoBase.Size = new System.Drawing.Size(330, 23);
+            this.cxDescontoBase.TabIndex = 12;
+            this.cxDescontoBase.TextChanged += new System.EventHandler(this.cxDescontoBase_TextChanged);
             // 
             // panel22
             // 
             this.panel22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel22.Controls.Add(this.maskedTextBoxTelefone);
+            this.panel22.Controls.Add(this.cxTelefonebase);
             this.panel22.Location = new System.Drawing.Point(17, 415);
             this.panel22.Name = "panel22";
             this.panel22.Size = new System.Drawing.Size(273, 37);
             this.panel22.TabIndex = 161;
             // 
-            // maskedTextBoxTelefone
+            // cxTelefonebase
             // 
-            this.maskedTextBoxTelefone.BackColor = System.Drawing.Color.White;
-            this.maskedTextBoxTelefone.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.maskedTextBoxTelefone.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBoxTelefone.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.maskedTextBoxTelefone.Location = new System.Drawing.Point(12, 6);
-            this.maskedTextBoxTelefone.Name = "maskedTextBoxTelefone";
-            this.maskedTextBoxTelefone.Size = new System.Drawing.Size(247, 23);
-            this.maskedTextBoxTelefone.TabIndex = 170;
-            this.maskedTextBoxTelefone.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBoxTelefone_MaskInputRejected);
+            this.cxTelefonebase.BackColor = System.Drawing.Color.White;
+            this.cxTelefonebase.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxTelefonebase.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxTelefonebase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxTelefonebase.Location = new System.Drawing.Point(12, 6);
+            this.cxTelefonebase.Name = "cxTelefonebase";
+            this.cxTelefonebase.Size = new System.Drawing.Size(247, 23);
+            this.cxTelefonebase.TabIndex = 170;
+            this.cxTelefonebase.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBoxTelefone_MaskInputRejected);
             // 
             // panel23
             // 
             this.panel23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel23.Controls.Add(this.maskedTextBoxTelefone2);
+            this.panel23.Controls.Add(this.cxTelefone2Base);
             this.panel23.Location = new System.Drawing.Point(354, 415);
             this.panel23.Name = "panel23";
             this.panel23.Size = new System.Drawing.Size(257, 37);
             this.panel23.TabIndex = 163;
             // 
-            // maskedTextBoxTelefone2
+            // cxTelefone2Base
             // 
-            this.maskedTextBoxTelefone2.BackColor = System.Drawing.Color.White;
-            this.maskedTextBoxTelefone2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.maskedTextBoxTelefone2.Font = new System.Drawing.Font("Segoe UI", 10.2F);
-            this.maskedTextBoxTelefone2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.maskedTextBoxTelefone2.Location = new System.Drawing.Point(11, 6);
-            this.maskedTextBoxTelefone2.Name = "maskedTextBoxTelefone2";
-            this.maskedTextBoxTelefone2.Size = new System.Drawing.Size(232, 23);
-            this.maskedTextBoxTelefone2.TabIndex = 171;
+            this.cxTelefone2Base.BackColor = System.Drawing.Color.White;
+            this.cxTelefone2Base.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxTelefone2Base.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.cxTelefone2Base.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxTelefone2Base.Location = new System.Drawing.Point(11, 6);
+            this.cxTelefone2Base.Name = "cxTelefone2Base";
+            this.cxTelefone2Base.Size = new System.Drawing.Size(232, 23);
+            this.cxTelefone2Base.TabIndex = 171;
+            this.cxTelefone2Base.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.cxTelefone2Base_MaskInputRejected);
             // 
             // label22
             // 
@@ -894,22 +921,23 @@
             // panel24
             // 
             this.panel24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel24.Controls.Add(this.maskedTextBoxCelular);
+            this.panel24.Controls.Add(this.cxCelularBase);
             this.panel24.Location = new System.Drawing.Point(659, 415);
             this.panel24.Name = "panel24";
             this.panel24.Size = new System.Drawing.Size(296, 37);
             this.panel24.TabIndex = 165;
             // 
-            // maskedTextBoxCelular
+            // cxCelularBase
             // 
-            this.maskedTextBoxCelular.BackColor = System.Drawing.Color.White;
-            this.maskedTextBoxCelular.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.maskedTextBoxCelular.Font = new System.Drawing.Font("Segoe UI", 10.2F);
-            this.maskedTextBoxCelular.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.maskedTextBoxCelular.Location = new System.Drawing.Point(9, 6);
-            this.maskedTextBoxCelular.Name = "maskedTextBoxCelular";
-            this.maskedTextBoxCelular.Size = new System.Drawing.Size(279, 23);
-            this.maskedTextBoxCelular.TabIndex = 171;
+            this.cxCelularBase.BackColor = System.Drawing.Color.White;
+            this.cxCelularBase.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxCelularBase.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.cxCelularBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxCelularBase.Location = new System.Drawing.Point(9, 6);
+            this.cxCelularBase.Name = "cxCelularBase";
+            this.cxCelularBase.Size = new System.Drawing.Size(279, 23);
+            this.cxCelularBase.TabIndex = 171;
+            this.cxCelularBase.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.cxCelularBase_MaskInputRejected);
             // 
             // label23
             // 
@@ -936,28 +964,31 @@
             // panel26
             // 
             this.panel26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel26.Controls.Add(this.comboBox6);
+            this.panel26.Controls.Add(this.cxEstadoCivilBase);
             this.panel26.Location = new System.Drawing.Point(1239, 415);
             this.panel26.Name = "panel26";
             this.panel26.Size = new System.Drawing.Size(186, 37);
             this.panel26.TabIndex = 172;
             // 
-            // comboBox6
+            // cxEstadoCivilBase
             // 
-            this.comboBox6.BackColor = System.Drawing.Color.White;
-            this.comboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox6.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
-            this.comboBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
+            this.cxEstadoCivilBase.BackColor = System.Drawing.Color.White;
+            this.cxEstadoCivilBase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxEstadoCivilBase.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
+            this.cxEstadoCivilBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxEstadoCivilBase.FormattingEnabled = true;
+            this.cxEstadoCivilBase.Items.AddRange(new object[] {
             "Selecione",
-            "CPF",
-            "CNPJ"});
-            this.comboBox6.Location = new System.Drawing.Point(12, 3);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(160, 31);
-            this.comboBox6.TabIndex = 12;
-            this.comboBox6.Text = "Selecione";
+            "Casado / a",
+            "Solteiro / a",
+            "Divorciado / a",
+            "Viúvo / a"});
+            this.cxEstadoCivilBase.Location = new System.Drawing.Point(12, 3);
+            this.cxEstadoCivilBase.Name = "cxEstadoCivilBase";
+            this.cxEstadoCivilBase.Size = new System.Drawing.Size(160, 31);
+            this.cxEstadoCivilBase.TabIndex = 12;
+            this.cxEstadoCivilBase.Text = "Selecione";
+            this.cxEstadoCivilBase.SelectedIndexChanged += new System.EventHandler(this.cxEstadoCivilBase_SelectedIndexChanged);
             // 
             // label24
             // 
@@ -973,39 +1004,29 @@
             // panel25
             // 
             this.panel25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel25.Controls.Add(this.comboBox5);
+            this.panel25.Controls.Add(this.cxSexoBase);
             this.panel25.Location = new System.Drawing.Point(1001, 415);
             this.panel25.Name = "panel25";
             this.panel25.Size = new System.Drawing.Size(183, 37);
             this.panel25.TabIndex = 170;
             // 
-            // comboBox5
+            // cxSexoBase
             // 
-            this.comboBox5.BackColor = System.Drawing.Color.White;
-            this.comboBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox5.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
-            this.comboBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
+            this.cxSexoBase.BackColor = System.Drawing.Color.White;
+            this.cxSexoBase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxSexoBase.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
+            this.cxSexoBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxSexoBase.FormattingEnabled = true;
+            this.cxSexoBase.Items.AddRange(new object[] {
             "Selecione",
-            "CPF",
-            "CNPJ"});
-            this.comboBox5.Location = new System.Drawing.Point(12, 3);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(155, 31);
-            this.comboBox5.TabIndex = 12;
-            this.comboBox5.Text = "Selecione";
-            // 
-            // textBox6
-            // 
-            this.textBox6.BackColor = System.Drawing.Color.White;
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox6.Location = new System.Drawing.Point(6, 7);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(169, 23);
-            this.textBox6.TabIndex = 12;
+            "Masculino",
+            "Feminino"});
+            this.cxSexoBase.Location = new System.Drawing.Point(12, 3);
+            this.cxSexoBase.Name = "cxSexoBase";
+            this.cxSexoBase.Size = new System.Drawing.Size(155, 31);
+            this.cxSexoBase.TabIndex = 12;
+            this.cxSexoBase.Text = "Selecione";
+            this.cxSexoBase.SelectedIndexChanged += new System.EventHandler(this.cxSexoBase_SelectedIndexChanged);
             // 
             // camposBaseCadastroClientes
             // 
@@ -1121,14 +1142,14 @@
         #endregion
 
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.ComboBox cxCargo;
+        private System.Windows.Forms.ComboBox cxTipoDocBase;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox cxInsEstadualBase;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox cxDocBase;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
@@ -1138,66 +1159,66 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.ComboBox cxIndIeBase;
+        private System.Windows.Forms.TextBox cxInsMunicipalBase;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox cxNomeClienteBase;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox cxRgBase;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.MaskedTextBox cxDataEmissaoBase;
+        private System.Windows.Forms.DateTimePicker dtDataEmissaoBase;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox cxRsocialBase;
         private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox cxEndBase;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox cxNumeroBase;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Panel panel13;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox cxBairroBase;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Panel panel14;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox cxCepBase;
         private FontAwesome.Sharp.IconButton iconButton1;
         private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.TextBox textBox12;
         private System.Windows.Forms.Panel panel16;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox cxApelidoBase;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Panel panel17;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox cxEmailBase;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Panel panel18;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cxPaisBase;
         private System.Windows.Forms.Panel panel19;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox cxEstadoBase;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Panel panel20;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox cxCidadeBase;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Panel panel21;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox cxDescontoBase;
         private System.Windows.Forms.Panel panel22;
         private System.Windows.Forms.Panel panel23;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Panel panel24;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.MaskedTextBox maskedTextBoxTelefone;
-        private System.Windows.Forms.MaskedTextBox maskedTextBoxTelefone2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBoxCelular;
+        private System.Windows.Forms.MaskedTextBox cxTelefonebase;
+        private System.Windows.Forms.MaskedTextBox cxTelefone2Base;
+        private System.Windows.Forms.MaskedTextBox cxCelularBase;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Panel panel26;
-        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.ComboBox cxEstadoCivilBase;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Panel panel25;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.ComboBox cxSexoBase;
+        private System.Windows.Forms.TextBox cxOrgaoBase;
+        private System.Windows.Forms.TextBox cxRefBase;
     }
 }

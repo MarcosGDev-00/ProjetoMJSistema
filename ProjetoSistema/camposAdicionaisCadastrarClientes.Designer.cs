@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             this.panel3 = new System.Windows.Forms.Panel();
+            this.cxUfClienteAdicional = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.cxCargo = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cxNacionalidadeClienteAdicional = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cxStatusClienteAdicional = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.cxDataNascimento = new System.Windows.Forms.MaskedTextBox();
-            this.dtDataNascimento = new System.Windows.Forms.DateTimePicker();
+            this.cxDataNascimentoClienteAdicional = new System.Windows.Forms.MaskedTextBox();
+            this.dtDataNascimentoClienteAdicional = new System.Windows.Forms.DateTimePicker();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.cxNaturalidadeClienteAdicional = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
@@ -54,11 +54,27 @@
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.comboBox1);
+            this.panel3.Controls.Add(this.cxUfClienteAdicional);
             this.panel3.Location = new System.Drawing.Point(19, 128);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(434, 37);
             this.panel3.TabIndex = 147;
+            // 
+            // cxUfClienteAdicional
+            // 
+            this.cxUfClienteAdicional.BackColor = System.Drawing.Color.White;
+            this.cxUfClienteAdicional.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxUfClienteAdicional.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
+            this.cxUfClienteAdicional.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxUfClienteAdicional.FormattingEnabled = true;
+            this.cxUfClienteAdicional.Items.AddRange(new object[] {
+            "Selecione"});
+            this.cxUfClienteAdicional.Location = new System.Drawing.Point(6, 2);
+            this.cxUfClienteAdicional.Name = "cxUfClienteAdicional";
+            this.cxUfClienteAdicional.Size = new System.Drawing.Size(418, 31);
+            this.cxUfClienteAdicional.TabIndex = 13;
+            this.cxUfClienteAdicional.Text = "Selecione";
+            this.cxUfClienteAdicional.SelectedIndexChanged += new System.EventHandler(this.cxUfClienteAdicional_SelectedIndexChanged);
             // 
             // label4
             // 
@@ -85,71 +101,54 @@
             // panel8
             // 
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel8.Controls.Add(this.cxCargo);
+            this.panel8.Controls.Add(this.cxNacionalidadeClienteAdicional);
             this.panel8.Location = new System.Drawing.Point(19, 53);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(434, 37);
             this.panel8.TabIndex = 142;
             // 
-            // cxCargo
+            // cxNacionalidadeClienteAdicional
             // 
-            this.cxCargo.BackColor = System.Drawing.Color.White;
-            this.cxCargo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cxCargo.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
-            this.cxCargo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.cxCargo.FormattingEnabled = true;
-            this.cxCargo.Items.AddRange(new object[] {
-            "Selecione",
-            "CPF",
-            "CNPJ"});
-            this.cxCargo.Location = new System.Drawing.Point(9, 3);
-            this.cxCargo.Name = "cxCargo";
-            this.cxCargo.Size = new System.Drawing.Size(415, 31);
-            this.cxCargo.TabIndex = 12;
-            this.cxCargo.Text = "Selecione";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.BackColor = System.Drawing.Color.White;
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
-            this.comboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Selecione",
-            "CPF",
-            "CNPJ"});
-            this.comboBox1.Location = new System.Drawing.Point(6, 2);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(418, 31);
-            this.comboBox1.TabIndex = 13;
-            this.comboBox1.Text = "Selecione";
+            this.cxNacionalidadeClienteAdicional.BackColor = System.Drawing.Color.White;
+            this.cxNacionalidadeClienteAdicional.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxNacionalidadeClienteAdicional.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
+            this.cxNacionalidadeClienteAdicional.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxNacionalidadeClienteAdicional.FormattingEnabled = true;
+            this.cxNacionalidadeClienteAdicional.Items.AddRange(new object[] {
+            "Selecione"});
+            this.cxNacionalidadeClienteAdicional.Location = new System.Drawing.Point(9, 3);
+            this.cxNacionalidadeClienteAdicional.Name = "cxNacionalidadeClienteAdicional";
+            this.cxNacionalidadeClienteAdicional.Size = new System.Drawing.Size(415, 31);
+            this.cxNacionalidadeClienteAdicional.TabIndex = 12;
+            this.cxNacionalidadeClienteAdicional.Text = "Selecione";
+            this.cxNacionalidadeClienteAdicional.SelectedIndexChanged += new System.EventHandler(this.cxNacionalidadeClienteAdicional_SelectedIndexChanged);
             // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.comboBox2);
+            this.panel1.Controls.Add(this.cxStatusClienteAdicional);
             this.panel1.Location = new System.Drawing.Point(19, 207);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(434, 37);
             this.panel1.TabIndex = 152;
             // 
-            // comboBox2
+            // cxStatusClienteAdicional
             // 
-            this.comboBox2.BackColor = System.Drawing.Color.White;
-            this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
-            this.comboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cxStatusClienteAdicional.BackColor = System.Drawing.Color.White;
+            this.cxStatusClienteAdicional.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxStatusClienteAdicional.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
+            this.cxStatusClienteAdicional.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxStatusClienteAdicional.FormattingEnabled = true;
+            this.cxStatusClienteAdicional.Items.AddRange(new object[] {
             "Selecione",
-            "CPF",
-            "CNPJ"});
-            this.comboBox2.Location = new System.Drawing.Point(6, 2);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(418, 31);
-            this.comboBox2.TabIndex = 13;
-            this.comboBox2.Text = "Selecione";
+            "Ativo",
+            "Inativo"});
+            this.cxStatusClienteAdicional.Location = new System.Drawing.Point(6, 2);
+            this.cxStatusClienteAdicional.Name = "cxStatusClienteAdicional";
+            this.cxStatusClienteAdicional.Size = new System.Drawing.Size(418, 31);
+            this.cxStatusClienteAdicional.TabIndex = 13;
+            this.cxStatusClienteAdicional.Text = "Selecione";
+            this.cxStatusClienteAdicional.SelectedIndexChanged += new System.EventHandler(this.cxStatusClienteAdicional_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -165,55 +164,57 @@
             // panel6
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.cxDataNascimento);
-            this.panel6.Controls.Add(this.dtDataNascimento);
+            this.panel6.Controls.Add(this.cxDataNascimentoClienteAdicional);
+            this.panel6.Controls.Add(this.dtDataNascimentoClienteAdicional);
             this.panel6.Location = new System.Drawing.Point(19, 372);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(434, 37);
             this.panel6.TabIndex = 153;
             // 
-            // cxDataNascimento
+            // cxDataNascimentoClienteAdicional
             // 
-            this.cxDataNascimento.BackColor = System.Drawing.Color.White;
-            this.cxDataNascimento.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.cxDataNascimento.Font = new System.Drawing.Font("Segoe UI", 10.2F);
-            this.cxDataNascimento.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.cxDataNascimento.Location = new System.Drawing.Point(9, 6);
-            this.cxDataNascimento.Name = "cxDataNascimento";
-            this.cxDataNascimento.Size = new System.Drawing.Size(389, 23);
-            this.cxDataNascimento.TabIndex = 132;
+            this.cxDataNascimentoClienteAdicional.BackColor = System.Drawing.Color.White;
+            this.cxDataNascimentoClienteAdicional.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxDataNascimentoClienteAdicional.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.cxDataNascimentoClienteAdicional.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxDataNascimentoClienteAdicional.Location = new System.Drawing.Point(9, 6);
+            this.cxDataNascimentoClienteAdicional.Name = "cxDataNascimentoClienteAdicional";
+            this.cxDataNascimentoClienteAdicional.Size = new System.Drawing.Size(389, 23);
+            this.cxDataNascimentoClienteAdicional.TabIndex = 132;
+            this.cxDataNascimentoClienteAdicional.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.cxDataNascimentoClienteAdicional_MaskInputRejected);
             // 
-            // dtDataNascimento
+            // dtDataNascimentoClienteAdicional
             // 
-            this.dtDataNascimento.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.dtDataNascimento.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(190)))), ((int)(((byte)(190)))));
-            this.dtDataNascimento.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.dtDataNascimento.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.dtDataNascimento.Font = new System.Drawing.Font("Segoe UI", 10.2F);
-            this.dtDataNascimento.Location = new System.Drawing.Point(404, 2);
-            this.dtDataNascimento.Name = "dtDataNascimento";
-            this.dtDataNascimento.Size = new System.Drawing.Size(15, 30);
-            this.dtDataNascimento.TabIndex = 0;
+            this.dtDataNascimentoClienteAdicional.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.dtDataNascimentoClienteAdicional.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(190)))), ((int)(((byte)(190)))));
+            this.dtDataNascimentoClienteAdicional.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.dtDataNascimentoClienteAdicional.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.dtDataNascimentoClienteAdicional.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.dtDataNascimentoClienteAdicional.Location = new System.Drawing.Point(404, 2);
+            this.dtDataNascimentoClienteAdicional.Name = "dtDataNascimentoClienteAdicional";
+            this.dtDataNascimentoClienteAdicional.Size = new System.Drawing.Size(15, 30);
+            this.dtDataNascimentoClienteAdicional.TabIndex = 0;
             // 
             // panel10
             // 
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel10.Controls.Add(this.textBox8);
+            this.panel10.Controls.Add(this.cxNaturalidadeClienteAdicional);
             this.panel10.Location = new System.Drawing.Point(19, 291);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(434, 37);
             this.panel10.TabIndex = 156;
             // 
-            // textBox8
+            // cxNaturalidadeClienteAdicional
             // 
-            this.textBox8.BackColor = System.Drawing.Color.White;
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox8.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox8.Location = new System.Drawing.Point(11, 6);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(413, 23);
-            this.textBox8.TabIndex = 13;
+            this.cxNaturalidadeClienteAdicional.BackColor = System.Drawing.Color.White;
+            this.cxNaturalidadeClienteAdicional.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxNaturalidadeClienteAdicional.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxNaturalidadeClienteAdicional.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxNaturalidadeClienteAdicional.Location = new System.Drawing.Point(11, 6);
+            this.cxNaturalidadeClienteAdicional.Name = "cxNaturalidadeClienteAdicional";
+            this.cxNaturalidadeClienteAdicional.Size = new System.Drawing.Size(413, 23);
+            this.cxNaturalidadeClienteAdicional.TabIndex = 13;
+            this.cxNaturalidadeClienteAdicional.TextChanged += new System.EventHandler(this.cxNaturalidadeClienteAdicional_TextChanged);
             // 
             // label6
             // 
@@ -270,19 +271,19 @@
 
         #endregion
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cxUfClienteAdicional;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.ComboBox cxCargo;
+        private System.Windows.Forms.ComboBox cxNacionalidadeClienteAdicional;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cxStatusClienteAdicional;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.MaskedTextBox cxDataNascimento;
-        private System.Windows.Forms.DateTimePicker dtDataNascimento;
+        private System.Windows.Forms.MaskedTextBox cxDataNascimentoClienteAdicional;
+        private System.Windows.Forms.DateTimePicker dtDataNascimentoClienteAdicional;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox cxNaturalidadeClienteAdicional;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label1;
     }

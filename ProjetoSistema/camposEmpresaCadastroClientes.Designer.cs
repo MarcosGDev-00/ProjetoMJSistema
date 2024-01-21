@@ -33,33 +33,33 @@
             this.label22 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.cxNomeEmpresaEmpresa = new System.Windows.Forms.TextBox();
             this.panel20 = new System.Windows.Forms.Panel();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.cxCidadeEmpresa = new System.Windows.Forms.ComboBox();
             this.label20 = new System.Windows.Forms.Label();
             this.panel19 = new System.Windows.Forms.Panel();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.cxUfEmpresa = new System.Windows.Forms.ComboBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.panel13 = new System.Windows.Forms.Panel();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.cxBairroEmpresa = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.cxCepEmpresa = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.cxNenderecoEmpresa = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.cxEnderecoEmpresa = new System.Windows.Forms.TextBox();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.cxCargoEmpresa = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.cxRenda = new System.Windows.Forms.MaskedTextBox();
+            this.cxRendaEmpresa = new System.Windows.Forms.MaskedTextBox();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.cxAdmissao = new System.Windows.Forms.MaskedTextBox();
+            this.cxAdmissaoEmpresa = new System.Windows.Forms.MaskedTextBox();
             this.dtAdmissao = new System.Windows.Forms.DateTimePicker();
             this.label12 = new System.Windows.Forms.Label();
             this.panel23.SuspendLayout();
@@ -94,6 +94,7 @@
             this.cxTelefoneEmpresa.Name = "cxTelefoneEmpresa";
             this.cxTelefoneEmpresa.Size = new System.Drawing.Size(232, 23);
             this.cxTelefoneEmpresa.TabIndex = 171;
+            this.cxTelefoneEmpresa.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.cxTelefoneEmpresa_MaskInputRejected);
             // 
             // label22
             // 
@@ -120,48 +121,48 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.textBox4);
+            this.panel1.Controls.Add(this.cxNomeEmpresaEmpresa);
             this.panel1.Location = new System.Drawing.Point(17, 45);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1109, 37);
             this.panel1.TabIndex = 234;
             // 
-            // textBox4
+            // cxNomeEmpresaEmpresa
             // 
-            this.textBox4.BackColor = System.Drawing.Color.White;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox4.Location = new System.Drawing.Point(6, 6);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(1078, 23);
-            this.textBox4.TabIndex = 11;
+            this.cxNomeEmpresaEmpresa.BackColor = System.Drawing.Color.White;
+            this.cxNomeEmpresaEmpresa.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxNomeEmpresaEmpresa.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxNomeEmpresaEmpresa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxNomeEmpresaEmpresa.Location = new System.Drawing.Point(6, 6);
+            this.cxNomeEmpresaEmpresa.Name = "cxNomeEmpresaEmpresa";
+            this.cxNomeEmpresaEmpresa.Size = new System.Drawing.Size(1078, 23);
+            this.cxNomeEmpresaEmpresa.TabIndex = 11;
+            this.cxNomeEmpresaEmpresa.TextChanged += new System.EventHandler(this.cxNomeEmpresaEmpresa_TextChanged);
             // 
             // panel20
             // 
             this.panel20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel20.Controls.Add(this.comboBox4);
+            this.panel20.Controls.Add(this.cxCidadeEmpresa);
             this.panel20.Location = new System.Drawing.Point(517, 280);
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(906, 37);
             this.panel20.TabIndex = 265;
             // 
-            // comboBox4
+            // cxCidadeEmpresa
             // 
-            this.comboBox4.BackColor = System.Drawing.Color.White;
-            this.comboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox4.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
-            this.comboBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
-            "Selecione",
-            "CPF",
-            "CNPJ"});
-            this.comboBox4.Location = new System.Drawing.Point(10, 3);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(881, 31);
-            this.comboBox4.TabIndex = 13;
-            this.comboBox4.Text = "Selecione";
+            this.cxCidadeEmpresa.BackColor = System.Drawing.Color.White;
+            this.cxCidadeEmpresa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxCidadeEmpresa.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
+            this.cxCidadeEmpresa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxCidadeEmpresa.FormattingEnabled = true;
+            this.cxCidadeEmpresa.Items.AddRange(new object[] {
+            "Selecione"});
+            this.cxCidadeEmpresa.Location = new System.Drawing.Point(10, 3);
+            this.cxCidadeEmpresa.Name = "cxCidadeEmpresa";
+            this.cxCidadeEmpresa.Size = new System.Drawing.Size(881, 31);
+            this.cxCidadeEmpresa.TabIndex = 13;
+            this.cxCidadeEmpresa.Text = "Selecione";
+            this.cxCidadeEmpresa.SelectedIndexChanged += new System.EventHandler(this.cxCidadeEmpresa_SelectedIndexChanged);
             // 
             // label20
             // 
@@ -177,28 +178,27 @@
             // panel19
             // 
             this.panel19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel19.Controls.Add(this.comboBox3);
+            this.panel19.Controls.Add(this.cxUfEmpresa);
             this.panel19.Location = new System.Drawing.Point(17, 280);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(446, 37);
             this.panel19.TabIndex = 263;
             // 
-            // comboBox3
+            // cxUfEmpresa
             // 
-            this.comboBox3.BackColor = System.Drawing.Color.White;
-            this.comboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
-            this.comboBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "Selecione",
-            "CPF",
-            "CNPJ"});
-            this.comboBox3.Location = new System.Drawing.Point(7, 3);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(429, 31);
-            this.comboBox3.TabIndex = 13;
-            this.comboBox3.Text = "Selecione";
+            this.cxUfEmpresa.BackColor = System.Drawing.Color.White;
+            this.cxUfEmpresa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxUfEmpresa.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
+            this.cxUfEmpresa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxUfEmpresa.FormattingEnabled = true;
+            this.cxUfEmpresa.Items.AddRange(new object[] {
+            "Selecione"});
+            this.cxUfEmpresa.Location = new System.Drawing.Point(7, 3);
+            this.cxUfEmpresa.Name = "cxUfEmpresa";
+            this.cxUfEmpresa.Size = new System.Drawing.Size(429, 31);
+            this.cxUfEmpresa.TabIndex = 13;
+            this.cxUfEmpresa.Text = "Selecione";
+            this.cxUfEmpresa.SelectedIndexChanged += new System.EventHandler(this.cxUfEmpresa_SelectedIndexChanged);
             // 
             // label19
             // 
@@ -225,22 +225,23 @@
             // panel13
             // 
             this.panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel13.Controls.Add(this.textBox10);
+            this.panel13.Controls.Add(this.cxBairroEmpresa);
             this.panel13.Location = new System.Drawing.Point(1025, 199);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(397, 37);
             this.panel13.TabIndex = 261;
             // 
-            // textBox10
+            // cxBairroEmpresa
             // 
-            this.textBox10.BackColor = System.Drawing.Color.White;
-            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox10.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox10.Location = new System.Drawing.Point(11, 6);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(372, 23);
-            this.textBox10.TabIndex = 12;
+            this.cxBairroEmpresa.BackColor = System.Drawing.Color.White;
+            this.cxBairroEmpresa.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxBairroEmpresa.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxBairroEmpresa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxBairroEmpresa.Location = new System.Drawing.Point(11, 6);
+            this.cxBairroEmpresa.Name = "cxBairroEmpresa";
+            this.cxBairroEmpresa.Size = new System.Drawing.Size(372, 23);
+            this.cxBairroEmpresa.TabIndex = 12;
+            this.cxBairroEmpresa.TextChanged += new System.EventHandler(this.cxBairroEmpresa_TextChanged);
             // 
             // label16
             // 
@@ -256,22 +257,23 @@
             // panel14
             // 
             this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel14.Controls.Add(this.textBox11);
+            this.panel14.Controls.Add(this.cxCepEmpresa);
             this.panel14.Location = new System.Drawing.Point(517, 199);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(451, 37);
             this.panel14.TabIndex = 259;
             // 
-            // textBox11
+            // cxCepEmpresa
             // 
-            this.textBox11.BackColor = System.Drawing.Color.White;
-            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox11.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox11.Location = new System.Drawing.Point(11, 6);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(427, 23);
-            this.textBox11.TabIndex = 12;
+            this.cxCepEmpresa.BackColor = System.Drawing.Color.White;
+            this.cxCepEmpresa.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxCepEmpresa.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxCepEmpresa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxCepEmpresa.Location = new System.Drawing.Point(11, 6);
+            this.cxCepEmpresa.Name = "cxCepEmpresa";
+            this.cxCepEmpresa.Size = new System.Drawing.Size(427, 23);
+            this.cxCepEmpresa.TabIndex = 12;
+            this.cxCepEmpresa.TextChanged += new System.EventHandler(this.cxCepEmpresa_TextChanged);
             // 
             // label14
             // 
@@ -287,22 +289,23 @@
             // panel12
             // 
             this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel12.Controls.Add(this.textBox9);
+            this.panel12.Controls.Add(this.cxNenderecoEmpresa);
             this.panel12.Location = new System.Drawing.Point(17, 201);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(446, 37);
             this.panel12.TabIndex = 257;
             // 
-            // textBox9
+            // cxNenderecoEmpresa
             // 
-            this.textBox9.BackColor = System.Drawing.Color.White;
-            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox9.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox9.Location = new System.Drawing.Point(8, 6);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(428, 23);
-            this.textBox9.TabIndex = 12;
+            this.cxNenderecoEmpresa.BackColor = System.Drawing.Color.White;
+            this.cxNenderecoEmpresa.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxNenderecoEmpresa.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxNenderecoEmpresa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxNenderecoEmpresa.Location = new System.Drawing.Point(8, 6);
+            this.cxNenderecoEmpresa.Name = "cxNenderecoEmpresa";
+            this.cxNenderecoEmpresa.Size = new System.Drawing.Size(428, 23);
+            this.cxNenderecoEmpresa.TabIndex = 12;
+            this.cxNenderecoEmpresa.TextChanged += new System.EventHandler(this.cxNenderecoEmpresa_TextChanged);
             // 
             // label1
             // 
@@ -318,42 +321,44 @@
             // panel11
             // 
             this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel11.Controls.Add(this.textBox8);
+            this.panel11.Controls.Add(this.cxEnderecoEmpresa);
             this.panel11.Location = new System.Drawing.Point(16, 120);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(1407, 37);
             this.panel11.TabIndex = 253;
             // 
-            // textBox8
+            // cxEnderecoEmpresa
             // 
-            this.textBox8.BackColor = System.Drawing.Color.White;
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox8.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox8.Location = new System.Drawing.Point(11, 6);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(1382, 23);
-            this.textBox8.TabIndex = 12;
+            this.cxEnderecoEmpresa.BackColor = System.Drawing.Color.White;
+            this.cxEnderecoEmpresa.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxEnderecoEmpresa.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxEnderecoEmpresa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxEnderecoEmpresa.Location = new System.Drawing.Point(11, 6);
+            this.cxEnderecoEmpresa.Name = "cxEnderecoEmpresa";
+            this.cxEnderecoEmpresa.Size = new System.Drawing.Size(1382, 23);
+            this.cxEnderecoEmpresa.TabIndex = 12;
+            this.cxEnderecoEmpresa.TextChanged += new System.EventHandler(this.cxEnderecoEmpresa_TextChanged);
             // 
             // panel10
             // 
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel10.Controls.Add(this.textBox7);
+            this.panel10.Controls.Add(this.cxCargoEmpresa);
             this.panel10.Location = new System.Drawing.Point(17, 364);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(446, 37);
             this.panel10.TabIndex = 275;
             // 
-            // textBox7
+            // cxCargoEmpresa
             // 
-            this.textBox7.BackColor = System.Drawing.Color.White;
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox7.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox7.Location = new System.Drawing.Point(10, 6);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(426, 23);
-            this.textBox7.TabIndex = 12;
+            this.cxCargoEmpresa.BackColor = System.Drawing.Color.White;
+            this.cxCargoEmpresa.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxCargoEmpresa.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxCargoEmpresa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxCargoEmpresa.Location = new System.Drawing.Point(10, 6);
+            this.cxCargoEmpresa.Name = "cxCargoEmpresa";
+            this.cxCargoEmpresa.Size = new System.Drawing.Size(426, 23);
+            this.cxCargoEmpresa.TabIndex = 12;
+            this.cxCargoEmpresa.TextChanged += new System.EventHandler(this.cxCargoEmpresa_TextChanged);
             // 
             // label6
             // 
@@ -380,46 +385,48 @@
             // panel6
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.cxRenda);
+            this.panel6.Controls.Add(this.cxRendaEmpresa);
             this.panel6.Location = new System.Drawing.Point(517, 364);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(571, 37);
             this.panel6.TabIndex = 277;
             // 
-            // cxRenda
+            // cxRendaEmpresa
             // 
-            this.cxRenda.BackColor = System.Drawing.Color.White;
-            this.cxRenda.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.cxRenda.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cxRenda.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.cxRenda.Location = new System.Drawing.Point(11, 6);
-            this.cxRenda.Name = "cxRenda";
-            this.cxRenda.Size = new System.Drawing.Size(547, 23);
-            this.cxRenda.TabIndex = 93;
-            this.cxRenda.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.cxRendaEmpresa.BackColor = System.Drawing.Color.White;
+            this.cxRendaEmpresa.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxRendaEmpresa.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxRendaEmpresa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxRendaEmpresa.Location = new System.Drawing.Point(11, 6);
+            this.cxRendaEmpresa.Name = "cxRendaEmpresa";
+            this.cxRendaEmpresa.Size = new System.Drawing.Size(547, 23);
+            this.cxRendaEmpresa.TabIndex = 93;
+            this.cxRendaEmpresa.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.cxRendaEmpresa.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.cxRendaEmpresa_MaskInputRejected);
             // 
             // panel7
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel7.Controls.Add(this.cxAdmissao);
+            this.panel7.Controls.Add(this.cxAdmissaoEmpresa);
             this.panel7.Controls.Add(this.dtAdmissao);
             this.panel7.Location = new System.Drawing.Point(1164, 364);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(258, 37);
             this.panel7.TabIndex = 279;
             // 
-            // cxAdmissao
+            // cxAdmissaoEmpresa
             // 
-            this.cxAdmissao.BackColor = System.Drawing.Color.White;
-            this.cxAdmissao.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.cxAdmissao.Font = new System.Drawing.Font("Segoe UI", 10.2F);
-            this.cxAdmissao.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.cxAdmissao.Location = new System.Drawing.Point(13, 6);
-            this.cxAdmissao.Name = "cxAdmissao";
-            this.cxAdmissao.Size = new System.Drawing.Size(208, 23);
-            this.cxAdmissao.TabIndex = 132;
-            this.cxAdmissao.TypeValidationCompleted += new System.Windows.Forms.TypeValidationEventHandler(this.cxAdmissao_TypeValidationCompleted_1);
-            this.cxAdmissao.TextChanged += new System.EventHandler(this.cxAdmissao_TextChanged_1);
+            this.cxAdmissaoEmpresa.BackColor = System.Drawing.Color.White;
+            this.cxAdmissaoEmpresa.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxAdmissaoEmpresa.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.cxAdmissaoEmpresa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxAdmissaoEmpresa.Location = new System.Drawing.Point(13, 6);
+            this.cxAdmissaoEmpresa.Name = "cxAdmissaoEmpresa";
+            this.cxAdmissaoEmpresa.Size = new System.Drawing.Size(208, 23);
+            this.cxAdmissaoEmpresa.TabIndex = 132;
+            this.cxAdmissaoEmpresa.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.cxAdmissaoEmpresa_MaskInputRejected);
+            this.cxAdmissaoEmpresa.TypeValidationCompleted += new System.Windows.Forms.TypeValidationEventHandler(this.cxAdmissao_TypeValidationCompleted_1);
+            this.cxAdmissaoEmpresa.TextChanged += new System.EventHandler(this.cxAdmissao_TextChanged_1);
             // 
             // dtAdmissao
             // 
@@ -507,33 +514,33 @@
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox cxNomeEmpresaEmpresa;
         private System.Windows.Forms.Panel panel20;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox cxCidadeEmpresa;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Panel panel19;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox cxUfEmpresa;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Panel panel13;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox cxBairroEmpresa;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Panel panel14;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox cxCepEmpresa;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox cxNenderecoEmpresa;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox cxEnderecoEmpresa;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox cxCargoEmpresa;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.MaskedTextBox cxRenda;
+        private System.Windows.Forms.MaskedTextBox cxRendaEmpresa;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.MaskedTextBox cxAdmissao;
+        private System.Windows.Forms.MaskedTextBox cxAdmissaoEmpresa;
         private System.Windows.Forms.DateTimePicker dtAdmissao;
         private System.Windows.Forms.Label label12;
     }

@@ -24,6 +24,7 @@ namespace ProjetoSistema
             home.ShowDialog();
         }
 
+        
         public static class Sessao
         {
             public static string Usuario;
@@ -42,6 +43,7 @@ namespace ProjetoSistema
                 return expirada;
             }
         }
+        
 
         private void btnLogin_Click(object sender, EventArgs e)
         {

@@ -13,6 +13,22 @@ namespace ProjetoSistema
 {
     public partial class camposAvalistaCadastroClientes : Form
     {
+        public string nomeClienteAvalista = "";
+        public string cpfClienteAvalista = "";
+        public string rgClienteAvalista = "";
+        public string dataNascimentoClienteAvalista = "";
+        public string TelefoneClienteAvalista = "";
+        public string enderecoClienteAvalista = "";
+        public string numeroEnderecoClienteAvalista = "";
+        public string cepClienteAvalista = "";
+        public string bairroClienteAvalista = "";
+        public string ufClienteAvalista = "";
+        public string cidadeClienteAvalista = "";
+        public string empresaClienteAvalista = "";
+        public string cargolienteAvalista = "";
+        public string rendaClienteAvalista = "";
+        public string admissaoClienteAvalista = "";
+
         public camposAvalistaCadastroClientes()
         {
             InitializeComponent();
@@ -103,6 +119,81 @@ namespace ProjetoSistema
             {
                 dtDataNascimentoAvalista.Value = result;
             }
+        }
+
+        private void cxNomeAvalista_TextChanged(object sender, EventArgs e)
+        {
+            this.nomeClienteAvalista = cxNomeAvalista.Text;
+        }
+
+        private void cxCpfAvalista_TextChanged(object sender, EventArgs e)
+        {
+            this.cpfClienteAvalista = cxCpfAvalista.Text;
+        }
+
+        private void cxRgAvalista_TextChanged(object sender, EventArgs e)
+        {
+            this.rgClienteAvalista = cxRgAvalista.Text;
+        }
+
+        private void cxDataNascimentoAvalista_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+            this.dataNascimentoClienteAvalista = cxDataNascimentoAvalista.Text;
+        }
+
+        private void cxFoneAvalista_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+            this.TelefoneClienteAvalista = cxFoneAvalista.Text;
+        }
+
+        private void cxEnderecoAvalista_TextChanged(object sender, EventArgs e)
+        {
+            this.enderecoClienteAvalista = cxEnderecoAvalista.Text;
+        }
+
+        private void cxNenderecoAvalista_TextChanged(object sender, EventArgs e)
+        {
+            this.numeroEnderecoClienteAvalista = cxNenderecoAvalista.Text;
+        }
+
+        private void cxCepAvalista_TextChanged(object sender, EventArgs e)
+        {
+            this.cepClienteAvalista = cxCepAvalista.Text;
+        }
+
+        private void cxBairroAvalista_TextChanged(object sender, EventArgs e)
+        {
+            this.bairroClienteAvalista = cxBairroAvalista.Text;
+        }
+
+        private void cxUfAvalista_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            this.ufClienteAvalista = cxUfAvalista.Text;
+        }
+
+        private void cxCidadeAvalista_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            this.cidadeClienteAvalista = cxCidadeAvalista.Text;
+        }
+
+        private void cxEmpresaAvalista_TextChanged(object sender, EventArgs e)
+        {
+            this.empresaClienteAvalista = cxEmpresaAvalista.Text;
+        }
+
+        private void cxCargoAvalista_TextChanged(object sender, EventArgs e)
+        {
+            this.cargolienteAvalista = cxCargoAvalista.Text;
+        }
+
+        private void cxRendaAvalista_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+            this.rendaClienteAvalista = cxRendaAvalista.Text;
+        }
+
+        private void cxAdmissaoAvalista_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+            this.admissaoClienteAvalista = cxAdmissaoAvalista.Text;
         }
     }
 }

@@ -30,64 +30,64 @@
         {
             this.label5 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.cxCustoPrecos = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.cxCustoMedioPrecos = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cxValorFretePrecos = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.cxCategoriaPesquisarPrduto = new System.Windows.Forms.TextBox();
+            this.cxPrecoCompraPrecos = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.cxPrecoVendaPrecos = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.cxMargemPrecos = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.cxDescMaxPrecos = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.cxIPIPrecos = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.cxPreco2Precos = new System.Windows.Forms.TextBox();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.cxDescMax2Precos = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.cxQuantMinima2Precos = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.panel13 = new System.Windows.Forms.Panel();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.cxMargem2Precos = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.cxPreco3Precos = new System.Windows.Forms.TextBox();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.cxDescMax3Precos = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.panel16 = new System.Windows.Forms.Panel();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.cxQuantMinima3Precos = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.panel17 = new System.Windows.Forms.Panel();
-            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.cxMargem3Precos = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.panel18 = new System.Windows.Forms.Panel();
-            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.cxPreco4Precos = new System.Windows.Forms.TextBox();
             this.panel19 = new System.Windows.Forms.Panel();
-            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.cxDescMax4Precos = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.panel20 = new System.Windows.Forms.Panel();
-            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.cxQuantMinima4Precos = new System.Windows.Forms.TextBox();
             this.label21 = new System.Windows.Forms.Label();
             this.panel21 = new System.Windows.Forms.Panel();
-            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.cxMargem4Precos = new System.Windows.Forms.TextBox();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -124,22 +124,22 @@
             // panel6
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.textBox3);
+            this.panel6.Controls.Add(this.cxCustoPrecos);
             this.panel6.Location = new System.Drawing.Point(26, 108);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(311, 37);
             this.panel6.TabIndex = 61;
             // 
-            // textBox3
+            // cxCustoPrecos
             // 
-            this.textBox3.BackColor = System.Drawing.Color.White;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox3.Location = new System.Drawing.Point(10, 6);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(288, 23);
-            this.textBox3.TabIndex = 11;
+            this.cxCustoPrecos.BackColor = System.Drawing.Color.White;
+            this.cxCustoPrecos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxCustoPrecos.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxCustoPrecos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxCustoPrecos.Location = new System.Drawing.Point(10, 6);
+            this.cxCustoPrecos.Name = "cxCustoPrecos";
+            this.cxCustoPrecos.Size = new System.Drawing.Size(288, 23);
+            this.cxCustoPrecos.TabIndex = 11;
             // 
             // label4
             // 
@@ -155,22 +155,22 @@
             // panel5
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.textBox2);
+            this.panel5.Controls.Add(this.cxCustoMedioPrecos);
             this.panel5.Location = new System.Drawing.Point(1102, 32);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(311, 37);
             this.panel5.TabIndex = 59;
             // 
-            // textBox2
+            // cxCustoMedioPrecos
             // 
-            this.textBox2.BackColor = System.Drawing.Color.White;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox2.Location = new System.Drawing.Point(10, 6);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(288, 23);
-            this.textBox2.TabIndex = 11;
+            this.cxCustoMedioPrecos.BackColor = System.Drawing.Color.White;
+            this.cxCustoMedioPrecos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxCustoMedioPrecos.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxCustoMedioPrecos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxCustoMedioPrecos.Location = new System.Drawing.Point(10, 6);
+            this.cxCustoMedioPrecos.Name = "cxCustoMedioPrecos";
+            this.cxCustoMedioPrecos.Size = new System.Drawing.Size(288, 23);
+            this.cxCustoMedioPrecos.TabIndex = 11;
             // 
             // label3
             // 
@@ -186,22 +186,22 @@
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.textBox1);
+            this.panel3.Controls.Add(this.cxValorFretePrecos);
             this.panel3.Location = new System.Drawing.Point(742, 32);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(311, 37);
             this.panel3.TabIndex = 57;
             // 
-            // textBox1
+            // cxValorFretePrecos
             // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox1.Location = new System.Drawing.Point(10, 6);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(288, 23);
-            this.textBox1.TabIndex = 11;
+            this.cxValorFretePrecos.BackColor = System.Drawing.Color.White;
+            this.cxValorFretePrecos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxValorFretePrecos.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxValorFretePrecos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxValorFretePrecos.Location = new System.Drawing.Point(10, 6);
+            this.cxValorFretePrecos.Name = "cxValorFretePrecos";
+            this.cxValorFretePrecos.Size = new System.Drawing.Size(288, 23);
+            this.cxValorFretePrecos.TabIndex = 11;
             // 
             // label2
             // 
@@ -217,22 +217,22 @@
             // panel4
             // 
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.cxCategoriaPesquisarPrduto);
+            this.panel4.Controls.Add(this.cxPrecoCompraPrecos);
             this.panel4.Location = new System.Drawing.Point(24, 32);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(311, 37);
             this.panel4.TabIndex = 55;
             // 
-            // cxCategoriaPesquisarPrduto
+            // cxPrecoCompraPrecos
             // 
-            this.cxCategoriaPesquisarPrduto.BackColor = System.Drawing.Color.White;
-            this.cxCategoriaPesquisarPrduto.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.cxCategoriaPesquisarPrduto.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cxCategoriaPesquisarPrduto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.cxCategoriaPesquisarPrduto.Location = new System.Drawing.Point(10, 6);
-            this.cxCategoriaPesquisarPrduto.Name = "cxCategoriaPesquisarPrduto";
-            this.cxCategoriaPesquisarPrduto.Size = new System.Drawing.Size(288, 23);
-            this.cxCategoriaPesquisarPrduto.TabIndex = 11;
+            this.cxPrecoCompraPrecos.BackColor = System.Drawing.Color.White;
+            this.cxPrecoCompraPrecos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxPrecoCompraPrecos.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxPrecoCompraPrecos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxPrecoCompraPrecos.Location = new System.Drawing.Point(10, 6);
+            this.cxPrecoCompraPrecos.Name = "cxPrecoCompraPrecos";
+            this.cxPrecoCompraPrecos.Size = new System.Drawing.Size(288, 23);
+            this.cxPrecoCompraPrecos.TabIndex = 11;
             // 
             // label1
             // 
@@ -248,22 +248,22 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.textBox4);
+            this.panel1.Controls.Add(this.cxPrecoVendaPrecos);
             this.panel1.Location = new System.Drawing.Point(26, 204);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(311, 37);
             this.panel1.TabIndex = 63;
             // 
-            // textBox4
+            // cxPrecoVendaPrecos
             // 
-            this.textBox4.BackColor = System.Drawing.Color.White;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox4.Location = new System.Drawing.Point(10, 6);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(288, 23);
-            this.textBox4.TabIndex = 11;
+            this.cxPrecoVendaPrecos.BackColor = System.Drawing.Color.White;
+            this.cxPrecoVendaPrecos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxPrecoVendaPrecos.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxPrecoVendaPrecos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxPrecoVendaPrecos.Location = new System.Drawing.Point(10, 6);
+            this.cxPrecoVendaPrecos.Name = "cxPrecoVendaPrecos";
+            this.cxPrecoVendaPrecos.Size = new System.Drawing.Size(288, 23);
+            this.cxPrecoVendaPrecos.TabIndex = 11;
             // 
             // label6
             // 
@@ -279,22 +279,22 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.textBox5);
+            this.panel2.Controls.Add(this.cxMargemPrecos);
             this.panel2.Location = new System.Drawing.Point(384, 204);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(311, 37);
             this.panel2.TabIndex = 65;
             // 
-            // textBox5
+            // cxMargemPrecos
             // 
-            this.textBox5.BackColor = System.Drawing.Color.White;
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox5.Location = new System.Drawing.Point(10, 6);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(288, 23);
-            this.textBox5.TabIndex = 11;
+            this.cxMargemPrecos.BackColor = System.Drawing.Color.White;
+            this.cxMargemPrecos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxMargemPrecos.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxMargemPrecos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxMargemPrecos.Location = new System.Drawing.Point(10, 6);
+            this.cxMargemPrecos.Name = "cxMargemPrecos";
+            this.cxMargemPrecos.Size = new System.Drawing.Size(288, 23);
+            this.cxMargemPrecos.TabIndex = 11;
             // 
             // label7
             // 
@@ -310,22 +310,22 @@
             // panel7
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel7.Controls.Add(this.textBox6);
+            this.panel7.Controls.Add(this.cxDescMaxPrecos);
             this.panel7.Location = new System.Drawing.Point(1102, 204);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(311, 37);
             this.panel7.TabIndex = 67;
             // 
-            // textBox6
+            // cxDescMaxPrecos
             // 
-            this.textBox6.BackColor = System.Drawing.Color.White;
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox6.Location = new System.Drawing.Point(10, 6);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(288, 23);
-            this.textBox6.TabIndex = 11;
+            this.cxDescMaxPrecos.BackColor = System.Drawing.Color.White;
+            this.cxDescMaxPrecos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxDescMaxPrecos.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxDescMaxPrecos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxDescMaxPrecos.Location = new System.Drawing.Point(10, 6);
+            this.cxDescMaxPrecos.Name = "cxDescMaxPrecos";
+            this.cxDescMaxPrecos.Size = new System.Drawing.Size(288, 23);
+            this.cxDescMaxPrecos.TabIndex = 11;
             // 
             // label9
             // 
@@ -341,22 +341,22 @@
             // panel9
             // 
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel9.Controls.Add(this.textBox8);
+            this.panel9.Controls.Add(this.cxIPIPrecos);
             this.panel9.Location = new System.Drawing.Point(386, 32);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(311, 37);
             this.panel9.TabIndex = 57;
             // 
-            // textBox8
+            // cxIPIPrecos
             // 
-            this.textBox8.BackColor = System.Drawing.Color.White;
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox8.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox8.Location = new System.Drawing.Point(10, 6);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(288, 23);
-            this.textBox8.TabIndex = 11;
+            this.cxIPIPrecos.BackColor = System.Drawing.Color.White;
+            this.cxIPIPrecos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxIPIPrecos.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxIPIPrecos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxIPIPrecos.Location = new System.Drawing.Point(10, 6);
+            this.cxIPIPrecos.Name = "cxIPIPrecos";
+            this.cxIPIPrecos.Size = new System.Drawing.Size(288, 23);
+            this.cxIPIPrecos.TabIndex = 11;
             // 
             // label10
             // 
@@ -383,42 +383,42 @@
             // panel10
             // 
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel10.Controls.Add(this.textBox9);
+            this.panel10.Controls.Add(this.cxPreco2Precos);
             this.panel10.Location = new System.Drawing.Point(26, 280);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(311, 37);
             this.panel10.TabIndex = 71;
             // 
-            // textBox9
+            // cxPreco2Precos
             // 
-            this.textBox9.BackColor = System.Drawing.Color.White;
-            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox9.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox9.Location = new System.Drawing.Point(10, 6);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(288, 23);
-            this.textBox9.TabIndex = 11;
+            this.cxPreco2Precos.BackColor = System.Drawing.Color.White;
+            this.cxPreco2Precos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxPreco2Precos.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxPreco2Precos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxPreco2Precos.Location = new System.Drawing.Point(10, 6);
+            this.cxPreco2Precos.Name = "cxPreco2Precos";
+            this.cxPreco2Precos.Size = new System.Drawing.Size(288, 23);
+            this.cxPreco2Precos.TabIndex = 11;
             // 
             // panel11
             // 
             this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel11.Controls.Add(this.textBox10);
+            this.panel11.Controls.Add(this.cxDescMax2Precos);
             this.panel11.Location = new System.Drawing.Point(1102, 283);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(311, 37);
             this.panel11.TabIndex = 77;
             // 
-            // textBox10
+            // cxDescMax2Precos
             // 
-            this.textBox10.BackColor = System.Drawing.Color.White;
-            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox10.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox10.Location = new System.Drawing.Point(10, 6);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(288, 23);
-            this.textBox10.TabIndex = 11;
+            this.cxDescMax2Precos.BackColor = System.Drawing.Color.White;
+            this.cxDescMax2Precos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxDescMax2Precos.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxDescMax2Precos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxDescMax2Precos.Location = new System.Drawing.Point(10, 6);
+            this.cxDescMax2Precos.Name = "cxDescMax2Precos";
+            this.cxDescMax2Precos.Size = new System.Drawing.Size(288, 23);
+            this.cxDescMax2Precos.TabIndex = 11;
             // 
             // label12
             // 
@@ -434,22 +434,22 @@
             // panel12
             // 
             this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel12.Controls.Add(this.textBox11);
+            this.panel12.Controls.Add(this.cxQuantMinima2Precos);
             this.panel12.Location = new System.Drawing.Point(742, 280);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(311, 37);
             this.panel12.TabIndex = 75;
             // 
-            // textBox11
+            // cxQuantMinima2Precos
             // 
-            this.textBox11.BackColor = System.Drawing.Color.White;
-            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox11.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox11.Location = new System.Drawing.Point(10, 6);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(288, 23);
-            this.textBox11.TabIndex = 11;
+            this.cxQuantMinima2Precos.BackColor = System.Drawing.Color.White;
+            this.cxQuantMinima2Precos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxQuantMinima2Precos.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxQuantMinima2Precos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxQuantMinima2Precos.Location = new System.Drawing.Point(10, 6);
+            this.cxQuantMinima2Precos.Name = "cxQuantMinima2Precos";
+            this.cxQuantMinima2Precos.Size = new System.Drawing.Size(288, 23);
+            this.cxQuantMinima2Precos.TabIndex = 11;
             // 
             // label13
             // 
@@ -465,22 +465,22 @@
             // panel13
             // 
             this.panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel13.Controls.Add(this.textBox12);
+            this.panel13.Controls.Add(this.cxMargem2Precos);
             this.panel13.Location = new System.Drawing.Point(384, 280);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(311, 37);
             this.panel13.TabIndex = 73;
             // 
-            // textBox12
+            // cxMargem2Precos
             // 
-            this.textBox12.BackColor = System.Drawing.Color.White;
-            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox12.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox12.Location = new System.Drawing.Point(10, 6);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(288, 23);
-            this.textBox12.TabIndex = 11;
+            this.cxMargem2Precos.BackColor = System.Drawing.Color.White;
+            this.cxMargem2Precos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxMargem2Precos.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxMargem2Precos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxMargem2Precos.Location = new System.Drawing.Point(10, 6);
+            this.cxMargem2Precos.Name = "cxMargem2Precos";
+            this.cxMargem2Precos.Size = new System.Drawing.Size(288, 23);
+            this.cxMargem2Precos.TabIndex = 11;
             // 
             // label14
             // 
@@ -507,42 +507,42 @@
             // panel14
             // 
             this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel14.Controls.Add(this.textBox13);
+            this.panel14.Controls.Add(this.cxPreco3Precos);
             this.panel14.Location = new System.Drawing.Point(24, 366);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(311, 37);
             this.panel14.TabIndex = 79;
             // 
-            // textBox13
+            // cxPreco3Precos
             // 
-            this.textBox13.BackColor = System.Drawing.Color.White;
-            this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox13.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox13.Location = new System.Drawing.Point(10, 6);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(288, 23);
-            this.textBox13.TabIndex = 11;
+            this.cxPreco3Precos.BackColor = System.Drawing.Color.White;
+            this.cxPreco3Precos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxPreco3Precos.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxPreco3Precos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxPreco3Precos.Location = new System.Drawing.Point(10, 6);
+            this.cxPreco3Precos.Name = "cxPreco3Precos";
+            this.cxPreco3Precos.Size = new System.Drawing.Size(288, 23);
+            this.cxPreco3Precos.TabIndex = 11;
             // 
             // panel15
             // 
             this.panel15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel15.Controls.Add(this.textBox14);
+            this.panel15.Controls.Add(this.cxDescMax3Precos);
             this.panel15.Location = new System.Drawing.Point(1102, 366);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(311, 37);
             this.panel15.TabIndex = 85;
             // 
-            // textBox14
+            // cxDescMax3Precos
             // 
-            this.textBox14.BackColor = System.Drawing.Color.White;
-            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox14.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox14.Location = new System.Drawing.Point(10, 6);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(288, 23);
-            this.textBox14.TabIndex = 11;
+            this.cxDescMax3Precos.BackColor = System.Drawing.Color.White;
+            this.cxDescMax3Precos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxDescMax3Precos.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxDescMax3Precos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxDescMax3Precos.Location = new System.Drawing.Point(10, 6);
+            this.cxDescMax3Precos.Name = "cxDescMax3Precos";
+            this.cxDescMax3Precos.Size = new System.Drawing.Size(288, 23);
+            this.cxDescMax3Precos.TabIndex = 11;
             // 
             // label16
             // 
@@ -558,22 +558,22 @@
             // panel16
             // 
             this.panel16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel16.Controls.Add(this.textBox15);
+            this.panel16.Controls.Add(this.cxQuantMinima3Precos);
             this.panel16.Location = new System.Drawing.Point(742, 366);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(311, 37);
             this.panel16.TabIndex = 83;
             // 
-            // textBox15
+            // cxQuantMinima3Precos
             // 
-            this.textBox15.BackColor = System.Drawing.Color.White;
-            this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox15.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox15.Location = new System.Drawing.Point(10, 6);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(288, 23);
-            this.textBox15.TabIndex = 11;
+            this.cxQuantMinima3Precos.BackColor = System.Drawing.Color.White;
+            this.cxQuantMinima3Precos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxQuantMinima3Precos.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxQuantMinima3Precos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxQuantMinima3Precos.Location = new System.Drawing.Point(10, 6);
+            this.cxQuantMinima3Precos.Name = "cxQuantMinima3Precos";
+            this.cxQuantMinima3Precos.Size = new System.Drawing.Size(288, 23);
+            this.cxQuantMinima3Precos.TabIndex = 11;
             // 
             // label17
             // 
@@ -589,22 +589,22 @@
             // panel17
             // 
             this.panel17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel17.Controls.Add(this.textBox16);
+            this.panel17.Controls.Add(this.cxMargem3Precos);
             this.panel17.Location = new System.Drawing.Point(384, 366);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(311, 37);
             this.panel17.TabIndex = 81;
             // 
-            // textBox16
+            // cxMargem3Precos
             // 
-            this.textBox16.BackColor = System.Drawing.Color.White;
-            this.textBox16.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox16.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox16.Location = new System.Drawing.Point(10, 6);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(288, 23);
-            this.textBox16.TabIndex = 11;
+            this.cxMargem3Precos.BackColor = System.Drawing.Color.White;
+            this.cxMargem3Precos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxMargem3Precos.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxMargem3Precos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxMargem3Precos.Location = new System.Drawing.Point(10, 6);
+            this.cxMargem3Precos.Name = "cxMargem3Precos";
+            this.cxMargem3Precos.Size = new System.Drawing.Size(288, 23);
+            this.cxMargem3Precos.TabIndex = 11;
             // 
             // label18
             // 
@@ -631,42 +631,42 @@
             // panel18
             // 
             this.panel18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel18.Controls.Add(this.textBox17);
+            this.panel18.Controls.Add(this.cxPreco4Precos);
             this.panel18.Location = new System.Drawing.Point(24, 445);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(311, 37);
             this.panel18.TabIndex = 87;
             // 
-            // textBox17
+            // cxPreco4Precos
             // 
-            this.textBox17.BackColor = System.Drawing.Color.White;
-            this.textBox17.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox17.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox17.Location = new System.Drawing.Point(10, 6);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(288, 23);
-            this.textBox17.TabIndex = 11;
+            this.cxPreco4Precos.BackColor = System.Drawing.Color.White;
+            this.cxPreco4Precos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxPreco4Precos.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxPreco4Precos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxPreco4Precos.Location = new System.Drawing.Point(10, 6);
+            this.cxPreco4Precos.Name = "cxPreco4Precos";
+            this.cxPreco4Precos.Size = new System.Drawing.Size(288, 23);
+            this.cxPreco4Precos.TabIndex = 11;
             // 
             // panel19
             // 
             this.panel19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel19.Controls.Add(this.textBox18);
+            this.panel19.Controls.Add(this.cxDescMax4Precos);
             this.panel19.Location = new System.Drawing.Point(1102, 445);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(311, 37);
             this.panel19.TabIndex = 93;
             // 
-            // textBox18
+            // cxDescMax4Precos
             // 
-            this.textBox18.BackColor = System.Drawing.Color.White;
-            this.textBox18.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox18.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox18.Location = new System.Drawing.Point(10, 6);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(288, 23);
-            this.textBox18.TabIndex = 11;
+            this.cxDescMax4Precos.BackColor = System.Drawing.Color.White;
+            this.cxDescMax4Precos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxDescMax4Precos.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxDescMax4Precos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxDescMax4Precos.Location = new System.Drawing.Point(10, 6);
+            this.cxDescMax4Precos.Name = "cxDescMax4Precos";
+            this.cxDescMax4Precos.Size = new System.Drawing.Size(288, 23);
+            this.cxDescMax4Precos.TabIndex = 11;
             // 
             // label20
             // 
@@ -682,22 +682,22 @@
             // panel20
             // 
             this.panel20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel20.Controls.Add(this.textBox19);
+            this.panel20.Controls.Add(this.cxQuantMinima4Precos);
             this.panel20.Location = new System.Drawing.Point(742, 445);
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(311, 37);
             this.panel20.TabIndex = 91;
             // 
-            // textBox19
+            // cxQuantMinima4Precos
             // 
-            this.textBox19.BackColor = System.Drawing.Color.White;
-            this.textBox19.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox19.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox19.Location = new System.Drawing.Point(10, 6);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(288, 23);
-            this.textBox19.TabIndex = 11;
+            this.cxQuantMinima4Precos.BackColor = System.Drawing.Color.White;
+            this.cxQuantMinima4Precos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxQuantMinima4Precos.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxQuantMinima4Precos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxQuantMinima4Precos.Location = new System.Drawing.Point(10, 6);
+            this.cxQuantMinima4Precos.Name = "cxQuantMinima4Precos";
+            this.cxQuantMinima4Precos.Size = new System.Drawing.Size(288, 23);
+            this.cxQuantMinima4Precos.TabIndex = 11;
             // 
             // label21
             // 
@@ -713,22 +713,22 @@
             // panel21
             // 
             this.panel21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel21.Controls.Add(this.textBox20);
+            this.panel21.Controls.Add(this.cxMargem4Precos);
             this.panel21.Location = new System.Drawing.Point(384, 445);
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(311, 37);
             this.panel21.TabIndex = 89;
             // 
-            // textBox20
+            // cxMargem4Precos
             // 
-            this.textBox20.BackColor = System.Drawing.Color.White;
-            this.textBox20.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox20.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox20.Location = new System.Drawing.Point(10, 6);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(288, 23);
-            this.textBox20.TabIndex = 11;
+            this.cxMargem4Precos.BackColor = System.Drawing.Color.White;
+            this.cxMargem4Precos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxMargem4Precos.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxMargem4Precos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxMargem4Precos.Location = new System.Drawing.Point(10, 6);
+            this.cxMargem4Precos.Name = "cxMargem4Precos";
+            this.cxMargem4Precos.Size = new System.Drawing.Size(288, 23);
+            this.cxMargem4Precos.TabIndex = 11;
             // 
             // camposPrecosCadastroProdutos
             // 
@@ -777,7 +777,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel4);
             this.Name = "camposPrecosCadastroProdutos";
-            this.Text = "camposPrecosCadastroProdutos";
+            this.Text = "+";
+            this.Load += new System.EventHandler(this.camposPrecosCadastroProdutos_Load);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.panel5.ResumeLayout(false);
@@ -826,63 +827,63 @@
         #endregion
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox cxCustoPrecos;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox cxCustoMedioPrecos;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox cxValorFretePrecos;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.TextBox cxCategoriaPesquisarPrduto;
+        private System.Windows.Forms.TextBox cxPrecoCompraPrecos;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox cxPrecoVendaPrecos;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox cxMargemPrecos;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox cxDescMaxPrecos;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox cxIPIPrecos;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox cxPreco2Precos;
         private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox cxDescMax2Precos;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox cxQuantMinima2Precos;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Panel panel13;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox cxMargem2Precos;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Panel panel14;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox cxPreco3Precos;
         private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox cxDescMax3Precos;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Panel panel16;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox cxQuantMinima3Precos;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Panel panel17;
-        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox cxMargem3Precos;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Panel panel18;
-        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox cxPreco4Precos;
         private System.Windows.Forms.Panel panel19;
-        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.TextBox cxDescMax4Precos;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Panel panel20;
-        private System.Windows.Forms.TextBox textBox19;
+        private System.Windows.Forms.TextBox cxQuantMinima4Precos;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Panel panel21;
-        private System.Windows.Forms.TextBox textBox20;
+        private System.Windows.Forms.TextBox cxMargem4Precos;
     }
 }

@@ -30,22 +30,22 @@
         {
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cxReferenciaReferencia = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.cxComercial1Referencia = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.cxComercial2Referencia = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.cxComercial3Referencia = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.cxBancaria1Referencia = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.cxBancaria2Referencia = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -68,22 +68,23 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.cxReferenciaReferencia);
             this.panel2.Location = new System.Drawing.Point(12, 38);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1411, 37);
             this.panel2.TabIndex = 125;
             // 
-            // textBox1
+            // cxReferenciaReferencia
             // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox1.Location = new System.Drawing.Point(15, 6);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(1382, 23);
-            this.textBox1.TabIndex = 11;
+            this.cxReferenciaReferencia.BackColor = System.Drawing.Color.White;
+            this.cxReferenciaReferencia.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxReferenciaReferencia.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxReferenciaReferencia.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxReferenciaReferencia.Location = new System.Drawing.Point(15, 6);
+            this.cxReferenciaReferencia.Name = "cxReferenciaReferencia";
+            this.cxReferenciaReferencia.Size = new System.Drawing.Size(1382, 23);
+            this.cxReferenciaReferencia.TabIndex = 11;
+            this.cxReferenciaReferencia.TextChanged += new System.EventHandler(this.cxReferenciaReferencia_TextChanged);
             // 
             // label1
             // 
@@ -99,22 +100,23 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.cxComercial1Referencia);
             this.panel1.Location = new System.Drawing.Point(12, 116);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1411, 37);
             this.panel1.TabIndex = 127;
             // 
-            // textBox2
+            // cxComercial1Referencia
             // 
-            this.textBox2.BackColor = System.Drawing.Color.White;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox2.Location = new System.Drawing.Point(15, 6);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(1382, 23);
-            this.textBox2.TabIndex = 11;
+            this.cxComercial1Referencia.BackColor = System.Drawing.Color.White;
+            this.cxComercial1Referencia.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxComercial1Referencia.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxComercial1Referencia.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxComercial1Referencia.Location = new System.Drawing.Point(15, 6);
+            this.cxComercial1Referencia.Name = "cxComercial1Referencia";
+            this.cxComercial1Referencia.Size = new System.Drawing.Size(1382, 23);
+            this.cxComercial1Referencia.TabIndex = 11;
+            this.cxComercial1Referencia.TextChanged += new System.EventHandler(this.cxComercial1Referencia_TextChanged);
             // 
             // label3
             // 
@@ -130,22 +132,23 @@
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.textBox3);
+            this.panel3.Controls.Add(this.cxComercial2Referencia);
             this.panel3.Location = new System.Drawing.Point(14, 191);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1411, 37);
             this.panel3.TabIndex = 129;
             // 
-            // textBox3
+            // cxComercial2Referencia
             // 
-            this.textBox3.BackColor = System.Drawing.Color.White;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox3.Location = new System.Drawing.Point(15, 6);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(1382, 23);
-            this.textBox3.TabIndex = 11;
+            this.cxComercial2Referencia.BackColor = System.Drawing.Color.White;
+            this.cxComercial2Referencia.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxComercial2Referencia.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxComercial2Referencia.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxComercial2Referencia.Location = new System.Drawing.Point(15, 6);
+            this.cxComercial2Referencia.Name = "cxComercial2Referencia";
+            this.cxComercial2Referencia.Size = new System.Drawing.Size(1382, 23);
+            this.cxComercial2Referencia.TabIndex = 11;
+            this.cxComercial2Referencia.TextChanged += new System.EventHandler(this.cxComercial2Referencia_TextChanged);
             // 
             // label4
             // 
@@ -161,22 +164,23 @@
             // panel4
             // 
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.textBox4);
+            this.panel4.Controls.Add(this.cxComercial3Referencia);
             this.panel4.Location = new System.Drawing.Point(14, 273);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1411, 37);
             this.panel4.TabIndex = 131;
             // 
-            // textBox4
+            // cxComercial3Referencia
             // 
-            this.textBox4.BackColor = System.Drawing.Color.White;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox4.Location = new System.Drawing.Point(15, 6);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(1382, 23);
-            this.textBox4.TabIndex = 11;
+            this.cxComercial3Referencia.BackColor = System.Drawing.Color.White;
+            this.cxComercial3Referencia.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxComercial3Referencia.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxComercial3Referencia.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxComercial3Referencia.Location = new System.Drawing.Point(15, 6);
+            this.cxComercial3Referencia.Name = "cxComercial3Referencia";
+            this.cxComercial3Referencia.Size = new System.Drawing.Size(1382, 23);
+            this.cxComercial3Referencia.TabIndex = 11;
+            this.cxComercial3Referencia.TextChanged += new System.EventHandler(this.cxComercial3Referencia_TextChanged);
             // 
             // label5
             // 
@@ -192,22 +196,23 @@
             // panel5
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.textBox5);
+            this.panel5.Controls.Add(this.cxBancaria1Referencia);
             this.panel5.Location = new System.Drawing.Point(14, 358);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(1411, 37);
             this.panel5.TabIndex = 133;
             // 
-            // textBox5
+            // cxBancaria1Referencia
             // 
-            this.textBox5.BackColor = System.Drawing.Color.White;
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox5.Location = new System.Drawing.Point(15, 6);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(1382, 23);
-            this.textBox5.TabIndex = 11;
+            this.cxBancaria1Referencia.BackColor = System.Drawing.Color.White;
+            this.cxBancaria1Referencia.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxBancaria1Referencia.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxBancaria1Referencia.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxBancaria1Referencia.Location = new System.Drawing.Point(15, 6);
+            this.cxBancaria1Referencia.Name = "cxBancaria1Referencia";
+            this.cxBancaria1Referencia.Size = new System.Drawing.Size(1382, 23);
+            this.cxBancaria1Referencia.TabIndex = 11;
+            this.cxBancaria1Referencia.TextChanged += new System.EventHandler(this.cxBancaria1Referencia_TextChanged);
             // 
             // label6
             // 
@@ -223,22 +228,23 @@
             // panel6
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.textBox6);
+            this.panel6.Controls.Add(this.cxBancaria2Referencia);
             this.panel6.Location = new System.Drawing.Point(14, 436);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(1411, 37);
             this.panel6.TabIndex = 135;
             // 
-            // textBox6
+            // cxBancaria2Referencia
             // 
-            this.textBox6.BackColor = System.Drawing.Color.White;
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox6.Location = new System.Drawing.Point(15, 6);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(1382, 23);
-            this.textBox6.TabIndex = 11;
+            this.cxBancaria2Referencia.BackColor = System.Drawing.Color.White;
+            this.cxBancaria2Referencia.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxBancaria2Referencia.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxBancaria2Referencia.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxBancaria2Referencia.Location = new System.Drawing.Point(15, 6);
+            this.cxBancaria2Referencia.Name = "cxBancaria2Referencia";
+            this.cxBancaria2Referencia.Size = new System.Drawing.Size(1382, 23);
+            this.cxBancaria2Referencia.TabIndex = 11;
+            this.cxBancaria2Referencia.TextChanged += new System.EventHandler(this.cxBancaria2Referencia_TextChanged);
             // 
             // camposReferenciaCadastroCliente
             // 
@@ -260,6 +266,7 @@
             this.Controls.Add(this.panel2);
             this.Name = "camposReferenciaCadastroCliente";
             this.Text = "camposReferenciaCadastroCliente";
+            this.Load += new System.EventHandler(this.camposReferenciaCadastroCliente_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -281,21 +288,21 @@
 
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox cxReferenciaReferencia;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox cxComercial1Referencia;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox cxComercial2Referencia;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox cxComercial3Referencia;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox cxBancaria1Referencia;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox cxBancaria2Referencia;
     }
 }

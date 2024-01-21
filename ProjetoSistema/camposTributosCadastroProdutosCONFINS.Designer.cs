@@ -30,14 +30,14 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cxConfinsEntrada = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.cxCargo = new System.Windows.Forms.ComboBox();
+            this.cxConfinsSaída = new System.Windows.Forms.ComboBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cxAlíquotaConfinsEntrada = new System.Windows.Forms.TextBox();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.cxCategoriaPesquisarPrduto = new System.Windows.Forms.TextBox();
+            this.cxAlíquotaConfinsSaida = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -60,28 +60,28 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.comboBox1);
+            this.panel1.Controls.Add(this.cxConfinsEntrada);
             this.panel1.Location = new System.Drawing.Point(227, 84);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(689, 42);
             this.panel1.TabIndex = 91;
             // 
-            // comboBox1
+            // cxConfinsEntrada
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.White;
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
-            this.comboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cxConfinsEntrada.BackColor = System.Drawing.Color.White;
+            this.cxConfinsEntrada.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxConfinsEntrada.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
+            this.cxConfinsEntrada.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxConfinsEntrada.FormattingEnabled = true;
+            this.cxConfinsEntrada.Items.AddRange(new object[] {
             "Selecione",
             "Funcionário",
             "Administrador"});
-            this.comboBox1.Location = new System.Drawing.Point(9, 5);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(681, 31);
-            this.comboBox1.TabIndex = 12;
-            this.comboBox1.Text = "Selecione";
+            this.cxConfinsEntrada.Location = new System.Drawing.Point(9, 5);
+            this.cxConfinsEntrada.Name = "cxConfinsEntrada";
+            this.cxConfinsEntrada.Size = new System.Drawing.Size(662, 31);
+            this.cxConfinsEntrada.TabIndex = 12;
+            this.cxConfinsEntrada.Text = "Selecione";
             // 
             // label7
             // 
@@ -97,68 +97,68 @@
             // panel8
             // 
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel8.Controls.Add(this.cxCargo);
+            this.panel8.Controls.Add(this.cxConfinsSaída);
             this.panel8.Location = new System.Drawing.Point(227, 29);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(689, 42);
             this.panel8.TabIndex = 89;
             // 
-            // cxCargo
+            // cxConfinsSaída
             // 
-            this.cxCargo.BackColor = System.Drawing.Color.White;
-            this.cxCargo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cxCargo.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
-            this.cxCargo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.cxCargo.FormattingEnabled = true;
-            this.cxCargo.Items.AddRange(new object[] {
+            this.cxConfinsSaída.BackColor = System.Drawing.Color.White;
+            this.cxConfinsSaída.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxConfinsSaída.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
+            this.cxConfinsSaída.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxConfinsSaída.FormattingEnabled = true;
+            this.cxConfinsSaída.Items.AddRange(new object[] {
             "Selecione",
             "Funcionário",
             "Administrador"});
-            this.cxCargo.Location = new System.Drawing.Point(9, 5);
-            this.cxCargo.Name = "cxCargo";
-            this.cxCargo.Size = new System.Drawing.Size(681, 31);
-            this.cxCargo.TabIndex = 12;
-            this.cxCargo.Text = "Selecione";
+            this.cxConfinsSaída.Location = new System.Drawing.Point(9, 5);
+            this.cxConfinsSaída.Name = "cxConfinsSaída";
+            this.cxConfinsSaída.Size = new System.Drawing.Size(662, 31);
+            this.cxConfinsSaída.TabIndex = 12;
+            this.cxConfinsSaída.Text = "Selecione";
             // 
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.cxAlíquotaConfinsEntrada);
             this.panel2.Location = new System.Drawing.Point(1058, 84);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(311, 42);
             this.panel2.TabIndex = 95;
             // 
-            // textBox1
+            // cxAlíquotaConfinsEntrada
             // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox1.Location = new System.Drawing.Point(10, 9);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(288, 23);
-            this.textBox1.TabIndex = 11;
+            this.cxAlíquotaConfinsEntrada.BackColor = System.Drawing.Color.White;
+            this.cxAlíquotaConfinsEntrada.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxAlíquotaConfinsEntrada.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxAlíquotaConfinsEntrada.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxAlíquotaConfinsEntrada.Location = new System.Drawing.Point(10, 9);
+            this.cxAlíquotaConfinsEntrada.Name = "cxAlíquotaConfinsEntrada";
+            this.cxAlíquotaConfinsEntrada.Size = new System.Drawing.Size(288, 23);
+            this.cxAlíquotaConfinsEntrada.TabIndex = 11;
             // 
             // panel7
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel7.Controls.Add(this.cxCategoriaPesquisarPrduto);
+            this.panel7.Controls.Add(this.cxAlíquotaConfinsSaida);
             this.panel7.Location = new System.Drawing.Point(1058, 29);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(311, 42);
             this.panel7.TabIndex = 94;
             // 
-            // cxCategoriaPesquisarPrduto
+            // cxAlíquotaConfinsSaida
             // 
-            this.cxCategoriaPesquisarPrduto.BackColor = System.Drawing.Color.White;
-            this.cxCategoriaPesquisarPrduto.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.cxCategoriaPesquisarPrduto.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cxCategoriaPesquisarPrduto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.cxCategoriaPesquisarPrduto.Location = new System.Drawing.Point(10, 9);
-            this.cxCategoriaPesquisarPrduto.Name = "cxCategoriaPesquisarPrduto";
-            this.cxCategoriaPesquisarPrduto.Size = new System.Drawing.Size(288, 23);
-            this.cxCategoriaPesquisarPrduto.TabIndex = 11;
+            this.cxAlíquotaConfinsSaida.BackColor = System.Drawing.Color.White;
+            this.cxAlíquotaConfinsSaida.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxAlíquotaConfinsSaida.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxAlíquotaConfinsSaida.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxAlíquotaConfinsSaida.Location = new System.Drawing.Point(10, 9);
+            this.cxAlíquotaConfinsSaida.Name = "cxAlíquotaConfinsSaida";
+            this.cxAlíquotaConfinsSaida.Size = new System.Drawing.Size(288, 23);
+            this.cxAlíquotaConfinsSaida.TabIndex = 11;
             // 
             // label2
             // 
@@ -198,6 +198,7 @@
             this.Controls.Add(this.label3);
             this.Name = "camposTributosCadastroProdutosCONFINS";
             this.Text = "camposTributosCadastroProdutosCONFINS";
+            this.Load += new System.EventHandler(this.camposTributosCadastroProdutosCONFINS_Load);
             this.panel1.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
@@ -213,14 +214,14 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cxConfinsEntrada;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.ComboBox cxCargo;
+        private System.Windows.Forms.ComboBox cxConfinsSaída;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox cxAlíquotaConfinsEntrada;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.TextBox cxCategoriaPesquisarPrduto;
+        private System.Windows.Forms.TextBox cxAlíquotaConfinsSaida;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
     }

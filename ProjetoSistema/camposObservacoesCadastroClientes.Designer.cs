@@ -28,26 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cxObsObservacoes = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // textBox1
+            // cxObsObservacoes
             // 
-            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 10.2F);
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox1.Location = new System.Drawing.Point(0, 0);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(1409, 457);
-            this.textBox1.TabIndex = 0;
+            this.cxObsObservacoes.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cxObsObservacoes.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.cxObsObservacoes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxObsObservacoes.Location = new System.Drawing.Point(0, 0);
+            this.cxObsObservacoes.Multiline = true;
+            this.cxObsObservacoes.Name = "cxObsObservacoes";
+            this.cxObsObservacoes.Size = new System.Drawing.Size(1409, 457);
+            this.cxObsObservacoes.TabIndex = 0;
+            this.cxObsObservacoes.TextChanged += new System.EventHandler(this.cxObsObservacoes_TextChanged);
             // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.cxObsObservacoes);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1411, 459);
@@ -62,6 +63,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "camposObservacoesCadastroClientes";
             this.Text = "camposObservacoesCadastroClientes";
+            this.Load += new System.EventHandler(this.camposObservacoesCadastroClientes_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -70,7 +72,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox cxObsObservacoes;
         private System.Windows.Forms.Panel panel1;
     }
 }

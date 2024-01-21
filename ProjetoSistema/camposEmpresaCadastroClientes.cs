@@ -13,6 +13,18 @@ namespace ProjetoSistema
 {
     public partial class camposEmpresaCadastroClientes : Form
     {
+        public string nomeEmpresaCliente = "";
+        public string telefoneClienteEmpresa = "";
+        public string enderecoClienteEmpresa = "";
+        public string NenderecoClienteEmpres = "";
+        public string cepClienteEmpresa = "";
+        public string bairroClienteEmpresa = "";
+        public string ufClienteEmpresa = "";
+        public string cidadeClienteEmpresa = "";
+        public string cargoClienteEmpresa = "";
+        public string rendaClienteEmpresa = "";
+        public string admissaoClienteEmpresa = "";
+
         public camposEmpresaCadastroClientes()
         {
             InitializeComponent();
@@ -21,8 +33,8 @@ namespace ProjetoSistema
 
         private void camposEmpresaCadastroClientes_Load(object sender, EventArgs e)
         {
-            cxRenda.Mask = "00,00";
-            cxRenda.PromptChar = '0';
+            cxRendaEmpresa.Mask = "00,00";
+            cxRendaEmpresa.PromptChar = '0';
 
             cxTelefoneEmpresa.Mask = "(00)00000-0000";
             cxTelefoneEmpresa.PromptChar = ' ';
@@ -30,16 +42,16 @@ namespace ProjetoSistema
 
         private void ConfigurarControles()
         {
-            cxAdmissao.Mask = "00/00/0000";
-            cxAdmissao.ValidatingType = typeof(DateTime);
-            cxAdmissao.PromptChar = ' ';
+            cxAdmissaoEmpresa.Mask = "00/00/0000";
+            cxAdmissaoEmpresa.ValidatingType = typeof(DateTime);
+            cxAdmissaoEmpresa.PromptChar = ' ';
 
             dtAdmissao.Format = DateTimePickerFormat.Short;
             dtAdmissao.CustomFormat = "   /   /      ";
 
-            cxAdmissao.TypeValidationCompleted += cxAdmissao_TypeValidationCompleted_1;
+            cxAdmissaoEmpresa.TypeValidationCompleted += cxAdmissao_TypeValidationCompleted_1;
             dtAdmissao.ValueChanged += dtAdmissao_ValueChanged;
-            cxAdmissao.TextChanged += cxAdmissao_TextChanged_1;
+            cxAdmissaoEmpresa.TextChanged += cxAdmissao_TextChanged_1;
         }
 
         private void cxAdmissao_TypeValidationCompleted(object sender, TypeValidationEventArgs e)
@@ -47,22 +59,22 @@ namespace ProjetoSistema
             if (!e.IsValidInput)
             {
                 MessageBox.Show("Data inválida. Digite uma data válida.", "Erro de validação", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                cxAdmissao.Text = "";
+                cxAdmissaoEmpresa.Text = "";
             }
             else
             {
-                dtAdmissao.Value = cxAdmissao.Text == "" ? DateTimePicker.MinimumDateTime : (DateTime)e.ReturnValue;
+                dtAdmissao.Value = cxAdmissaoEmpresa.Text == "" ? DateTimePicker.MinimumDateTime : (DateTime)e.ReturnValue;
             }
         }
 
         private void dtAdmissao_ValueChanged(object sender, EventArgs e)
         {
-            cxAdmissao.Text = dtAdmissao.Value.ToString("dd/MM/yyyy");
+            cxAdmissaoEmpresa.Text = dtAdmissao.Value.ToString("dd/MM/yyyy");
         }
 
         private void cxAdmissao_TextChanged(object sender, EventArgs e)
         {
-            if (DateTime.TryParseExact(cxAdmissao.Text, "dd/MM/yyyy", null, DateTimeStyles.None, out DateTime result))
+            if (DateTime.TryParseExact(cxAdmissaoEmpresa.Text, "dd/MM/yyyy", null, DateTimeStyles.None, out DateTime result))
             {
                 dtAdmissao.Value = result;
             }
@@ -73,20 +85,75 @@ namespace ProjetoSistema
             if (!e.IsValidInput)
             {
                 MessageBox.Show("Data inválida. Digite uma data válida.", "Erro de validação", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                cxAdmissao.Text = "";
+                cxAdmissaoEmpresa.Text = "";
             }
             else
             {
-                dtAdmissao.Value = cxAdmissao.Text == "" ? DateTimePicker.MinimumDateTime : (DateTime)e.ReturnValue;
+                dtAdmissao.Value = cxAdmissaoEmpresa.Text == "" ? DateTimePicker.MinimumDateTime : (DateTime)e.ReturnValue;
             }
         }
 
         private void cxAdmissao_TextChanged_1(object sender, EventArgs e)
         {
-            if (DateTime.TryParseExact(cxAdmissao.Text, "dd/MM/yyyy", null, DateTimeStyles.None, out DateTime result))
+            if (DateTime.TryParseExact(cxAdmissaoEmpresa.Text, "dd/MM/yyyy", null, DateTimeStyles.None, out DateTime result))
             {
                 dtAdmissao.Value = result;
             }
+        }
+
+        private void cxNomeEmpresaEmpresa_TextChanged(object sender, EventArgs e)
+        {
+            this.nomeEmpresaCliente = cxNomeEmpresaEmpresa.Text;
+        }
+
+        private void cxTelefoneEmpresa_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+            this.telefoneClienteEmpresa = cxTelefoneEmpresa.Text;
+        }
+
+        private void cxEnderecoEmpresa_TextChanged(object sender, EventArgs e)
+        {
+            this.enderecoClienteEmpresa = cxEnderecoEmpresa.Text;
+        }
+
+        private void cxNenderecoEmpresa_TextChanged(object sender, EventArgs e)
+        {
+            this.NenderecoClienteEmpres = cxNenderecoEmpresa.Text;
+        }
+
+        private void cxCepEmpresa_TextChanged(object sender, EventArgs e)
+        {
+            this.cepClienteEmpresa = cxCepEmpresa.Text;
+        }
+
+        private void cxBairroEmpresa_TextChanged(object sender, EventArgs e)
+        {
+            this.bairroClienteEmpresa = cxBairroEmpresa.Text;
+        }
+
+        private void cxUfEmpresa_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            this.ufClienteEmpresa = cxUfEmpresa.Text;
+        }
+
+        private void cxCidadeEmpresa_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            this.cidadeClienteEmpresa = cxCidadeEmpresa.Text;
+        }
+
+        private void cxCargoEmpresa_TextChanged(object sender, EventArgs e)
+        {
+            this.cargoClienteEmpresa = cxCargoEmpresa.Text;
+        }
+
+        private void cxRendaEmpresa_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+            this.rendaClienteEmpresa = cxRendaEmpresa.Text;
+        }
+
+        private void cxAdmissaoEmpresa_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+            this.admissaoClienteEmpresa = cxAdmissaoEmpresa.Text;
         }
     }
 }

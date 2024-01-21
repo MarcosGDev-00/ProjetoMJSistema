@@ -30,40 +30,40 @@
         {
             this.label12 = new System.Windows.Forms.Label();
             this.panel13 = new System.Windows.Forms.Panel();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.cxFornecedorProdutoBase = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.cxFabricanteProdutoBase = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.cxSubcategoriaProdutosBase = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cxCategoriaProdutoBase = new System.Windows.Forms.ComboBox();
             this.lblTipoProd = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.comboBoxTipoProd = new System.Windows.Forms.ComboBox();
+            this.cxTipoProdutoBase = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.cxDescricaoProdutoBase = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.cxCargo = new System.Windows.Forms.ComboBox();
+            this.cxUnidadeProdutoBase = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.cxCodigoBarrasBase = new System.Windows.Forms.TextBox();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.cxNomeProdutoBase = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.cxReferenciaProdutoBase = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.codigoProdutoBase = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.cxCategoriaPesquisarPrduto = new System.Windows.Forms.TextBox();
+            this.cxCódigoInternoProdutoBase = new System.Windows.Forms.TextBox();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.panel13.SuspendLayout();
             this.panel14.SuspendLayout();
@@ -94,28 +94,28 @@
             // panel13
             // 
             this.panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel13.Controls.Add(this.comboBox4);
+            this.panel13.Controls.Add(this.cxFornecedorProdutoBase);
             this.panel13.Location = new System.Drawing.Point(742, 433);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(671, 50);
             this.panel13.TabIndex = 67;
             // 
-            // comboBox4
+            // cxFornecedorProdutoBase
             // 
-            this.comboBox4.BackColor = System.Drawing.Color.White;
-            this.comboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox4.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
-            this.comboBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.cxFornecedorProdutoBase.BackColor = System.Drawing.Color.White;
+            this.cxFornecedorProdutoBase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxFornecedorProdutoBase.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
+            this.cxFornecedorProdutoBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxFornecedorProdutoBase.FormattingEnabled = true;
+            this.cxFornecedorProdutoBase.Items.AddRange(new object[] {
             "Selecione",
             "Funcionário",
             "Administrador"});
-            this.comboBox4.Location = new System.Drawing.Point(11, 5);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(647, 38);
-            this.comboBox4.TabIndex = 12;
-            this.comboBox4.Text = "Selecione";
+            this.cxFornecedorProdutoBase.Location = new System.Drawing.Point(11, 5);
+            this.cxFornecedorProdutoBase.Name = "cxFornecedorProdutoBase";
+            this.cxFornecedorProdutoBase.Size = new System.Drawing.Size(647, 38);
+            this.cxFornecedorProdutoBase.TabIndex = 12;
+            this.cxFornecedorProdutoBase.Text = "Selecione";
             // 
             // label13
             // 
@@ -131,28 +131,28 @@
             // panel14
             // 
             this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel14.Controls.Add(this.comboBox5);
+            this.panel14.Controls.Add(this.cxFabricanteProdutoBase);
             this.panel14.Location = new System.Drawing.Point(24, 433);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(671, 50);
             this.panel14.TabIndex = 65;
             // 
-            // comboBox5
+            // cxFabricanteProdutoBase
             // 
-            this.comboBox5.BackColor = System.Drawing.Color.White;
-            this.comboBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox5.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
-            this.comboBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
+            this.cxFabricanteProdutoBase.BackColor = System.Drawing.Color.White;
+            this.cxFabricanteProdutoBase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxFabricanteProdutoBase.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
+            this.cxFabricanteProdutoBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxFabricanteProdutoBase.FormattingEnabled = true;
+            this.cxFabricanteProdutoBase.Items.AddRange(new object[] {
             "Selecione",
             "Funcionário",
             "Administrador"});
-            this.comboBox5.Location = new System.Drawing.Point(11, 5);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(647, 38);
-            this.comboBox5.TabIndex = 12;
-            this.comboBox5.Text = "Selecione";
+            this.cxFabricanteProdutoBase.Location = new System.Drawing.Point(11, 5);
+            this.cxFabricanteProdutoBase.Name = "cxFabricanteProdutoBase";
+            this.cxFabricanteProdutoBase.Size = new System.Drawing.Size(647, 38);
+            this.cxFabricanteProdutoBase.TabIndex = 12;
+            this.cxFabricanteProdutoBase.Text = "Selecione";
             // 
             // label11
             // 
@@ -168,28 +168,28 @@
             // panel12
             // 
             this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel12.Controls.Add(this.comboBox3);
+            this.panel12.Controls.Add(this.cxSubcategoriaProdutosBase);
             this.panel12.Location = new System.Drawing.Point(743, 334);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(671, 50);
             this.panel12.TabIndex = 63;
             // 
-            // comboBox3
+            // cxSubcategoriaProdutosBase
             // 
-            this.comboBox3.BackColor = System.Drawing.Color.White;
-            this.comboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
-            this.comboBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.cxSubcategoriaProdutosBase.BackColor = System.Drawing.Color.White;
+            this.cxSubcategoriaProdutosBase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxSubcategoriaProdutosBase.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
+            this.cxSubcategoriaProdutosBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxSubcategoriaProdutosBase.FormattingEnabled = true;
+            this.cxSubcategoriaProdutosBase.Items.AddRange(new object[] {
             "Selecione",
             "Funcionário",
             "Administrador"});
-            this.comboBox3.Location = new System.Drawing.Point(11, 5);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(647, 38);
-            this.comboBox3.TabIndex = 12;
-            this.comboBox3.Text = "Selecione";
+            this.cxSubcategoriaProdutosBase.Location = new System.Drawing.Point(11, 5);
+            this.cxSubcategoriaProdutosBase.Name = "cxSubcategoriaProdutosBase";
+            this.cxSubcategoriaProdutosBase.Size = new System.Drawing.Size(647, 38);
+            this.cxSubcategoriaProdutosBase.TabIndex = 12;
+            this.cxSubcategoriaProdutosBase.Text = "Selecione";
             // 
             // label10
             // 
@@ -205,28 +205,28 @@
             // panel11
             // 
             this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel11.Controls.Add(this.comboBox2);
+            this.panel11.Controls.Add(this.cxCategoriaProdutoBase);
             this.panel11.Location = new System.Drawing.Point(24, 334);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(671, 50);
             this.panel11.TabIndex = 61;
             // 
-            // comboBox2
+            // cxCategoriaProdutoBase
             // 
-            this.comboBox2.BackColor = System.Drawing.Color.White;
-            this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
-            this.comboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cxCategoriaProdutoBase.BackColor = System.Drawing.Color.White;
+            this.cxCategoriaProdutoBase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxCategoriaProdutoBase.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
+            this.cxCategoriaProdutoBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxCategoriaProdutoBase.FormattingEnabled = true;
+            this.cxCategoriaProdutoBase.Items.AddRange(new object[] {
             "Selecione",
             "Funcionário",
             "Administrador"});
-            this.comboBox2.Location = new System.Drawing.Point(11, 5);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(647, 38);
-            this.comboBox2.TabIndex = 12;
-            this.comboBox2.Text = "Selecione";
+            this.cxCategoriaProdutoBase.Location = new System.Drawing.Point(11, 5);
+            this.cxCategoriaProdutoBase.Name = "cxCategoriaProdutoBase";
+            this.cxCategoriaProdutoBase.Size = new System.Drawing.Size(647, 38);
+            this.cxCategoriaProdutoBase.TabIndex = 12;
+            this.cxCategoriaProdutoBase.Text = "Selecione";
             // 
             // lblTipoProd
             // 
@@ -242,29 +242,29 @@
             // panel10
             // 
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel10.Controls.Add(this.comboBoxTipoProd);
+            this.panel10.Controls.Add(this.cxTipoProdutoBase);
             this.panel10.Location = new System.Drawing.Point(1102, 235);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(252, 50);
             this.panel10.TabIndex = 59;
             // 
-            // comboBoxTipoProd
+            // cxTipoProdutoBase
             // 
-            this.comboBoxTipoProd.BackColor = System.Drawing.Color.White;
-            this.comboBoxTipoProd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBoxTipoProd.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
-            this.comboBoxTipoProd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBoxTipoProd.FormattingEnabled = true;
-            this.comboBoxTipoProd.Items.AddRange(new object[] {
+            this.cxTipoProdutoBase.BackColor = System.Drawing.Color.White;
+            this.cxTipoProdutoBase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxTipoProdutoBase.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
+            this.cxTipoProdutoBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxTipoProdutoBase.FormattingEnabled = true;
+            this.cxTipoProdutoBase.Items.AddRange(new object[] {
             "Selecione",
             "Funcionário",
             "Administrador"});
-            this.comboBoxTipoProd.Location = new System.Drawing.Point(11, 5);
-            this.comboBoxTipoProd.Name = "comboBoxTipoProd";
-            this.comboBoxTipoProd.Size = new System.Drawing.Size(230, 38);
-            this.comboBoxTipoProd.TabIndex = 12;
-            this.comboBoxTipoProd.Text = "Selecione";
-            this.comboBoxTipoProd.MouseDown += new System.Windows.Forms.MouseEventHandler(this.comboBoxTipoProd_MouseDown);
+            this.cxTipoProdutoBase.Location = new System.Drawing.Point(11, 5);
+            this.cxTipoProdutoBase.Name = "cxTipoProdutoBase";
+            this.cxTipoProdutoBase.Size = new System.Drawing.Size(230, 38);
+            this.cxTipoProdutoBase.TabIndex = 12;
+            this.cxTipoProdutoBase.Text = "Selecione";
+            this.cxTipoProdutoBase.MouseDown += new System.Windows.Forms.MouseEventHandler(this.comboBoxTipoProd_MouseDown);
             // 
             // label8
             // 
@@ -280,22 +280,22 @@
             // panel9
             // 
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel9.Controls.Add(this.textBox6);
+            this.panel9.Controls.Add(this.cxDescricaoProdutoBase);
             this.panel9.Location = new System.Drawing.Point(24, 235);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(1029, 50);
             this.panel9.TabIndex = 57;
             // 
-            // textBox6
+            // cxDescricaoProdutoBase
             // 
-            this.textBox6.BackColor = System.Drawing.Color.White;
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox6.Location = new System.Drawing.Point(10, 13);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(1006, 23);
-            this.textBox6.TabIndex = 11;
+            this.cxDescricaoProdutoBase.BackColor = System.Drawing.Color.White;
+            this.cxDescricaoProdutoBase.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxDescricaoProdutoBase.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxDescricaoProdutoBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxDescricaoProdutoBase.Location = new System.Drawing.Point(10, 13);
+            this.cxDescricaoProdutoBase.Name = "cxDescricaoProdutoBase";
+            this.cxDescricaoProdutoBase.Size = new System.Drawing.Size(1006, 23);
+            this.cxDescricaoProdutoBase.TabIndex = 11;
             // 
             // label7
             // 
@@ -311,28 +311,28 @@
             // panel8
             // 
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel8.Controls.Add(this.cxCargo);
+            this.panel8.Controls.Add(this.cxUnidadeProdutoBase);
             this.panel8.Location = new System.Drawing.Point(1102, 136);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(311, 50);
             this.panel8.TabIndex = 55;
             // 
-            // cxCargo
+            // cxUnidadeProdutoBase
             // 
-            this.cxCargo.BackColor = System.Drawing.Color.White;
-            this.cxCargo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cxCargo.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
-            this.cxCargo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.cxCargo.FormattingEnabled = true;
-            this.cxCargo.Items.AddRange(new object[] {
+            this.cxUnidadeProdutoBase.BackColor = System.Drawing.Color.White;
+            this.cxUnidadeProdutoBase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxUnidadeProdutoBase.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
+            this.cxUnidadeProdutoBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxUnidadeProdutoBase.FormattingEnabled = true;
+            this.cxUnidadeProdutoBase.Items.AddRange(new object[] {
             "Selecione",
             "Funcionário",
             "Administrador"});
-            this.cxCargo.Location = new System.Drawing.Point(11, 5);
-            this.cxCargo.Name = "cxCargo";
-            this.cxCargo.Size = new System.Drawing.Size(286, 38);
-            this.cxCargo.TabIndex = 12;
-            this.cxCargo.Text = "Selecione";
+            this.cxUnidadeProdutoBase.Location = new System.Drawing.Point(11, 5);
+            this.cxUnidadeProdutoBase.Name = "cxUnidadeProdutoBase";
+            this.cxUnidadeProdutoBase.Size = new System.Drawing.Size(286, 38);
+            this.cxUnidadeProdutoBase.TabIndex = 12;
+            this.cxUnidadeProdutoBase.Text = "Selecione";
             // 
             // label6
             // 
@@ -359,42 +359,42 @@
             // panel6
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.textBox3);
+            this.panel6.Controls.Add(this.cxCodigoBarrasBase);
             this.panel6.Location = new System.Drawing.Point(1102, 37);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(311, 50);
             this.panel6.TabIndex = 51;
             // 
-            // textBox3
+            // cxCodigoBarrasBase
             // 
-            this.textBox3.BackColor = System.Drawing.Color.White;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox3.Location = new System.Drawing.Point(10, 13);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(288, 23);
-            this.textBox3.TabIndex = 11;
+            this.cxCodigoBarrasBase.BackColor = System.Drawing.Color.White;
+            this.cxCodigoBarrasBase.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxCodigoBarrasBase.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxCodigoBarrasBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxCodigoBarrasBase.Location = new System.Drawing.Point(10, 13);
+            this.cxCodigoBarrasBase.Name = "cxCodigoBarrasBase";
+            this.cxCodigoBarrasBase.Size = new System.Drawing.Size(288, 23);
+            this.cxCodigoBarrasBase.TabIndex = 11;
             // 
             // panel7
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel7.Controls.Add(this.textBox4);
+            this.panel7.Controls.Add(this.cxNomeProdutoBase);
             this.panel7.Location = new System.Drawing.Point(24, 136);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(1029, 50);
             this.panel7.TabIndex = 53;
             // 
-            // textBox4
+            // cxNomeProdutoBase
             // 
-            this.textBox4.BackColor = System.Drawing.Color.White;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox4.Location = new System.Drawing.Point(10, 13);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(1006, 23);
-            this.textBox4.TabIndex = 11;
+            this.cxNomeProdutoBase.BackColor = System.Drawing.Color.White;
+            this.cxNomeProdutoBase.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxNomeProdutoBase.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxNomeProdutoBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxNomeProdutoBase.Location = new System.Drawing.Point(10, 13);
+            this.cxNomeProdutoBase.Name = "cxNomeProdutoBase";
+            this.cxNomeProdutoBase.Size = new System.Drawing.Size(1006, 23);
+            this.cxNomeProdutoBase.TabIndex = 11;
             // 
             // label4
             // 
@@ -410,22 +410,22 @@
             // panel5
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.textBox2);
+            this.panel5.Controls.Add(this.cxReferenciaProdutoBase);
             this.panel5.Location = new System.Drawing.Point(742, 37);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(311, 50);
             this.panel5.TabIndex = 49;
             // 
-            // textBox2
+            // cxReferenciaProdutoBase
             // 
-            this.textBox2.BackColor = System.Drawing.Color.White;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox2.Location = new System.Drawing.Point(10, 13);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(288, 23);
-            this.textBox2.TabIndex = 11;
+            this.cxReferenciaProdutoBase.BackColor = System.Drawing.Color.White;
+            this.cxReferenciaProdutoBase.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxReferenciaProdutoBase.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxReferenciaProdutoBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxReferenciaProdutoBase.Location = new System.Drawing.Point(10, 13);
+            this.cxReferenciaProdutoBase.Name = "cxReferenciaProdutoBase";
+            this.cxReferenciaProdutoBase.Size = new System.Drawing.Size(288, 23);
+            this.cxReferenciaProdutoBase.TabIndex = 11;
             // 
             // label3
             // 
@@ -441,22 +441,22 @@
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.textBox1);
+            this.panel3.Controls.Add(this.codigoProdutoBase);
             this.panel3.Location = new System.Drawing.Point(384, 37);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(311, 50);
             this.panel3.TabIndex = 47;
             // 
-            // textBox1
+            // codigoProdutoBase
             // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox1.Location = new System.Drawing.Point(10, 13);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(288, 23);
-            this.textBox1.TabIndex = 11;
+            this.codigoProdutoBase.BackColor = System.Drawing.Color.White;
+            this.codigoProdutoBase.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.codigoProdutoBase.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.codigoProdutoBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.codigoProdutoBase.Location = new System.Drawing.Point(10, 13);
+            this.codigoProdutoBase.Name = "codigoProdutoBase";
+            this.codigoProdutoBase.Size = new System.Drawing.Size(288, 23);
+            this.codigoProdutoBase.TabIndex = 11;
             // 
             // label2
             // 
@@ -472,22 +472,22 @@
             // panel4
             // 
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.cxCategoriaPesquisarPrduto);
+            this.panel4.Controls.Add(this.cxCódigoInternoProdutoBase);
             this.panel4.Location = new System.Drawing.Point(24, 37);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(311, 50);
             this.panel4.TabIndex = 45;
             // 
-            // cxCategoriaPesquisarPrduto
+            // cxCódigoInternoProdutoBase
             // 
-            this.cxCategoriaPesquisarPrduto.BackColor = System.Drawing.Color.White;
-            this.cxCategoriaPesquisarPrduto.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.cxCategoriaPesquisarPrduto.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cxCategoriaPesquisarPrduto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.cxCategoriaPesquisarPrduto.Location = new System.Drawing.Point(10, 13);
-            this.cxCategoriaPesquisarPrduto.Name = "cxCategoriaPesquisarPrduto";
-            this.cxCategoriaPesquisarPrduto.Size = new System.Drawing.Size(288, 23);
-            this.cxCategoriaPesquisarPrduto.TabIndex = 11;
+            this.cxCódigoInternoProdutoBase.BackColor = System.Drawing.Color.White;
+            this.cxCódigoInternoProdutoBase.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxCódigoInternoProdutoBase.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxCódigoInternoProdutoBase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxCódigoInternoProdutoBase.Location = new System.Drawing.Point(10, 13);
+            this.cxCódigoInternoProdutoBase.Name = "cxCódigoInternoProdutoBase";
+            this.cxCódigoInternoProdutoBase.Size = new System.Drawing.Size(288, 23);
+            this.cxCódigoInternoProdutoBase.TabIndex = 11;
             // 
             // iconButton1
             // 
@@ -567,40 +567,40 @@
 
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Panel panel13;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox cxFornecedorProdutoBase;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Panel panel14;
-        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.ComboBox cxFabricanteProdutoBase;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox cxSubcategoriaProdutosBase;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cxCategoriaProdutoBase;
         private System.Windows.Forms.Label lblTipoProd;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.ComboBox comboBoxTipoProd;
+        private System.Windows.Forms.ComboBox cxTipoProdutoBase;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox cxDescricaoProdutoBase;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.ComboBox cxCargo;
+        private System.Windows.Forms.ComboBox cxUnidadeProdutoBase;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox cxCodigoBarrasBase;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox cxNomeProdutoBase;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox cxReferenciaProdutoBase;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox codigoProdutoBase;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.TextBox cxCategoriaPesquisarPrduto;
+        private System.Windows.Forms.TextBox cxCódigoInternoProdutoBase;
         private FontAwesome.Sharp.IconButton iconButton1;
     }
 }

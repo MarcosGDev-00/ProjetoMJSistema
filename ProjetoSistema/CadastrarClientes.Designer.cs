@@ -40,17 +40,18 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panelCadastrarProdutos = new System.Windows.Forms.Panel();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.panelCadastrarProdutos = new System.Windows.Forms.Panel();
+            this.btnCadastrarCliente = new FontAwesome.Sharp.IconButton();
             this.panel2.SuspendLayout();
             this.panelCadastrarProdutos.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelCamposClientes
             // 
-            this.panelCamposClientes.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelCamposClientes.BackColor = System.Drawing.Color.White;
             this.panelCamposClientes.ForeColor = System.Drawing.Color.White;
-            this.panelCamposClientes.Location = new System.Drawing.Point(0, 128);
+            this.panelCamposClientes.Location = new System.Drawing.Point(0, 95);
             this.panelCamposClientes.Name = "panelCamposClientes";
             this.panelCamposClientes.Size = new System.Drawing.Size(1453, 530);
             this.panelCamposClientes.TabIndex = 1;
@@ -105,7 +106,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(3, 92);
+            this.label1.Location = new System.Drawing.Point(3, 62);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(230, 19);
             this.label1.TabIndex = 44;
@@ -213,21 +214,10 @@
             this.panel2.Controls.Add(this.button4);
             this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.button1);
-            this.panel2.Location = new System.Drawing.Point(3, 33);
+            this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1400, 39);
             this.panel2.TabIndex = 2;
-            // 
-            // panelCadastrarProdutos
-            // 
-            this.panelCadastrarProdutos.BackColor = System.Drawing.Color.White;
-            this.panelCadastrarProdutos.Controls.Add(this.label1);
-            this.panelCadastrarProdutos.Controls.Add(this.panel2);
-            this.panelCadastrarProdutos.Controls.Add(this.panelCamposClientes);
-            this.panelCadastrarProdutos.Location = new System.Drawing.Point(14, 12);
-            this.panelCadastrarProdutos.Name = "panelCadastrarProdutos";
-            this.panelCadastrarProdutos.Size = new System.Drawing.Size(1453, 658);
-            this.panelCadastrarProdutos.TabIndex = 2;
             // 
             // iconButton1
             // 
@@ -245,6 +235,38 @@
             this.iconButton1.TabIndex = 14;
             this.iconButton1.UseVisualStyleBackColor = false;
             this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
+            // 
+            // panelCadastrarProdutos
+            // 
+            this.panelCadastrarProdutos.BackColor = System.Drawing.Color.White;
+            this.panelCadastrarProdutos.Controls.Add(this.btnCadastrarCliente);
+            this.panelCadastrarProdutos.Controls.Add(this.label1);
+            this.panelCadastrarProdutos.Controls.Add(this.panelCamposClientes);
+            this.panelCadastrarProdutos.Controls.Add(this.panel2);
+            this.panelCadastrarProdutos.Location = new System.Drawing.Point(14, 2);
+            this.panelCadastrarProdutos.Name = "panelCadastrarProdutos";
+            this.panelCadastrarProdutos.Size = new System.Drawing.Size(1453, 679);
+            this.panelCadastrarProdutos.TabIndex = 2;
+            // 
+            // btnCadastrarCliente
+            // 
+            this.btnCadastrarCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.btnCadastrarCliente.FlatAppearance.BorderSize = 0;
+            this.btnCadastrarCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadastrarCliente.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnCadastrarCliente.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnCadastrarCliente.IconChar = FontAwesome.Sharp.IconChar.Check;
+            this.btnCadastrarCliente.IconColor = System.Drawing.Color.WhiteSmoke;
+            this.btnCadastrarCliente.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnCadastrarCliente.IconSize = 30;
+            this.btnCadastrarCliente.Location = new System.Drawing.Point(1307, 631);
+            this.btnCadastrarCliente.Name = "btnCadastrarCliente";
+            this.btnCadastrarCliente.Size = new System.Drawing.Size(131, 39);
+            this.btnCadastrarCliente.TabIndex = 45;
+            this.btnCadastrarCliente.Text = "Cadastrar";
+            this.btnCadastrarCliente.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCadastrarCliente.UseVisualStyleBackColor = false;
+            this.btnCadastrarCliente.Click += new System.EventHandler(this.btnCadastrarCliente_Click);
             // 
             // CadastrarClientes
             // 
@@ -279,5 +301,6 @@
         private System.Windows.Forms.Panel panel2;
         private FontAwesome.Sharp.IconButton iconButton1;
         private System.Windows.Forms.Panel panelCadastrarProdutos;
+        private FontAwesome.Sharp.IconButton btnCadastrarCliente;
     }
 }

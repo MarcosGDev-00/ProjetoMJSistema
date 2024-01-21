@@ -13,6 +13,22 @@ namespace ProjetoSistema
 {
     public partial class camposConjugueCadastroClientes : Form
     {
+        public string nomeClienteConjugue = "";
+        public string cpfClienteConjugue = "";
+        public string rgClienteConjugue = "";
+        public string dataNascClienteConjugue = "";
+        public string telefoneConjugue = "";
+        public string enderecoClienteConjugue = "";
+        public string NumeroEndClienteConjugue = "";
+        public string cepClienteConjugue = "";
+        public string bairroClienteConjugue = "";
+        public string ufClienteConjugue = "";
+        public string cidadeClienteConjugue = "";
+        public string empresaClienteConjugue = "";
+        public string cargoClienteConjugue = "";
+        public string rendaClienteConjugue = "";
+        public string admissaoClienteConjugue = "";
+
         public camposConjugueCadastroClientes()
         {
             InitializeComponent();
@@ -24,13 +40,13 @@ namespace ProjetoSistema
             cxRendaConjugue.Mask = "00,00";
             cxRendaConjugue.PromptChar = '0';
 
-            cxFoneConjugue.Mask = "(00)00000-0000";
-            cxFoneConjugue.PromptChar = ' ';
+            cxFoneConjugueConjugue.Mask = "(00)00000-0000";
+            cxFoneConjugueConjugue.PromptChar = ' ';
         }
 
         private void textBox8_TextChanged(object sender, EventArgs e)
         {
-
+            this.enderecoClienteConjugue = cxEnderecoConjugue.Text;
         }
 
         private void ConfigurarControles()
@@ -46,16 +62,16 @@ namespace ProjetoSistema
             dtAdmissaoConjugue.ValueChanged += dtAdmissaoConjugue_ValueChanged;
             cxAdmissaoConjugue.TextChanged += cxAdmissaoConjugue_TextChanged;
 
-            cxDataNascimento.Mask = "00/00/0000";
-            cxDataNascimento.ValidatingType = typeof(DateTime);
-            cxDataNascimento.PromptChar = ' ';
+            cxDataNascimentoConjugue.Mask = "00/00/0000";
+            cxDataNascimentoConjugue.ValidatingType = typeof(DateTime);
+            cxDataNascimentoConjugue.PromptChar = ' ';
 
             dtDataNascimento.Format = DateTimePickerFormat.Short;
             dtDataNascimento.CustomFormat = "   /   /      ";
 
-            cxDataNascimento.TypeValidationCompleted += cxDataNascimento_TypeValidationCompleted;
+            cxDataNascimentoConjugue.TypeValidationCompleted += cxDataNascimento_TypeValidationCompleted;
             dtDataNascimento.ValueChanged += dtDataNascimento_ValueChanged;
-            cxDataNascimento.TextChanged += cxDataNascimento_TextChanged;
+            cxDataNascimentoConjugue.TextChanged += cxDataNascimento_TextChanged;
         }
 
         private void cxAdmissaoConjugue_TypeValidationCompleted(object sender, TypeValidationEventArgs e)
@@ -73,12 +89,12 @@ namespace ProjetoSistema
 
         private void dtDataNascimento_ValueChanged(object sender, EventArgs e)
         {
-            cxDataNascimento.Text = dtDataNascimento.Value.ToString("dd/MM/yyyy");
+            cxDataNascimentoConjugue.Text = dtDataNascimento.Value.ToString("dd/MM/yyyy");
         }
 
         private void cxDataNascimento_TextChanged(object sender, EventArgs e)
         {
-            if (DateTime.TryParseExact(cxDataNascimento.Text, "dd/MM/yyyy", null, DateTimeStyles.None, out DateTime result))
+            if (DateTime.TryParseExact(cxDataNascimentoConjugue.Text, "dd/MM/yyyy", null, DateTimeStyles.None, out DateTime result))
             {
                 dtDataNascimento.Value = result;
             }
@@ -102,12 +118,82 @@ namespace ProjetoSistema
             if (!e.IsValidInput)
             {
                 MessageBox.Show("Data inválida. Digite uma data válida.", "Erro de validação", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                cxDataNascimento.Text = "";
+                cxDataNascimentoConjugue.Text = "";
             }
             else
             {
-                dtDataNascimento.Value = cxDataNascimento.Text == "" ? DateTimePicker.MinimumDateTime : (DateTime)e.ReturnValue;
+                dtDataNascimento.Value = cxDataNascimentoConjugue.Text == "" ? DateTimePicker.MinimumDateTime : (DateTime)e.ReturnValue;
             }
+        }
+
+        private void cxNomeConjugue_TextChanged(object sender, EventArgs e)
+        {
+            this.nomeClienteConjugue = cxNomeConjugue.Text;
+        }
+
+        private void cxCpfConjugue_TextChanged(object sender, EventArgs e)
+        {
+            this.cpfClienteConjugue = cxCpfConjugue.Text;
+        }
+
+        private void cxRgConjugue_TextChanged(object sender, EventArgs e)
+        {
+            this.rgClienteConjugue = cxRgConjugue.Text;
+        }
+
+        private void cxDataNascimentoConjugue_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+            this.dataNascClienteConjugue = cxDataNascimentoConjugue.Text;
+        }
+
+        private void cxFoneConjugueConjugue_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+            this.telefoneConjugue = cxFoneConjugueConjugue.Text;
+        }
+
+        private void cxNenderecoConjugue_TextChanged(object sender, EventArgs e)
+        {
+            this.NumeroEndClienteConjugue = cxNenderecoConjugue.Text;
+        }
+
+        private void cxCepConjugue_TextChanged(object sender, EventArgs e)
+        {
+            this.cepClienteConjugue = cxCepConjugue.Text;
+        }
+
+        private void cxBairroConjugue_TextChanged(object sender, EventArgs e)
+        {
+            this.bairroClienteConjugue = cxBairroConjugue.Text;
+        }
+
+        private void cxUfConjugue_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            this.ufClienteConjugue = cxUfConjugue.Text;
+        }
+
+        private void cxCidadeConjugue_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            this.cidadeClienteConjugue = cxCidadeConjugue.Text;
+        }
+
+        private void cxEmpresaConjugue_TextChanged(object sender, EventArgs e)
+        {
+            this.empresaClienteConjugue = cxEmpresaConjugue.Text;
+        }
+
+        private void cxCargoConjugue_TextChanged(object sender, EventArgs e)
+        {
+            this.cargoClienteConjugue = cxCargoConjugue.Text;
+        }
+
+        private void cxRendaConjugue_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+            this.rendaClienteConjugue = cxRendaConjugue.Text;
+        }
+
+        private void cxAdmissaoConjugue_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+            this.admissaoClienteConjugue = cxAdmissaoConjugue.Text;
         }
     }
 }

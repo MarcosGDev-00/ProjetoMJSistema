@@ -13,6 +13,12 @@ namespace ProjetoSistema
 {
     public partial class camposAdicionaisCadastrarClientes : Form
     {
+        public string nacionalidadeCliente = "";
+        public string ufCliente = "";
+        public string statuCliente = "";
+        public string naturalidadeCliente = "";
+        public string dataNascCliente = ""; 
+
         public camposAdicionaisCadastrarClientes()
         {
             InitializeComponent();
@@ -26,16 +32,16 @@ namespace ProjetoSistema
 
         private void ConfigurarControles()
         {
-            cxDataNascimento.Mask = "00/00/0000";
-            cxDataNascimento.ValidatingType = typeof(DateTime);
-            cxDataNascimento.PromptChar = ' ';
+            cxDataNascimentoClienteAdicional.Mask = "00/00/0000";
+            cxDataNascimentoClienteAdicional.ValidatingType = typeof(DateTime);
+            cxDataNascimentoClienteAdicional.PromptChar = ' ';
 
-            dtDataNascimento.Format = DateTimePickerFormat.Short;
-            dtDataNascimento.CustomFormat = "   /   /      ";
+            dtDataNascimentoClienteAdicional.Format = DateTimePickerFormat.Short;
+            dtDataNascimentoClienteAdicional.CustomFormat = "   /   /      ";
 
-            cxDataNascimento.TypeValidationCompleted += cxDataNascimento_TypeValidationCompleted;
-            dtDataNascimento.ValueChanged += dtDataNascimento_ValueChanged;
-            cxDataNascimento.TextChanged += cxDataNascimento_TextChanged;
+            cxDataNascimentoClienteAdicional.TypeValidationCompleted += cxDataNascimento_TypeValidationCompleted;
+            dtDataNascimentoClienteAdicional.ValueChanged += dtDataNascimento_ValueChanged;
+            cxDataNascimentoClienteAdicional.TextChanged += cxDataNascimento_TextChanged;
         }
 
         private void cxDataNascimento_TypeValidationCompleted(object sender, TypeValidationEventArgs e)
@@ -43,11 +49,11 @@ namespace ProjetoSistema
             if (!e.IsValidInput)
             {
                 MessageBox.Show("Data inválida. Digite uma data válida.", "Erro de validação", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                cxDataNascimento.Text = "";
+                cxDataNascimentoClienteAdicional.Text = "";
             }
             else
             {
-                dtDataNascimento.Value = cxDataNascimento.Text == "" ? DateTimePicker.MinimumDateTime : (DateTime)e.ReturnValue;
+                dtDataNascimentoClienteAdicional.Value = cxDataNascimentoClienteAdicional.Text == "" ? DateTimePicker.MinimumDateTime : (DateTime)e.ReturnValue;
             }
         }
 
@@ -58,15 +64,40 @@ namespace ProjetoSistema
 
         private void dtDataNascimento_ValueChanged(object sender, EventArgs e)
         {
-            cxDataNascimento.Text = dtDataNascimento.Value.ToString("dd/MM/yyyy");
+            cxDataNascimentoClienteAdicional.Text = dtDataNascimentoClienteAdicional.Value.ToString("dd/MM/yyyy");
         }
 
         private void cxDataNascimento_TextChanged(object sender, EventArgs e)
         {
-            if (DateTime.TryParseExact(cxDataNascimento.Text, "dd/MM/yyyy", null, DateTimeStyles.None, out DateTime result))
+            if (DateTime.TryParseExact(cxDataNascimentoClienteAdicional.Text, "dd/MM/yyyy", null, DateTimeStyles.None, out DateTime result))
             {
-                dtDataNascimento.Value = result;
+                dtDataNascimentoClienteAdicional.Value = result;
             }
+        }
+
+        private void cxNacionalidadeClienteAdicional_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            this.nacionalidadeCliente = cxNacionalidadeClienteAdicional.Text;
+        }
+
+        private void cxUfClienteAdicional_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            this.ufCliente = cxUfClienteAdicional.Text;
+        }
+
+        private void cxStatusClienteAdicional_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            this.statuCliente = cxStatusClienteAdicional.Text;
+        }
+
+        private void cxNaturalidadeClienteAdicional_TextChanged(object sender, EventArgs e)
+        {
+            this.naturalidadeCliente = cxNaturalidadeClienteAdicional.Text;
+        }
+
+        private void cxDataNascimentoClienteAdicional_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+            this.dataNascCliente = cxDataNascimentoClienteAdicional.Text;
         }
     }
 }

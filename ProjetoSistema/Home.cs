@@ -20,11 +20,16 @@ namespace ProjetoSistema
 
         private Timer timerSessao;
 
+        private int alturaDesejada = 0;
+        private Panel panelMenuExpand = new Panel();
+
+        private Timer cadTimer;
+
         public Home()
         {
             InitializeComponent();
             InitializeControls();
-            menuExpansivel();
+            // menuExpansivel();
 
             this.FormClosing += Home_FormClosing;
 
@@ -34,18 +39,26 @@ namespace ProjetoSistema
             timerSessao.Interval = 1000;
             timerSessao.Tick += TimerSessao_Tick;
             timerSessao.Start();
+
+            cadTimer = new Timer();
+            cadTimer.Interval = 3;
+            cadTimer.Tick += cadTimer_Tick;
+
         }
 
         private void Home_Load(object sender, EventArgs e)
         {
             VerificarSessaoExpirada();
+
+            timerTrans.Interval = 10;
+            timerTrans.Tick += timerTrans_Tick;
         }
 
         private void TimerSessao_Tick(object sender, EventArgs e)
         {
-            VerificarSessaoExpirada();
+           VerificarSessaoExpirada();
         }
-
+        
         private void VerificarSessaoExpirada()
         {
             if (Sessao.SessaoExpirada())
@@ -72,6 +85,7 @@ namespace ProjetoSistema
             lblUser.Text = Sessao.Usuario;
 
         }
+        
 
         // Método para inicializar controles necessários
         private void InitializeControls()
@@ -100,12 +114,6 @@ namespace ProjetoSistema
                 currentBtn.TextAlign = ContentAlignment.MiddleCenter;
                 currentBtn.ImageAlign = ContentAlignment.MiddleRight;
                 currentBtn.TextImageRelation = TextImageRelation.TextBeforeImage;
-
-                leftBorderBtn.BackColor = customColor;
-                leftBorderBtn.Location = new Point(0, currentBtn.Location.Y);
-                leftBorderBtn.Visible = true;
-                leftBorderBtn.BringToFront();
-                leftBorderBtn.Size = new Size(5, 75);
 
                 lblTitleHeader.Text = currentBtn.Text;
                 iconTitleHeader.IconChar = currentBtn.IconChar;
@@ -139,14 +147,9 @@ namespace ProjetoSistema
             currentBtn.TextAlign = ContentAlignment.MiddleCenter;
             currentBtn.ImageAlign = ContentAlignment.MiddleRight;
             currentBtn.TextImageRelation = TextImageRelation.TextBeforeImage;
-
-            leftBorderBtn.BackColor = customColor;
-            leftBorderBtn.Location = new Point(0, currentBtn.Location.Y);
-            leftBorderBtn.Visible = true;
-            leftBorderBtn.BringToFront();
-            leftBorderBtn.Size = new Size(5, 75);
         }
 
+        /*
         private void menuExpansivel()
         {
             panelSubmenu.Visible = false;
@@ -170,6 +173,7 @@ namespace ProjetoSistema
             else
                 subMenu.Visible = false;
         }
+        */
 
 
         public Form formAtivo = null;
@@ -187,41 +191,6 @@ namespace ProjetoSistema
             exibirForm.Show();
         }
 
-        private void btnCadastro_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, Cores.RGBColors.color1);
-        }
-
-        private void btnClientes_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, Cores.RGBColors.color1);
-        }
-
-        private void btnVendas_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, Cores.RGBColors.color1);
-        }
-
-        private void btnAdm_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, Cores.RGBColors.color1);
-        }
-
-        private void btnEstoque_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, Cores.RGBColors.color1);
-        }
-
-        private void btnProdutos_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, Cores.RGBColors.color1);
-        }
-
-        private void btnSair_Click(object sender, EventArgs e)
-        {
-            ExitButton(sender, Cores.RGBColors.color1);
-        }
-
         private void Home_FormClosed(object sender, FormClosedEventArgs e)
         {
             
@@ -232,132 +201,138 @@ namespace ProjetoSistema
             timerSessao.Stop();
         }
 
-        private void btnHome_Click(object sender, EventArgs e)
-        {
-            exibirFormFilhoNoPanel(new Base());
-            ActivateButton(sender, Cores.RGBColors.color1);
-        }
-
-        private void btnCadastro_Click_1(object sender, EventArgs e)
-        {
-            ActivateButton(sender, Cores.RGBColors.color1);
-        }
-
-        private void btnClientes_Click_1(object sender, EventArgs e)
-        {
-            ActivateButton(sender, Cores.RGBColors.color1);
-        }
-
-        private void btnVendas_Click_1(object sender, EventArgs e)
-        {
-            ActivateButton(sender, Cores.RGBColors.color1);
-        }
-
-        private void btnAdm_Click_1(object sender, EventArgs e)
-        {
-            ActivateButton(sender, Cores.RGBColors.color1);
-        }
-
-        private void btnEstoque_Click_1(object sender, EventArgs e)
-        {
-            ActivateButton(sender, Cores.RGBColors.color1);
-        }
-
-        private void btnProdutos_Click_1(object sender, EventArgs e)
-        {
-            ActivateButton(sender, Cores.RGBColors.color1);
-        }
-
-        private void btnSair_Click_1(object sender, EventArgs e)
-        {
-            ExitButton(sender, Cores.RGBColors.color1);
-        }
-
-        private void btnCadastro_Click_2(object sender, EventArgs e)
-        {
-            ActivateButton(sender, Cores.RGBColors.color1);
-            exibirSubMenu(panelSubmenu);
-        }
-
-        private void iconButton1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void iconButton2_Click(object sender, EventArgs e)
-        {
-            exibirFormFilhoNoPanel(new TelaClientes());
-        }
-
-        private void iconButton8_Click(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void iconButton3_Click(object sender, EventArgs e)
-        {
-            exibirFormFilhoNoPanel(new TelaProdutos());
-            
-        }
-
-        private void iconButton4_Click(object sender, EventArgs e)
-        {
-            exibirFormFilhoNoPanel(new TelaFornecedor());
-        }
-
-        private void iconButton5_Click(object sender, EventArgs e)
-        {
-            exibirFormFilhoNoPanel(new TelaFabricante());
-        }
-
-        private void iconButton9_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void iconButton6_Click(object sender, EventArgs e)
-        {
-            exibirFormFilhoNoPanel(new TelaCategoria());
-        }
-
-        private void iconButton7_Click(object sender, EventArgs e)
-        {
-            exibirFormFilhoNoPanel(new TelaSubCategoria());
-        }
-
         private void panelHome_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void btnClientes_Click_2(object sender, EventArgs e)
+        private void MenuExpand_Tick(object sender, EventArgs e)
+        {
+            
+        }
+
+        bool menuExpand = false;
+
+        private void timerTrans_Tick(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void cadTimer_Tick(object sender, EventArgs e)
+        {
+            cadTimer.Start();
+
+            if (menuExpand == false)
+            {
+                panelMenuExpand.Height += 20;
+                if (panelMenuExpand.Height >= alturaDesejada)
+                {
+                    cadTimer.Stop();
+                    menuExpand = true;
+                }
+            }
+            else
+            {
+                panelMenuExpand.Height -= 20;
+                if (panelMenuExpand.Height <= 75)
+                {
+                    cadTimer.Stop();
+                    menuExpand = false;
+                }
+            }
+        }
+
+        private void btnCadastro_Click_9(object sender, EventArgs e)
+        {
+            ActivateButton(sender, Cores.RGBColors.color1);
+            panelMenuExpand = menuContainerCadastro;
+            alturaDesejada = 750;
+            cadTimer.Start();
+        }
+
+        private void btnHome_Click_1(object sender, EventArgs e)
+        {
+            exibirFormFilhoNoPanel(new Base());
+            ActivateButton(sender, Cores.RGBColors.color1);
+        }
+
+        private void btnClientes_Click_3(object sender, EventArgs e)
         {
             ActivateButton(sender, Cores.RGBColors.color1);
         }
 
-        private void btnVendas_Click_2(object sender, EventArgs e)
+        private void btnProdutos_Click_3(object sender, EventArgs e)
         {
             ActivateButton(sender, Cores.RGBColors.color1);
         }
 
-        private void btnAdm_Click_2(object sender, EventArgs e)
+        private void btnEstoque_Click_3(object sender, EventArgs e)
+        {
+            ActivateButton(sender, Cores.RGBColors.color1);
+            panelMenuExpand = menuContainerEstoque;
+            alturaDesejada = 300;
+            cadTimer.Start();
+        }
+
+        private void btnAdm_Click_3(object sender, EventArgs e)
         {
             ActivateButton(sender, Cores.RGBColors.color1);
         }
 
-        private void btnEstoque_Click_2(object sender, EventArgs e)
+        private void btnVendas_Click_3(object sender, EventArgs e)
         {
             ActivateButton(sender, Cores.RGBColors.color1);
         }
 
-        private void btnProdutos_Click_2(object sender, EventArgs e)
-        {
-            ActivateButton(sender, Cores.RGBColors.color1);
-        }
-
-        private void btnSair_Click_2(object sender, EventArgs e)
+        private void btnSair_Click_3(object sender, EventArgs e)
         {
             ExitButton(sender, Cores.RGBColors.color1);
+        }
+
+        private void iconButton2_Click_1(object sender, EventArgs e)
+        {
+            exibirFormFilhoNoPanel(new TelaClientes());
+        }
+
+        private void iconButton3_Click_1(object sender, EventArgs e)
+        {
+            exibirFormFilhoNoPanel(new TelaProdutos());
+        }
+
+        private void iconButton4_Click_1(object sender, EventArgs e)
+        {
+            exibirFormFilhoNoPanel(new TelaFornecedor());
+        }
+
+        private void iconButton5_Click_1(object sender, EventArgs e)
+        {
+            exibirFormFilhoNoPanel(new TelaFabricante());
+        }
+
+        private void iconButton6_Click_1(object sender, EventArgs e)
+        {
+            exibirFormFilhoNoPanel(new TelaCategoria());
+        }
+
+        private void iconButton7_Click_1(object sender, EventArgs e)
+        {
+            exibirFormFilhoNoPanel(new TelaSubCategoria());
+        }
+
+        private void iconButton10_Click(object sender, EventArgs e)
+        {
+            exibirFormFilhoNoPanel(new TelaEstoque());
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+            flowLayoutPanel1.HorizontalScroll.Enabled = false;
+            flowLayoutPanel1.VerticalScroll.Enabled = true;
+        }
+
+        private void menuContainerEstoque_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

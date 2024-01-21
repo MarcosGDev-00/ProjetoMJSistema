@@ -29,26 +29,26 @@
         private void InitializeComponent()
         {
             this.panel20 = new System.Windows.Forms.Panel();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.cxCidadeEndEntregaCliente = new System.Windows.Forms.ComboBox();
             this.label20 = new System.Windows.Forms.Label();
             this.panel19 = new System.Windows.Forms.Panel();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.cxEstadoEndEntregaCliente = new System.Windows.Forms.ComboBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.panel13 = new System.Windows.Forms.Panel();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.cxBairroEndEntregaCliente = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.cxCepEndEntregaCliente = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.cxNumeroEnderecoEndEntregaCliente = new System.Windows.Forms.TextBox();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.cxReferenciaEndEntregaCliente = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.cxEnderecoEndEntregaCliente = new System.Windows.Forms.TextBox();
             this.panel20.SuspendLayout();
             this.panel19.SuspendLayout();
             this.panel13.SuspendLayout();
@@ -61,28 +61,27 @@
             // panel20
             // 
             this.panel20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel20.Controls.Add(this.comboBox4);
+            this.panel20.Controls.Add(this.cxCidadeEndEntregaCliente);
             this.panel20.Location = new System.Drawing.Point(513, 278);
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(906, 37);
             this.panel20.TabIndex = 265;
             // 
-            // comboBox4
+            // cxCidadeEndEntregaCliente
             // 
-            this.comboBox4.BackColor = System.Drawing.Color.White;
-            this.comboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox4.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
-            this.comboBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
-            "Selecione",
-            "CPF",
-            "CNPJ"});
-            this.comboBox4.Location = new System.Drawing.Point(10, 3);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(881, 31);
-            this.comboBox4.TabIndex = 13;
-            this.comboBox4.Text = "Selecione";
+            this.cxCidadeEndEntregaCliente.BackColor = System.Drawing.Color.White;
+            this.cxCidadeEndEntregaCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxCidadeEndEntregaCliente.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
+            this.cxCidadeEndEntregaCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxCidadeEndEntregaCliente.FormattingEnabled = true;
+            this.cxCidadeEndEntregaCliente.Items.AddRange(new object[] {
+            "Selecione"});
+            this.cxCidadeEndEntregaCliente.Location = new System.Drawing.Point(10, 3);
+            this.cxCidadeEndEntregaCliente.Name = "cxCidadeEndEntregaCliente";
+            this.cxCidadeEndEntregaCliente.Size = new System.Drawing.Size(881, 31);
+            this.cxCidadeEndEntregaCliente.TabIndex = 13;
+            this.cxCidadeEndEntregaCliente.Text = "Selecione";
+            this.cxCidadeEndEntregaCliente.SelectedIndexChanged += new System.EventHandler(this.cxCidadeEndEntregaCliente_SelectedIndexChanged);
             // 
             // label20
             // 
@@ -98,28 +97,27 @@
             // panel19
             // 
             this.panel19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel19.Controls.Add(this.comboBox3);
+            this.panel19.Controls.Add(this.cxEstadoEndEntregaCliente);
             this.panel19.Location = new System.Drawing.Point(13, 278);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(446, 37);
             this.panel19.TabIndex = 263;
             // 
-            // comboBox3
+            // cxEstadoEndEntregaCliente
             // 
-            this.comboBox3.BackColor = System.Drawing.Color.White;
-            this.comboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
-            this.comboBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "Selecione",
-            "CPF",
-            "CNPJ"});
-            this.comboBox3.Location = new System.Drawing.Point(7, 3);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(429, 31);
-            this.comboBox3.TabIndex = 13;
-            this.comboBox3.Text = "Selecione";
+            this.cxEstadoEndEntregaCliente.BackColor = System.Drawing.Color.White;
+            this.cxEstadoEndEntregaCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxEstadoEndEntregaCliente.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
+            this.cxEstadoEndEntregaCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxEstadoEndEntregaCliente.FormattingEnabled = true;
+            this.cxEstadoEndEntregaCliente.Items.AddRange(new object[] {
+            "Selecione"});
+            this.cxEstadoEndEntregaCliente.Location = new System.Drawing.Point(7, 3);
+            this.cxEstadoEndEntregaCliente.Name = "cxEstadoEndEntregaCliente";
+            this.cxEstadoEndEntregaCliente.Size = new System.Drawing.Size(429, 31);
+            this.cxEstadoEndEntregaCliente.TabIndex = 13;
+            this.cxEstadoEndEntregaCliente.Text = "Selecione";
+            this.cxEstadoEndEntregaCliente.SelectedIndexChanged += new System.EventHandler(this.cxEstadoEndEntregaCliente_SelectedIndexChanged);
             // 
             // label19
             // 
@@ -146,22 +144,23 @@
             // panel13
             // 
             this.panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel13.Controls.Add(this.textBox10);
+            this.panel13.Controls.Add(this.cxBairroEndEntregaCliente);
             this.panel13.Location = new System.Drawing.Point(1021, 197);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(397, 37);
             this.panel13.TabIndex = 261;
             // 
-            // textBox10
+            // cxBairroEndEntregaCliente
             // 
-            this.textBox10.BackColor = System.Drawing.Color.White;
-            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox10.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox10.Location = new System.Drawing.Point(11, 6);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(372, 23);
-            this.textBox10.TabIndex = 12;
+            this.cxBairroEndEntregaCliente.BackColor = System.Drawing.Color.White;
+            this.cxBairroEndEntregaCliente.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxBairroEndEntregaCliente.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxBairroEndEntregaCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxBairroEndEntregaCliente.Location = new System.Drawing.Point(11, 6);
+            this.cxBairroEndEntregaCliente.Name = "cxBairroEndEntregaCliente";
+            this.cxBairroEndEntregaCliente.Size = new System.Drawing.Size(372, 23);
+            this.cxBairroEndEntregaCliente.TabIndex = 12;
+            this.cxBairroEndEntregaCliente.TextChanged += new System.EventHandler(this.cxBairroEndEntregaCliente_TextChanged);
             // 
             // label16
             // 
@@ -177,22 +176,23 @@
             // panel14
             // 
             this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel14.Controls.Add(this.textBox11);
+            this.panel14.Controls.Add(this.cxCepEndEntregaCliente);
             this.panel14.Location = new System.Drawing.Point(513, 197);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(451, 37);
             this.panel14.TabIndex = 259;
             // 
-            // textBox11
+            // cxCepEndEntregaCliente
             // 
-            this.textBox11.BackColor = System.Drawing.Color.White;
-            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox11.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox11.Location = new System.Drawing.Point(11, 6);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(427, 23);
-            this.textBox11.TabIndex = 12;
+            this.cxCepEndEntregaCliente.BackColor = System.Drawing.Color.White;
+            this.cxCepEndEntregaCliente.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxCepEndEntregaCliente.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxCepEndEntregaCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxCepEndEntregaCliente.Location = new System.Drawing.Point(11, 6);
+            this.cxCepEndEntregaCliente.Name = "cxCepEndEntregaCliente";
+            this.cxCepEndEntregaCliente.Size = new System.Drawing.Size(427, 23);
+            this.cxCepEndEntregaCliente.TabIndex = 12;
+            this.cxCepEndEntregaCliente.TextChanged += new System.EventHandler(this.cxCepEndEntregaCliente_TextChanged);
             // 
             // label14
             // 
@@ -208,42 +208,44 @@
             // panel12
             // 
             this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel12.Controls.Add(this.textBox9);
+            this.panel12.Controls.Add(this.cxNumeroEnderecoEndEntregaCliente);
             this.panel12.Location = new System.Drawing.Point(13, 199);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(446, 37);
             this.panel12.TabIndex = 257;
             // 
-            // textBox9
+            // cxNumeroEnderecoEndEntregaCliente
             // 
-            this.textBox9.BackColor = System.Drawing.Color.White;
-            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox9.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox9.Location = new System.Drawing.Point(8, 6);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(428, 23);
-            this.textBox9.TabIndex = 12;
+            this.cxNumeroEnderecoEndEntregaCliente.BackColor = System.Drawing.Color.White;
+            this.cxNumeroEnderecoEndEntregaCliente.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxNumeroEnderecoEndEntregaCliente.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxNumeroEnderecoEndEntregaCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxNumeroEnderecoEndEntregaCliente.Location = new System.Drawing.Point(8, 6);
+            this.cxNumeroEnderecoEndEntregaCliente.Name = "cxNumeroEnderecoEndEntregaCliente";
+            this.cxNumeroEnderecoEndEntregaCliente.Size = new System.Drawing.Size(428, 23);
+            this.cxNumeroEnderecoEndEntregaCliente.TabIndex = 12;
+            this.cxNumeroEnderecoEndEntregaCliente.TextChanged += new System.EventHandler(this.cxNumeroEnderecoEndEntregaCliente_TextChanged);
             // 
             // panel15
             // 
             this.panel15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel15.Controls.Add(this.textBox12);
+            this.panel15.Controls.Add(this.cxReferenciaEndEntregaCliente);
             this.panel15.Location = new System.Drawing.Point(12, 120);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(1406, 37);
             this.panel15.TabIndex = 255;
             // 
-            // textBox12
+            // cxReferenciaEndEntregaCliente
             // 
-            this.textBox12.BackColor = System.Drawing.Color.White;
-            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox12.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox12.Location = new System.Drawing.Point(13, 6);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(1379, 23);
-            this.textBox12.TabIndex = 12;
+            this.cxReferenciaEndEntregaCliente.BackColor = System.Drawing.Color.White;
+            this.cxReferenciaEndEntregaCliente.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxReferenciaEndEntregaCliente.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxReferenciaEndEntregaCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxReferenciaEndEntregaCliente.Location = new System.Drawing.Point(13, 6);
+            this.cxReferenciaEndEntregaCliente.Name = "cxReferenciaEndEntregaCliente";
+            this.cxReferenciaEndEntregaCliente.Size = new System.Drawing.Size(1379, 23);
+            this.cxReferenciaEndEntregaCliente.TabIndex = 12;
+            this.cxReferenciaEndEntregaCliente.TextChanged += new System.EventHandler(this.cxReferenciaEndEntregaCliente_TextChanged);
             // 
             // label5
             // 
@@ -270,22 +272,23 @@
             // panel11
             // 
             this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel11.Controls.Add(this.textBox8);
+            this.panel11.Controls.Add(this.cxEnderecoEndEntregaCliente);
             this.panel11.Location = new System.Drawing.Point(12, 44);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(1407, 37);
             this.panel11.TabIndex = 253;
             // 
-            // textBox8
+            // cxEnderecoEndEntregaCliente
             // 
-            this.textBox8.BackColor = System.Drawing.Color.White;
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox8.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox8.Location = new System.Drawing.Point(11, 6);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(1382, 23);
-            this.textBox8.TabIndex = 12;
+            this.cxEnderecoEndEntregaCliente.BackColor = System.Drawing.Color.White;
+            this.cxEnderecoEndEntregaCliente.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxEnderecoEndEntregaCliente.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxEnderecoEndEntregaCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxEnderecoEndEntregaCliente.Location = new System.Drawing.Point(11, 6);
+            this.cxEnderecoEndEntregaCliente.Name = "cxEnderecoEndEntregaCliente";
+            this.cxEnderecoEndEntregaCliente.Size = new System.Drawing.Size(1382, 23);
+            this.cxEnderecoEndEntregaCliente.TabIndex = 12;
+            this.cxEnderecoEndEntregaCliente.TextChanged += new System.EventHandler(this.cxEnderecoEndEntregaCliente_TextChanged);
             // 
             // camposEndEntregaCadastrarCliente
             // 
@@ -309,6 +312,7 @@
             this.Controls.Add(this.panel11);
             this.Name = "camposEndEntregaCadastrarCliente";
             this.Text = "camposEndEntregaCadastrarCliente";
+            this.Load += new System.EventHandler(this.camposEndEntregaCadastrarCliente_Load);
             this.panel20.ResumeLayout(false);
             this.panel19.ResumeLayout(false);
             this.panel13.ResumeLayout(false);
@@ -329,25 +333,25 @@
         #endregion
 
         private System.Windows.Forms.Panel panel20;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox cxCidadeEndEntregaCliente;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Panel panel19;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox cxEstadoEndEntregaCliente;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Panel panel13;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox cxBairroEndEntregaCliente;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Panel panel14;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox cxCepEndEntregaCliente;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox cxNumeroEnderecoEndEntregaCliente;
         private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox cxReferenciaEndEntregaCliente;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox cxEnderecoEndEntregaCliente;
     }
 }

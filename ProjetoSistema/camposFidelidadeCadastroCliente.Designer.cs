@@ -31,13 +31,13 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cxNumeroCartaoFidelidade = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cxTabelaPrecoFidelidade = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cxVendedorFidelidade = new System.Windows.Forms.ComboBox();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.label3 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
@@ -67,22 +67,23 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.cxNumeroCartaoFidelidade);
             this.panel2.Location = new System.Drawing.Point(338, 41);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(303, 37);
             this.panel2.TabIndex = 125;
             // 
-            // textBox1
+            // cxNumeroCartaoFidelidade
             // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.textBox1.Location = new System.Drawing.Point(15, 6);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(271, 23);
-            this.textBox1.TabIndex = 11;
+            this.cxNumeroCartaoFidelidade.BackColor = System.Drawing.Color.White;
+            this.cxNumeroCartaoFidelidade.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cxNumeroCartaoFidelidade.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cxNumeroCartaoFidelidade.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxNumeroCartaoFidelidade.Location = new System.Drawing.Point(15, 6);
+            this.cxNumeroCartaoFidelidade.Name = "cxNumeroCartaoFidelidade";
+            this.cxNumeroCartaoFidelidade.Size = new System.Drawing.Size(271, 23);
+            this.cxNumeroCartaoFidelidade.TabIndex = 11;
+            this.cxNumeroCartaoFidelidade.TextChanged += new System.EventHandler(this.cxNumeroCartaoFidelidade_TextChanged);
             // 
             // label9
             // 
@@ -98,28 +99,27 @@
             // panel4
             // 
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.comboBox1);
+            this.panel4.Controls.Add(this.cxTabelaPrecoFidelidade);
             this.panel4.Location = new System.Drawing.Point(709, 41);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(303, 37);
             this.panel4.TabIndex = 134;
             // 
-            // comboBox1
+            // cxTabelaPrecoFidelidade
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.White;
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
-            this.comboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Selecione",
-            "CPF",
-            "CNPJ"});
-            this.comboBox1.Location = new System.Drawing.Point(15, 3);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(271, 31);
-            this.comboBox1.TabIndex = 13;
-            this.comboBox1.Text = "Selecione";
+            this.cxTabelaPrecoFidelidade.BackColor = System.Drawing.Color.White;
+            this.cxTabelaPrecoFidelidade.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxTabelaPrecoFidelidade.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
+            this.cxTabelaPrecoFidelidade.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxTabelaPrecoFidelidade.FormattingEnabled = true;
+            this.cxTabelaPrecoFidelidade.Items.AddRange(new object[] {
+            "Selecione"});
+            this.cxTabelaPrecoFidelidade.Location = new System.Drawing.Point(15, 3);
+            this.cxTabelaPrecoFidelidade.Name = "cxTabelaPrecoFidelidade";
+            this.cxTabelaPrecoFidelidade.Size = new System.Drawing.Size(271, 31);
+            this.cxTabelaPrecoFidelidade.TabIndex = 13;
+            this.cxTabelaPrecoFidelidade.Text = "Selecione";
+            this.cxTabelaPrecoFidelidade.SelectedIndexChanged += new System.EventHandler(this.cxTabelaPrecoFidelidade_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -136,29 +136,28 @@
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.comboBox2);
+            this.panel3.Controls.Add(this.cxVendedorFidelidade);
             this.panel3.Location = new System.Drawing.Point(709, 149);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(303, 37);
             this.panel3.TabIndex = 136;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
-            // comboBox2
+            // cxVendedorFidelidade
             // 
-            this.comboBox2.BackColor = System.Drawing.Color.White;
-            this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
-            this.comboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "Selecione",
-            "CPF",
-            "CNPJ"});
-            this.comboBox2.Location = new System.Drawing.Point(15, 3);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(271, 31);
-            this.comboBox2.TabIndex = 13;
-            this.comboBox2.Text = "Selecione";
+            this.cxVendedorFidelidade.BackColor = System.Drawing.Color.White;
+            this.cxVendedorFidelidade.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cxVendedorFidelidade.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
+            this.cxVendedorFidelidade.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(90)))), ((int)(((byte)(90)))));
+            this.cxVendedorFidelidade.FormattingEnabled = true;
+            this.cxVendedorFidelidade.Items.AddRange(new object[] {
+            "Selecione"});
+            this.cxVendedorFidelidade.Location = new System.Drawing.Point(15, 3);
+            this.cxVendedorFidelidade.Name = "cxVendedorFidelidade";
+            this.cxVendedorFidelidade.Size = new System.Drawing.Size(271, 31);
+            this.cxVendedorFidelidade.TabIndex = 13;
+            this.cxVendedorFidelidade.Text = "Selecione";
+            this.cxVendedorFidelidade.SelectedIndexChanged += new System.EventHandler(this.cxVendedorFidelidade_SelectedIndexChanged);
             // 
             // iconButton1
             // 
@@ -204,6 +203,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "camposFidelidadeCadastroCliente";
             this.Text = "camposFidelidadeCadastroCliente";
+            this.Load += new System.EventHandler(this.camposFidelidadeCadastroCliente_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel4.ResumeLayout(false);
@@ -218,13 +218,13 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox cxNumeroCartaoFidelidade;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cxTabelaPrecoFidelidade;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cxVendedorFidelidade;
         private FontAwesome.Sharp.IconButton iconButton1;
         private System.Windows.Forms.Label label3;
     }
